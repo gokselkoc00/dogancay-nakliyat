@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "PLAN VE HAZIRLIK",
+            "hero": "assets/images/ing.jpg",
+            "img_url": "assets/images/-e3.jpg",
+            "data": [
+                {
+                    "title": "Planlama:",
+                    "text": "Lojistik planlama, etkili ve verimli bir tedarik zinciri yönetimi için temel bir adımdır. Planlama süreci, malzemelerin ve bilgilerin akışını optimize etmek ve süreçleri koordine etmek amacıyla yapılır."
+                },
+                {
+                    "title": "Dokümantasyon:",
+                    "text": "Taşınma kontrol listesi, unutulan detayları önlemek, süreci düzenlemek ve stressiz bir taşınma deneyimi sağlamak için oldukça faydalıdır."
+                },
+                {
+                    "title": "Hazırlık:",
+                    "text": "Planın uygulamaya konulması aşaması olarak düşünülebilir. Hazırlık süreci, belirlenen planları uygulamaya koymak, ekipmanları hazırlamak ve tüm detayları düzenlemek için gereklidir."
+                },
+                {
+                    "title": "Bilgi:",
+                    "text": "Verilecek fiyat teklifinde, verilen teklife ne gibi hizmetlerin dahil olduğunu ve nelerin de hariç olduğu bilgileri bulunmaktadır."
+                }
+            ]
+        },
+        "en": {
+            "title": "PLAN AND PREPARATION",
+            "hero": "assets/images/ing.jpg",
+            "img_url": "assets/images/-e3.jpg",
+            "data": [
+                {
+                    "title": "Planning:",
+                    "text": "Logistics planning is a fundamental step for effective and efficient supply chain management. The planning process is done with the aim of optimizing the flow of materials and information and coordinating processes."
+                },
+                {
+                    "title": "Documentation:",
+                    "text": "A moving checklist is very useful to prevent forgotten details, organize the process and ensure a stress-free moving experience."
+                },
+                {
+                    "title": "Preparation:",
+                    "text": "It can be considered as the phase of putting the plan into practice. The preparation process is necessary to put the established plans into practice, prepare the equipment and organize all the details."
+                },
+                {
+                    "title": "Information:",
+                    "text": "The price offer to be submitted includes information about what services are included in the offer and what are excluded."
+                }
+            ]
+        },
+        "ge": {
+            "title": "PLAN VE HAZIRLIK ALMANCA",
+            "hero": "assets/images/ing.jpg",
+            "img_url": "assets/images/-e3.jpg",
+            "data": [
+                {
+                    "title": "Planlama Almanca:",
+                    "text": "Lojistik planlama, etkili ve verimli bir tedarik zinciri yönetimi için temel bir adımdır. Planlama süreci, malzemelerin ve bilgilerin akışını optimize etmek ve süreçleri koordine etmek amacıyla yapılır."
+                },
+                {
+                    "title": "Dokümantasyon Almanca:",
+                    "text": "Taşınma kontrol listesi, unutulan detayları önlemek, süreci düzenlemek ve stressiz bir taşınma deneyimi sağlamak için oldukça faydalıdır."
+                },
+                {
+                    "title": "Hazırlık Almanca:",
+                    "text": "Planın uygulamaya konulması aşaması olarak düşünülebilir. Hazırlık süreci, belirlenen planları uygulamaya koymak, ekipmanları hazırlamak ve tüm detayları düzenlemek için gereklidir."
+                },
+                {
+                    "title": "Bilgi Almanca:",
+                    "text": "Verilecek fiyat teklifinde, verilen teklife ne gibi hizmetlerin dahil olduğunu ve nelerin de hariç olduğu bilgileri bulunmaktadır."
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "DENİZYOLU TAŞIMACILIĞI",
+            "hero": "assets/images/hdenizyolu.jpg",
+            "img_url": "assets/images/denizyolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Konteyner Taşımacılığı:",
+                    "text": "Yükler, standart boyutlardaki konteynerlara yerleştirilir. Bu şekilde yükler, gemilerde düzenli bir şekilde taşınabilir. Konteyner taşımacılığı, hızlı yükleme ve boşaltma imkanı sağlar."
+                },
+                {
+                    "title": "Fuel Container Load:",
+                    "text": "Seçilen konteynırlar eşyalarınızın konması için kapınıza kadar gelebilir. Eğer özel konteynır seçerseniz, eşyalarınızın büyüklüğüne göre 20 feet, 40 feet, 40 High Cube feet ölçülerindeki konteynırlar kullanılmaktadır."
+                },
+                {
+                    "title": "Roro Taşımacılığı:",
+                    "text": "\"Roll-on/Roll-off\" olarak adlandırılan bu yöntemde, araçlar ve diğer yükler gemiye rahatça sürülebilir veya indirilebilir. Bu yöntem özellikle taşıt taşımacılığında kullanılır."
+                },
+                {
+                    "title": "LCL-Less Container Load:",
+                    "text": "Eğer daha az miktarda eşyalarınız bulunuyor veya daha az maliyetli olsun diyorsanız bu durumda paylaşımlı konteynırlardan yararlanabilirsiniz."
+                }
+            ]
+        },
+        "en": {
+            "title": "MARITIME TRANSPORT",
+            "hero": "assets/images/hdenizyolu.jpg",
+            "img_url": "assets/images/denizyolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Container Transportation:",
+                    "text": "Cargoes are placed in containers of standard sizes. In this way, cargo can be transported on ships in an orderly manner. Container transportation provides fast loading and unloading."
+                },
+                {
+                    "title": "Fuel Container Load:",
+                    "text": "The selected containers can be delivered to your door to store your belongings. If you choose a special container, containers with dimensions of 20 feet, 40 feet, 40 High Cube feet are used depending on the size of your belongings."
+                },
+                {
+                    "title": "Roro Transportation:",
+                    "text": "In this method, called \"Roll-on/Roll-off\", vehicles and other cargo can be easily loaded or unloaded onto the ship. This method is especially used in vehicle transportation."
+                },
+                {
+                    "title": "LCL-Less Container Load:",
+                    "text": "If you have fewer items or want it to be less costly, you can use shared containers."
+                }
+            ]
+        },
+        "ge": {
+            "title": "DENİZYOLU TAŞIMACILIĞI Almanca",
+            "hero": "assets/images/hdenizyolu.jpg",
+            "img_url": "assets/images/denizyolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Konteyner Taşımacılığı Al:",
+                    "text": "Yükler, standart boyutlardaki konteynerlara yerleştirilir. Bu şekilde yükler, gemilerde düzenli bir şekilde taşınabilir. Konteyner taşımacılığı, hızlı yükleme ve boşaltma imkanı sağlar."
+                },
+                {
+                    "title": "Fuel Container Load Al:",
+                    "text": "Seçilen konteynırlar eşyalarınızın konması için kapınıza kadar gelebilir. Eğer özel konteynır seçerseniz, eşyalarınızın büyüklüğüne göre 20 feet, 40 feet, 40 High Cube feet ölçülerindeki konteynırlar kullanılmaktadır."
+                },
+                {
+                    "title": "Roro Taşımacılığı Al:",
+                    "text": "\"Roll-on/Roll-off\" olarak adlandırılan bu yöntemde, araçlar ve diğer yükler gemiye rahatça sürülebilir veya indirilebilir. Bu yöntem özellikle taşıt taşımacılığında kullanılır."
+                },
+                {
+                    "title": "LCL-Less Container Load Al:",
+                    "text": "Eğer daha az miktarda eşyalarınız bulunuyor veya daha az maliyetli olsun diyorsanız bu durumda paylaşımlı konteynırlardan yararlanabilirsiniz."
+                }
+            ]
+        }
+    }
+]

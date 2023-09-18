@@ -1,0 +1,25 @@
+[
+    {
+        "tr": {
+            "title": "Uluslararası Nakliyat 'DOĞANÇAY'",
+            "button": {
+                "title": "Daha Fazla",
+                "url": "#features"
+            }
+        },
+        "en": {
+            "title": "International Shipping 'DOĞANÇAY'",
+            "button": {
+                "title": "More",
+                "url": "#features"
+            }
+        },
+        "ge": {
+            "title": "Uluslararası Nakliyat Almanca 'DOĞANÇAY'",
+            "button": {
+                "title": "Daha Fazla Almanca",
+                "url": "#features"
+            }
+        }
+    }
+]

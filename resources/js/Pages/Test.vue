@@ -1,6 +1,3 @@
 <template>
-    <h1>test</h1>
-    <p>test</p>
+    <h1>TEST</h1>
 </template>
-
-<script></script>

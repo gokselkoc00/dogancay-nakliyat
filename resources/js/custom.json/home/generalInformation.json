@@ -1,0 +1,25 @@
+[
+    {
+        "tr": {
+            "company": "DOĞANÇAY",
+            "adres": "Bahçekapı Mahallesi, Söğütözü Caddesi, No:20 Etimesgut / Ankara",
+            "telefon": "444-1980",
+            "faks": "(312) 222-6844",
+            "email": "info@dogancay.com.tr"
+        },
+        "en": {
+            "company": "DOĞANÇAY",
+            "adres": "Bahçekapı Mahallesi, Söğütözü Caddesi, No:20 Etimesgut / Ankara",
+            "telefon": "444-1980",
+            "faks": "(312) 222-6844",
+            "email": "info@dogancay.com.tr"
+        },
+        "ge": {
+            "company": "DOĞANÇAY",
+            "adres": "Bahçekapı Mahallesi, Söğütözü Caddesi, No:20 Etimesgut / Ankara",
+            "telefon": "444-1980",
+            "faks": "(312) 222-6844",
+            "email": "info@dogancay.com.tr"
+        }
+    }
+]

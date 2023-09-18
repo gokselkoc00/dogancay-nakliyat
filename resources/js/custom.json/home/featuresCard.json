@@ -1,0 +1,55 @@
+[
+    {
+        "tr": [
+            {
+                "title": "Üstünlük",
+                "img_url": "assets/images/featured-item-01.png",
+                "text": "Uluslararası hizmetler sunan işletmeler, yerel rekabetin ötesine geçme ve kendilerini öne çıkarma fırsatına sahiptir."
+            },
+            {
+                "title": "Büyüme",
+                "img_url": "assets/images/reassembly_icon_1.png",
+                "text":"Yerel pazarda büyüme sınırlı olabilir, ancak uluslararası pazarlar genişleme için daha fazla fırsat suna"
+            },
+            {
+                "title": "Uluslararası",
+                "img_url": "assets/images/reassembly_icon_2.png",
+                "text": "Sizi yalnızca yerel pazarla sınırlamaz. Farklı coğrafyalardaki müşterilere ulaşma fırsatı sunar."
+            }
+        ],
+        "en": [
+            {
+                "title": "Superiority",
+                "img_url": "assets/images/featured-item-01.png",
+                "text": "Uluslararası hizmetler sunan işletmeler, yerel rekabetin ötesine geçme ve kendilerini öne çıkarma fırsatına sahiptir."
+            },
+            {
+                "title": "Growth",
+                "img_url": "assets/images/reassembly_icon_1.png",
+                "text":"Yerel pazarda büyüme sınırlı olabilir, ancak uluslararası pazarlar genişleme için daha fazla fırsat suna"
+            },
+            {
+                "title": "International",
+                "img_url": "assets/images/reassembly_icon_2.png",
+                "text": "Sizi yalnızca yerel pazarla sınırlamaz. Farklı coğrafyalardaki müşterilere ulaşma fırsatı sunar."
+            }
+        ],
+        "ge": [
+            {
+                "title": "Überlegenheit",
+                "img_url": "assets/images/featured-item-01.png",
+                "text": "Uluslararası hizmetler sunan işletmeler, yerel rekabetin ötesine geçme ve kendilerini öne çıkarma fırsatına sahiptir."
+            },
+            {
+                "title": "Wachstum",
+                "img_url": "assets/images/reassembly_icon_1.png",
+                "text":"Yerel pazarda büyüme sınırlı olabilir, ancak uluslararası pazarlar genişleme için daha fazla fırsat suna"
+            },
+            {
+                "title": "International",
+                "img_url": "assets/images/reassembly_icon_2.png",
+                "text": "Sizi yalnızca yerel pazarla sınırlamaz. Farklı coğrafyalardaki müşterilere ulaşma fırsatı sunar."
+            }
+        ]
+    }
+]

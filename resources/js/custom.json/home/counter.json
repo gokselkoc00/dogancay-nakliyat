@@ -1,0 +1,58 @@
+[
+    {
+        "tr":[
+            {
+                "count":"126",
+                "name":"Projeler"
+            },
+            {
+                "count":"63",
+                "name":"Geri Dönüş"
+            },
+            {
+                "count":"18",
+                "name":"Kazanılan Ödüller"
+            },
+            {
+                "count":"27",
+                "name":"Ülkeler"
+            }
+        ],
+        "en":[
+            {
+                "count":"126",
+                "name":"Projects"
+            },
+            {
+                "count":"63",
+                "name":"Feedback"
+            },
+            {
+                "count":"18",
+                "name":"Awards Won"
+            },
+            {
+                "count":"27",
+                "name":"Countries"
+            }
+        ],
+        "ge":[
+            {
+                "count":"126",
+                "name":"Projeler AL"
+            },
+            {
+                "count":"63",
+                "name":"Geri Dönüş AL"
+            },
+            {
+                "count":"18",
+                "name":"Kazanılan Ödüller AL"
+            },
+            {
+                "count":"27",
+                "name":"Ülkeler AL"
+            }
+        ]
+    }
+]

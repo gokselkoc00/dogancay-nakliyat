@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "GÜMRÜK İŞLERİ VE TESLİMAT",
+            "hero": "assets/images/eler.jpg",
+            "img_url": "assets/images/gumrukisleriteslimat.jpeg",
+            "data": [
+                {
+                    "title": "İhracat ve İthalat:",
+                    "text": "İhracat yapan bir ülke, ürettiği malları veya sağladığı hizmetleri diğer ülkelere satma amacı güderken, ithalat yapan ülke, diğer ülkelerden mal veya hizmet alarak kendi ihtiyaçlarını karşılamayı amaçlar."
+                },
+                {
+                    "title": "Teslimat:",
+                    "text": "Teslimat, bir mal veya hizmetin bir kişiye veya kuruluşa ulaştırılması işlemidir. Teslimat süreci, ürünün sevk edilmesi, nakliye yöntemi seçimi, takip edilebilirlik, gümrük işlemleri gibi aşamaları içerir."
+                },
+                {
+                    "title": "Gümrük Beyannamesi:",
+                    "text": "Bu beyanname, malın türü, değeri, miktarı ve diğer ilgili bilgileri içerir. Gümrük beyannamesi, gümrük yetkililerine malın ve işlemin detaylarını sunar."
+                },
+                {
+                    "title": "Gümrük Vergileri ve Ücretleri:",
+                    "text": "Bir ülkeye mal veya hizmet getirilirken, gümrük vergileri veya ücretleri ödenebilir. Bu vergiler veya ücretler, ithal edilen ürünün türüne, değerine ve ülkenin politikalarına göre değişebilir."
+                }
+            ]
+        },
+        "en": {
+            "title": "CUSTOMS AND DELIVERY",
+            "hero": "assets/images/eler.jpg",
+            "img_url": "assets/images/gumrukisleriteslimat.jpeg",
+            "data": [
+                {
+                    "title": "Export and Import:",
+                    "text": "While an exporting country aims to sell the goods it produces or the services it provides to other countries, the importing country aims to meet its own needs by purchasing goods or services from other countries."
+                },
+                {
+                    "title": "Delivery:",
+                    "text": "Delivery is the process of delivering a good or service to a person or organization. The delivery process includes stages such as shipping the product, shipping method selection, traceability, and customs clearance."
+                },
+                {
+                    "title": "Customs declaration:",
+                    "text": "This declaration includes the type of goods, value, quantity and other relevant information. The customs declaration provides details of the goods and the transaction to the customs authorities."
+                },
+                {
+                    "title": "Customs Duties and Fees:",
+                    "text": "When bringing goods or services into a country, customs duties or fees may be paid. These taxes or fees may vary depending on the type of product imported, its value, and the country's policies."
+                }
+            ]
+        },
+        "ge": {
+            "title": "GÜMRÜK İŞLERİ VE TESLİMAT Almanca",
+            "hero": "assets/images/eler.jpg",
+            "img_url": "assets/images/gumrukisleriteslimat.jpeg",
+            "data": [
+                {
+                    "title": "İhracat ve İthalat Al:",
+                    "text": "İhracat yapan bir ülke, ürettiği malları veya sağladığı hizmetleri diğer ülkelere satma amacı güderken, ithalat yapan ülke, diğer ülkelerden mal veya hizmet alarak kendi ihtiyaçlarını karşılamayı amaçlar."
+                },
+                {
+                    "title": "Teslimat Al:",
+                    "text": "Teslimat, bir mal veya hizmetin bir kişiye veya kuruluşa ulaştırılması işlemidir. Teslimat süreci, ürünün sevk edilmesi, nakliye yöntemi seçimi, takip edilebilirlik, gümrük işlemleri gibi aşamaları içerir."
+                },
+                {
+                    "title": "Gümrük Beyannamesi Al:",
+                    "text": "Bu beyanname, malın türü, değeri, miktarı ve diğer ilgili bilgileri içerir. Gümrük beyannamesi, gümrük yetkililerine malın ve işlemin detaylarını sunar."
+                },
+                {
+                    "title": "Gümrük Vergileri ve Ücretleri Al:",
+                    "text": "Bir ülkeye mal veya hizmet getirilirken, gümrük vergileri veya ücretleri ödenebilir. Bu vergiler veya ücretler, ithal edilen ürünün türüne, değerine ve ülkenin politikalarına göre değişebilir."
+                }
+            ]
+        }
+    }
+]

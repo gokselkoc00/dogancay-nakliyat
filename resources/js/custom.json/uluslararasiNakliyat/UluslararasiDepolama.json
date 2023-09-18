@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "ULUSLARARASI DEPOLAMA",
+            "hero": "assets/images/dir.jpg",
+            "img_url": "assets/images/uluslararasiDepolama.jpeg",
+            "data": [
+                {
+                    "title": "Amaçlar:",
+                    "text": "Depolama nakliyatın temel amacı, eşyaları belirli bir süre boyunca güvenli bir şekilde saklamaktır. İnsanlar ev veya ofis taşıması sırasında eşyalarını geçici olarak depolama alanına taşıyabilirler."
+                },
+                {
+                    "title": "Güvenlik:",
+                    "text": "Depolama alanlarının güvenliği büyük önem taşır. Eşyaların çalınmasını veya hasar görmesini önlemek için çeşitli güvenlik önlemleri alınır. Bu önlemler arasında güvenlik kameraları, alarm sistemleri, erişim kontrolü ve yangın güvenliği önlemleri yer alabilir."
+                },
+                {
+                    "title": "Depolama Alanları:",
+                    "text": "Depolama nakliyat için özel olarak tasarlanmış depolama alanları kullanılır. Bu alanlar, eşyaların güvenliği ve korunması için gereken özelliklere sahip olabilir. Depolama alanları genellikle farklı boyutlarda depolama üniteleri veya konteynerler şeklinde olabilir."
+                },
+                {
+                    "title": "Taşıma ve Depolama Süreci:",
+                    "text": "Depolama nakliyat, taşıma ve depolama ihtiyaçlarını karşılayan kullanışlı bir hizmet türüdür. Ancak, güvenlik ve düzenli kontrol gibi konulara özellikle dikkat edilmesi gerektiğini unutmamalısınız."
+                }
+            ]
+        },
+        "en": {
+            "title": "INTERNATIONAL STORAGE",
+            "hero": "assets/images/dir.jpg",
+            "img_url": "assets/images/uluslararasiDepolama.jpeg",
+            "data": [
+                {
+                    "title": "Purposes:",
+                    "text": "The main purpose of storage transportation is to store items safely for a certain period of time. People may temporarily move their belongings to storage during a home or office move."
+                },
+                {
+                    "title": "Security:",
+                    "text": "The security of storage areas is of great importance. Various security measures are taken to prevent items from being stolen or damaged. These measures may include security cameras, alarm systems, access control and fire safety measures."
+                },
+                {
+                    "title": "Storage Areas:",
+                    "text": "Storage areas specially designed for storage transportation are used. These areas may have the features required for the safety and protection of goods. Storage areas can often take the form of storage units or containers of different sizes."
+                },
+                {
+                    "title": "Transportation and Storage Process:",
+                    "text": "Storage transportation is a useful type of service that meets transportation and storage needs. However, you should remember that special attention should be paid to issues such as safety and regular inspection."
+                }
+            ]
+        },
+        "ge": {
+            "title": "ULUSLARARASI DEPOLAMA Almanca",
+            "hero": "assets/images/dir.jpg",
+            "img_url": "assets/images/uluslararasiDepolama.jpeg",
+            "data": [
+                {
+                    "title": "Amaçlar Al:",
+                    "text": "Depolama nakliyatın temel amacı, eşyaları belirli bir süre boyunca güvenli bir şekilde saklamaktır. İnsanlar ev veya ofis taşıması sırasında eşyalarını geçici olarak depolama alanına taşıyabilirler."
+                },
+                {
+                    "title": "Güvenlik Al:",
+                    "text": "Depolama alanlarının güvenliği büyük önem taşır. Eşyaların çalınmasını veya hasar görmesini önlemek için çeşitli güvenlik önlemleri alınır. Bu önlemler arasında güvenlik kameraları, alarm sistemleri, erişim kontrolü ve yangın güvenliği önlemleri yer alabilir."
+                },
+                {
+                    "title": "Depolama Alanları Al:",
+                    "text": "Depolama nakliyat için özel olarak tasarlanmış depolama alanları kullanılır. Bu alanlar, eşyaların güvenliği ve korunması için gereken özelliklere sahip olabilir. Depolama alanları genellikle farklı boyutlarda depolama üniteleri veya konteynerler şeklinde olabilir."
+                },
+                {
+                    "title": "Taşıma ve Depolama Süreci Al:",
+                    "text": "Depolama nakliyat, taşıma ve depolama ihtiyaçlarını karşılayan kullanışlı bir hizmet türüdür. Ancak, güvenlik ve düzenli kontrol gibi konulara özellikle dikkat edilmesi gerektiğini unutmamalısınız."
+                }
+            ]
+        }
+    }
+]

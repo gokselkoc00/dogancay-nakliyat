@@ -1,0 +1,49 @@
+[
+    {
+        "tr": {
+            "title": "Evden Eve Nakliyat Çağrı Merkezi",
+            "btn_text": "Mesaj Gönder",
+            "place_holder": {
+                "name": "Ad - Soyad",
+                "email": "E-Mail Adresi",
+                "message": "Mesaj"
+            },
+            "info_names": {
+                "adres": "Adres: ",
+                "telefon": "Telefon: ",
+                "faks": "Faks: ",
+                "email": "Mail: "
+            }
+        },
+        "en": {
+            "title": "House to House Transportation Call Center",
+            "btn_text": "Send Message",
+            "place_holder": {
+                "name": "Name - surname",
+                "email": "E-Mail Address",
+                "message": "Message"
+            },
+            "info_names": {
+                "adres": "Address: ",
+                "telefon": "Phone: ",
+                "faks": "Fax: ",
+                "email": "Mail: "
+            }
+        },
+        "ge": {
+            "title": "Evden Eve Nakliyat Çağrı Merkezi Almanca",
+            "btn_text": "Mesaj Gönder Almanca",
+            "place_holder": {
+                "name": "Ad - Soyad",
+                "email": "E-Mail Adresi",
+                "message": "Mesaj"
+            },
+            "info_names": {
+                "adres": "Adres GE: ",
+                "telefon": "Telefon GE: ",
+                "faks": "Faks GE: ",
+                "email": "Mail GE: "
+            }
+        }
+    }
+]

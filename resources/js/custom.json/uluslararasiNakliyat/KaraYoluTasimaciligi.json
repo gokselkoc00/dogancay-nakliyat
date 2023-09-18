@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "KARAYOLU TAŞIMACILIĞI",
+            "hero": "assets/images/bg2.jpg",
+            "img_url": "assets/images/karayolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Güvenlik ve Takip:",
+                    "text": "Teknolojik gelişmeler sayesinde karayolu taşımacılığı, araç takip sistemleri, güvenlik kameraları ve diğer yöntemlerle daha güvenli ve izlenebilir hale gelmiştir."
+                },
+                {
+                    "title": "Lojistik Ağları:",
+                    "text": "Üreticiler, dağıtım merkezleri, depolar ve perakende satış noktaları arasındaki ürün hareketini sağlamak için kara yollarını kullanırlar."
+                },
+                {
+                    "title": "Hızlı Teslimat:",
+                    "text": "Karayolu taşımacılığı, kısa ve orta mesafeli taşımalarda hızlı teslimat sağlar. Özellikle acil ve zaman-duyarlı ürünler için idealdir."
+                },
+                {
+                    "title": "Ticari Taşımacılık:",
+                    "text": "Ürünlerin tedarik zinciri içindeki farklı noktalara taşınması için kamyonlar, kamyonetler ve diğer ticari araçlar kullanılır."
+                }
+            ]
+        },
+        "en": {
+            "title": "HIGHWAY TRANSPORTS",
+            "hero": "assets/images/bg2.jpg",
+            "img_url": "assets/images/karayolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Security and Tracking:",
+                    "text": "Thanks to technological developments, road transportation has become safer and more trackable with vehicle tracking systems, security cameras and other methods."
+                },
+                {
+                    "title": "Logistics Networks:",
+                    "text": "Manufacturers use highways to move products between distribution centers, warehouses and retail outlets."
+                },
+                {
+                    "title": "Fast Delivery:",
+                    "text": "Road transportation provides fast delivery for short and medium distance transportation. It is especially ideal for urgent and time-sensitive products."
+                },
+                {
+                    "title": "Commercial Transportation:",
+                    "text": "Trucks, vans and other commercial vehicles are used to transport products to different points within the supply chain."
+                }
+            ]
+        },
+        "ge": {
+            "title": "KARAYOLU TAŞIMACILIĞI Almanca",
+            "hero": "assets/images/bg2.jpg",
+            "img_url": "assets/images/karayolutasimaciligi.jpeg",
+            "data": [
+                {
+                    "title": "Güvenlik ve Takip Al:",
+                    "text": "Teknolojik gelişmeler sayesinde karayolu taşımacılığı, araç takip sistemleri, güvenlik kameraları ve diğer yöntemlerle daha güvenli ve izlenebilir hale gelmiştir."
+                },
+                {
+                    "title": "Lojistik Ağları Al:",
+                    "text": "Üreticiler, dağıtım merkezleri, depolar ve perakende satış noktaları arasındaki ürün hareketini sağlamak için kara yollarını kullanırlar."
+                },
+                {
+                    "title": "Hızlı Teslimat Al:",
+                    "text": "Karayolu taşımacılığı, kısa ve orta mesafeli taşımalarda hızlı teslimat sağlar. Özellikle acil ve zaman-duyarlı ürünler için idealdir."
+                },
+                {
+                    "title": "Ticari Taşımacılık Al:",
+                    "text": "Ürünlerin tedarik zinciri içindeki farklı noktalara taşınması için kamyonlar, kamyonetler ve diğer ticari araçlar kullanılır."
+                }
+            ]
+        }
+    }
+]

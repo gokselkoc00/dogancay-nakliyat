@@ -36,8 +36,13 @@ class HandleInertiaRequests extends Middleware
      */
     public function share(Request $request): array
     {
+        $lang = session('lang');
+        if($lang == null || empty($lang)){
+            $lang = 'tr';
+        }
         return array_merge(parent::share($request), [
-            //
+            'site_url' => config('app.url'),
+            'lang' => $lang,
         ]);
     }
 }

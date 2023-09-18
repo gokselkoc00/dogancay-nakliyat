@@ -1,0 +1,187 @@
+[
+    {
+        "tr": {
+            "btn_text":"Daha Fazla",
+            "title": "Profesyonel Nakliyat Çözümleri Sunuyoruz",
+            "text": "Müşteri memnuniyetini en üst düzeyde tutarak, uzman ekibimiz ve modern araç filomuzla nakliyat ihtiyaçlarınızı en iyi şekilde karşılıyoruz. Değerli eşyalarınızın güvenli ve sorunsuz bir şekilde taşınmasını sağlamak için titizlikle çalışıyoruz.",
+            "data": [
+                {
+                    "img_url": "assets/images/697e8a2cb443195f7ae041e8f145b63a.jpg",
+                    "title": "Uluslararası Taşıma",
+                    "text": "Bu nakliyat türü, ülkeler arasında malların ve hizmetlerin taşınmasını sağlar.Uluslararası taşıma, ulaşım altyapısının gelişmesini teşvik edebilir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/95da5559f040ee348a90d622cec2411c.jpg",
+                    "title": "Planlama Ve Hazırlık",
+                    "text": "Bu hazırlık aşamasının tam ve doğru yapılması taşınma esnasında oluşabilecek birçok sorun ve riskleri daha oluşmadan ortadan kaldırır",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "title": "Taşınma Kontrol Listesi",
+                    "text": "Taşıma kontrol listesi, bir malın veya yükün bir noktadan diğerine taşınması sürecinde yapılması gereken adımları ve kontrolleri belirten önemli bir araçtır.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fd7de9eaadf0cf6950a9858a1b6b4723.jpg",
+                    "title": "Uluslararası Taşıma Hizmetimiz",
+                    "text": "Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.Farklı ülkeler, doğal kaynaklarını ve üretim yeteneklerini paylaşarak daha verimli bir şekilde kullanabilirler",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/7a3573780882bd1d004511a8106b82dd.jpg",
+                    "title": "Karayolu Taşımacılığı",
+                    "text": "Karayolu ile ev ve ofis taşıma; ülke içerisindeki taşınma adresleri, kara yoluyla gidilmesi daha uygun ve yakın olan ülkeler ve Avrupa Ülkelerine yapılacak olan taşıma yerleri için en çok tercih edilen taşıma yöntemidir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "title": "Havayolu Taşımacılığı",
+                    "text": "Hava yoluyla yapılan uluslararası ev ve ofis taşıma işlemi diğer taşıma metotlarına göre en hızlı taşıma yöntemidir. Bunula birlikte bu yöntemin diğerlerine göre en pahalı taşıma şekli olduğunu unutmamanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "title": "Denizyolu Taşımacılığı",
+                    "text": "Deniz yoluyla yapılan uluslararası ev ve ofis taşımacılığı birçok açıdan mantıklı bir çözümdür fakat eşyalarınız varış süresinin biraz zaman alacağını hesaba katmanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
+                    "title": "Uluslararası Depolama",
+                    "text": "Eşyalarınızı en iyi şekilde ve ihtiyaçlarınıza göre depolamak için iki farkı depolama hizmeti sunuyoruz. Bunlar Akıllı depo/Self Storage ve Akıllı Depo/Taşınabilir Depo hizmetleridir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0a3b80e7fb46d1d0738ca83814163c33.jpg",
+                    "title": "Gümrük İşleri Ve Teslimat",
+                    "text": "Gümrük işlemleri hem eski evinizin bulunduğu ülkede hem de yeni evinizin bulunduğu ülkede yapılır. Bu konuda planlama ve hazırlık safhasında hangi evrakların hazırlanması",
+                    "url": ""
+                }
+            ]
+        },
+        "en": {
+            "btn_text":"More",
+            "title": "Profesyonel Nakliyat Çözümleri Sunuyoruz",
+            "text": "Müşteri memnuniyetini en üst düzeyde tutarak, uzman ekibimiz ve modern araç filomuzla nakliyat ihtiyaçlarınızı en iyi şekilde karşılıyoruz. Değerli eşyalarınızın güvenli ve sorunsuz bir şekilde taşınmasını sağlamak için titizlikle çalışıyoruz.",
+            "data": [
+                {
+                    "img_url": "assets/images/697e8a2cb443195f7ae041e8f145b63a.jpg",
+                    "title": "Uluslararası Taşıma",
+                    "text": "Bu nakliyat türü, ülkeler arasında malların ve hizmetlerin taşınmasını sağlar.Uluslararası taşıma, ulaşım altyapısının gelişmesini teşvik edebilir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/95da5559f040ee348a90d622cec2411c.jpg",
+                    "title": "Planlama Ve Hazırlık",
+                    "text": "Bu hazırlık aşamasının tam ve doğru yapılması taşınma esnasında oluşabilecek birçok sorun ve riskleri daha oluşmadan ortadan kaldırır",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "title": "Taşınma Kontrol Listesi",
+                    "text": "Taşıma kontrol listesi, bir malın veya yükün bir noktadan diğerine taşınması sürecinde yapılması gereken adımları ve kontrolleri belirten önemli bir araçtır.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fd7de9eaadf0cf6950a9858a1b6b4723.jpg",
+                    "title": "Uluslararası Taşıma Hizmetimiz",
+                    "text": "Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.Farklı ülkeler, doğal kaynaklarını ve üretim yeteneklerini paylaşarak daha verimli bir şekilde kullanabilirler",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/7a3573780882bd1d004511a8106b82dd.jpg",
+                    "title": "Karayolu Taşımacılığı",
+                    "text": "Karayolu ile ev ve ofis taşıma; ülke içerisindeki taşınma adresleri, kara yoluyla gidilmesi daha uygun ve yakın olan ülkeler ve Avrupa Ülkelerine yapılacak olan taşıma yerleri için en çok tercih edilen taşıma yöntemidir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "title": "Havayolu Taşımacılığı",
+                    "text": "Hava yoluyla yapılan uluslararası ev ve ofis taşıma işlemi diğer taşıma metotlarına göre en hızlı taşıma yöntemidir. Bunula birlikte bu yöntemin diğerlerine göre en pahalı taşıma şekli olduğunu unutmamanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "title": "Denizyolu Taşımacılığı",
+                    "text": "Deniz yoluyla yapılan uluslararası ev ve ofis taşımacılığı birçok açıdan mantıklı bir çözümdür fakat eşyalarınız varış süresinin biraz zaman alacağını hesaba katmanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
+                    "title": "Uluslararası Depolama",
+                    "text": "Eşyalarınızı en iyi şekilde ve ihtiyaçlarınıza göre depolamak için iki farkı depolama hizmeti sunuyoruz. Bunlar Akıllı depo/Self Storage ve Akıllı Depo/Taşınabilir Depo hizmetleridir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0a3b80e7fb46d1d0738ca83814163c33.jpg",
+                    "title": "Gümrük İşleri Ve Teslimat",
+                    "text": "Gümrük işlemleri hem eski evinizin bulunduğu ülkede hem de yeni evinizin bulunduğu ülkede yapılır. Bu konuda planlama ve hazırlık safhasında hangi evrakların hazırlanması",
+                    "url": ""
+                }
+            ]
+        },
+        "ge": {
+            "btn_text":"Daha Fazla Almanca",
+            "title": "Profesyonel Nakliyat Çözümleri Sunuyoruz",
+            "text": "Müşteri memnuniyetini en üst düzeyde tutarak, uzman ekibimiz ve modern araç filomuzla nakliyat ihtiyaçlarınızı en iyi şekilde karşılıyoruz. Değerli eşyalarınızın güvenli ve sorunsuz bir şekilde taşınmasını sağlamak için titizlikle çalışıyoruz.",
+            "data": [
+                {
+                    "img_url": "assets/images/697e8a2cb443195f7ae041e8f145b63a.jpg",
+                    "title": "Uluslararası Taşıma",
+                    "text": "Bu nakliyat türü, ülkeler arasında malların ve hizmetlerin taşınmasını sağlar.Uluslararası taşıma, ulaşım altyapısının gelişmesini teşvik edebilir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/95da5559f040ee348a90d622cec2411c.jpg",
+                    "title": "Planlama Ve Hazırlık",
+                    "text": "Bu hazırlık aşamasının tam ve doğru yapılması taşınma esnasında oluşabilecek birçok sorun ve riskleri daha oluşmadan ortadan kaldırır",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "title": "Taşınma Kontrol Listesi",
+                    "text": "Taşıma kontrol listesi, bir malın veya yükün bir noktadan diğerine taşınması sürecinde yapılması gereken adımları ve kontrolleri belirten önemli bir araçtır.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/fd7de9eaadf0cf6950a9858a1b6b4723.jpg",
+                    "title": "Uluslararası Taşıma Hizmetimiz",
+                    "text": "Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.Farklı ülkeler, doğal kaynaklarını ve üretim yeteneklerini paylaşarak daha verimli bir şekilde kullanabilirler",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/7a3573780882bd1d004511a8106b82dd.jpg",
+                    "title": "Karayolu Taşımacılığı",
+                    "text": "Karayolu ile ev ve ofis taşıma; ülke içerisindeki taşınma adresleri, kara yoluyla gidilmesi daha uygun ve yakın olan ülkeler ve Avrupa Ülkelerine yapılacak olan taşıma yerleri için en çok tercih edilen taşıma yöntemidir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "title": "Havayolu Taşımacılığı",
+                    "text": "Hava yoluyla yapılan uluslararası ev ve ofis taşıma işlemi diğer taşıma metotlarına göre en hızlı taşıma yöntemidir. Bunula birlikte bu yöntemin diğerlerine göre en pahalı taşıma şekli olduğunu unutmamanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "title": "Denizyolu Taşımacılığı",
+                    "text": "Deniz yoluyla yapılan uluslararası ev ve ofis taşımacılığı birçok açıdan mantıklı bir çözümdür fakat eşyalarınız varış süresinin biraz zaman alacağını hesaba katmanız gerekir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
+                    "title": "Uluslararası Depolama",
+                    "text": "Eşyalarınızı en iyi şekilde ve ihtiyaçlarınıza göre depolamak için iki farkı depolama hizmeti sunuyoruz. Bunlar Akıllı depo/Self Storage ve Akıllı Depo/Taşınabilir Depo hizmetleridir.",
+                    "url": ""
+                },
+                {
+                    "img_url": "assets/images/0a3b80e7fb46d1d0738ca83814163c33.jpg",
+                    "title": "Gümrük İşleri Ve Teslimat",
+                    "text": "Gümrük işlemleri hem eski evinizin bulunduğu ülkede hem de yeni evinizin bulunduğu ülkede yapılır. Bu konuda planlama ve hazırlık safhasında hangi evrakların hazırlanması",
+                    "url": ""
+                }
+            ]
+        }
+    }
+]

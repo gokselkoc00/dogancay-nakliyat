@@ -1,0 +1,241 @@
+[
+    {
+        "logo": "assets/images/logo.png",
+        "languages": {
+            "tr": [
+                {
+                    "name": "Türkçe",
+                    "key": "tr"
+                },
+                {
+                    "name": "İngilizce",
+                    "key": "en"
+                },
+                {
+                    "name": "Almanca",
+                    "key": "ge"
+                }
+            ],
+            "en": [
+                {
+                    "name": "Turkish",
+                    "key": "tr"
+                },
+                {
+                    "name": "English",
+                    "key": "en"
+                },
+                {
+                    "name": "Germany",
+                    "key": "ge"
+                }
+            ],
+            "ge": [
+                {
+                    "name": "Turkish Almanca",
+                    "key": "tr"
+                },
+                {
+                    "name": "English Almanca",
+                    "key": "en"
+                },
+                {
+                    "name": "Germany Almanca",
+                    "key": "ge"
+                }
+            ]
+        },
+        "ge": [
+            {
+                "url": "home",
+                "title": "Anasayfa GE",
+                "subItems": null
+            },
+            {
+                "url": "#features",
+                "title": "Hakkımızda GE",
+                "subItems": null
+            },
+            {
+                "url": "#testimonials",
+                "title": "Hizmetlerimiz GE",
+                "subItems": null
+            },
+            {
+                "url": null,
+                "title": "Ulusararası Taşıma GE",
+                "subItems": [
+                    {
+                        "url": "uluslararasi-nakliyat.index",
+                        "title": "Uluslararası Nakliyat"
+                    },
+                    {
+                        "url": "planlama-hazirlik.index",
+                        "title": "Planlama Ve Hazırlık"
+                    },
+                    {
+                        "url": "tasinma-kontrol-lis.index",
+                        "title": "Taşınma Kontrol Listesi"
+                    },
+                    {
+                        "url": "uluslararasi-tasima.index",
+                        "title": "Uluslararası Taşıma"
+                    },
+                    {
+                        "url": "karayolu-tasimaciligi.index",
+                        "title": "Karayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "havayolu-tasimaciligi.index",
+                        "title": "Havayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "denizyolu-tasimaciligi.index",
+                        "title": "Denizyolu Taşımacılığı"
+                    },
+                    {
+                        "url": "uluslararasi-depolama.index",
+                        "title": "Uluslararası Depolama"
+                    },
+                    {
+                        "url": "gumruk-isleri-tes.index",
+                        "title": "Gümrük İşleri Ve Teslimat"
+                    }
+                ]
+            },
+            {
+                "url": "#contact-us",
+                "title": "İletişim GE",
+                "subItems": null
+            }
+        ],
+        "en": [
+            {
+                "url": "home",
+                "title": "Home",
+                "subItems": null
+            },
+            {
+                "url": "#features",
+                "title": "Abouts",
+                "subItems": null
+            },
+            {
+                "url": "#testimonials",
+                "title": "Services",
+                "subItems": null
+            },
+            {
+                "url": null,
+                "title": "International Shipping",
+                "subItems": [
+                    {
+                        "url": "uluslararasi-nakliyat.index",
+                        "title": "Uluslararası Nakliyat"
+                    },
+                    {
+                        "url": "planlama-hazirlik.index",
+                        "title": "Planlama Ve Hazırlık"
+                    },
+                    {
+                        "url": "tasinma-kontrol-lis.index",
+                        "title": "Taşınma Kontrol Listesi"
+                    },
+                    {
+                        "url": "uluslararasi-tasima.index",
+                        "title": "Uluslararası Taşıma"
+                    },
+                    {
+                        "url": "karayolu-tasimaciligi.index",
+                        "title": "Karayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "havayolu-tasimaciligi.index",
+                        "title": "Havayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "denizyolu-tasimaciligi.index",
+                        "title": "Denizyolu Taşımacılığı"
+                    },
+                    {
+                        "url": "uluslararasi-depolama.index",
+                        "title": "Uluslararası Depolama"
+                    },
+                    {
+                        "url": "gumruk-isleri-tes.index",
+                        "title": "Gümrük İşleri Ve Teslimat"
+                    }
+                ]
+            },
+            {
+                "url": "#contact-us",
+                "title": "İletişim",
+                "subItems": null
+            }
+        ],
+        "tr": [
+            {
+                "url": "home",
+                "title": "Anasayfa",
+                "subItems": null
+            },
+            {
+                "url": "#features",
+                "title": "Hakkımızda",
+                "subItems": null
+            },
+            {
+                "url": "#testimonials",
+                "title": "Hizmetlerimiz",
+                "subItems": null
+            },
+            {
+                "url": null,
+                "title": "Ulusararası Taşıma",
+                "subItems": [
+                    {
+                        "url": "uluslararasi-nakliyat.index",
+                        "title": "Uluslararası Nakliyat"
+                    },
+                    {
+                        "url": "planlama-hazirlik.index",
+                        "title": "Planlama Ve Hazırlık"
+                    },
+                    {
+                        "url": "tasinma-kontrol-lis.index",
+                        "title": "Taşınma Kontrol Listesi"
+                    },
+                    {
+                        "url": "uluslararasi-tasima.index",
+                        "title": "Uluslararası Taşıma"
+                    },
+                    {
+                        "url": "karayolu-tasimaciligi.index",
+                        "title": "Karayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "havayolu-tasimaciligi.index",
+                        "title": "Havayolu Taşımacılığı"
+                    },
+                    {
+                        "url": "denizyolu-tasimaciligi.index",
+                        "title": "Denizyolu Taşımacılığı"
+                    },
+                    {
+                        "url": "uluslararasi-depolama.index",
+                        "title": "Uluslararası Depolama"
+                    },
+                    {
+                        "url": "gumruk-isleri-tes.index",
+                        "title": "Gümrük İşleri Ve Teslimat"
+                    }
+                ]
+            },
+            {
+                "url": "#contact-us",
+                "title": "İletişim",
+                "subItems": null
+            }
+        ]
+    }
+]

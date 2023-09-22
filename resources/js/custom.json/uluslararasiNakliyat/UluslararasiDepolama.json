@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "ULUSLARARASI DEPOLAMA Almanca",
+            "title": "INTERNATIONALE LAGERUNG",
             "hero": "assets/images/dir.jpg",
             "img_url": "assets/images/uluslararasiDepolama.jpeg",
             "data": [
                 {
-                    "title": "Amaçlar Al:",
-                    "text": "Depolama nakliyatın temel amacı, eşyaları belirli bir süre boyunca güvenli bir şekilde saklamaktır. İnsanlar ev veya ofis taşıması sırasında eşyalarını geçici olarak depolama alanına taşıyabilirler."
+                    "title": "Zwecke:",
+                    "text": "Der Hauptzweck des Lagertransports besteht darin, Gegenstände für einen bestimmten Zeitraum sicher aufzubewahren. Während eines Wohnungs- oder Büroumzugs kann es vorkommen, dass Menschen ihr Hab und Gut vorübergehend einlagern."
                 },
                 {
-                    "title": "Güvenlik Al:",
-                    "text": "Depolama alanlarının güvenliği büyük önem taşır. Eşyaların çalınmasını veya hasar görmesini önlemek için çeşitli güvenlik önlemleri alınır. Bu önlemler arasında güvenlik kameraları, alarm sistemleri, erişim kontrolü ve yangın güvenliği önlemleri yer alabilir."
+                    "title": "Sicherheit:",
+                    "text": "Die Sicherheit von Lagerflächen ist von großer Bedeutung. Es werden verschiedene Sicherheitsmaßnahmen ergriffen, um zu verhindern, dass Gegenstände gestohlen oder beschädigt werden. Zu diesen Maßnahmen können Sicherheitskameras, Alarmsysteme, Zugangskontrolle und Brandschutzmaßnahmen gehören."
                 },
                 {
-                    "title": "Depolama Alanları Al:",
-                    "text": "Depolama nakliyat için özel olarak tasarlanmış depolama alanları kullanılır. Bu alanlar, eşyaların güvenliği ve korunması için gereken özelliklere sahip olabilir. Depolama alanları genellikle farklı boyutlarda depolama üniteleri veya konteynerler şeklinde olabilir."
+                    "title": "Lagerflächen:",
+                    "text": "Es werden speziell für den Lagertransport konzipierte Lagerflächen genutzt. Diese Bereiche können über die für die Sicherheit und den Schutz von Gütern erforderlichen Merkmale verfügen. Lagerflächen können oft in Form von Lagereinheiten oder Containern unterschiedlicher Größe vorliegen."
                 },
                 {
-                    "title": "Taşıma ve Depolama Süreci Al:",
-                    "text": "Depolama nakliyat, taşıma ve depolama ihtiyaçlarını karşılayan kullanışlı bir hizmet türüdür. Ancak, güvenlik ve düzenli kontrol gibi konulara özellikle dikkat edilmesi gerektiğini unutmamalısınız."
+                    "title": "Transport- und Lagerungsprozess:",
+                    "text": "Der Lagertransport ist eine nützliche Art von Dienstleistung, die Transport- und Lagerbedürfnisse erfüllt. Bedenken Sie jedoch, dass besonderes Augenmerk auf Themen wie Sicherheit und regelmäßige Inspektionen gelegt werden sollte."
                 }
             ]
         }

@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "GÜMRÜK İŞLERİ VE TESLİMAT Almanca",
+            "title": "ZOLL UND LIEFERUNG",
             "hero": "assets/images/eler.jpg",
             "img_url": "assets/images/gumrukisleriteslimat.jpeg",
             "data": [
                 {
-                    "title": "İhracat ve İthalat Al:",
-                    "text": "İhracat yapan bir ülke, ürettiği malları veya sağladığı hizmetleri diğer ülkelere satma amacı güderken, ithalat yapan ülke, diğer ülkelerden mal veya hizmet alarak kendi ihtiyaçlarını karşılamayı amaçlar."
+                    "title": "Export und Import:",
+                    "text": "Während ein Exportland darauf abzielt, die von ihm produzierten Waren oder die von ihm erbrachten Dienstleistungen an andere Länder zu verkaufen, zielt das Importland darauf ab, seinen eigenen Bedarf durch den Kauf von Waren oder Dienstleistungen aus anderen Ländern zu decken."
                 },
                 {
-                    "title": "Teslimat Al:",
-                    "text": "Teslimat, bir mal veya hizmetin bir kişiye veya kuruluşa ulaştırılması işlemidir. Teslimat süreci, ürünün sevk edilmesi, nakliye yöntemi seçimi, takip edilebilirlik, gümrük işlemleri gibi aşamaları içerir."
+                    "title": "Lieferung:",
+                    "text": "Unter Lieferung versteht man den Prozess der Lieferung einer Ware oder Dienstleistung an eine Person oder Organisation. Der Lieferprozess umfasst Phasen wie den Versand des Produkts, die Auswahl der Versandart, die Rückverfolgbarkeit und die Zollabfertigung."
                 },
                 {
-                    "title": "Gümrük Beyannamesi Al:",
-                    "text": "Bu beyanname, malın türü, değeri, miktarı ve diğer ilgili bilgileri içerir. Gümrük beyannamesi, gümrük yetkililerine malın ve işlemin detaylarını sunar."
+                    "title": "Zollerklärung:",
+                    "text": "Diese Erklärung enthält die Art der Ware, den Wert, die Menge und andere relevante Informationen. Die Zollanmeldung übermittelt den Zollbehörden Einzelheiten über die Waren und die Transaktion."
                 },
                 {
-                    "title": "Gümrük Vergileri ve Ücretleri Al:",
-                    "text": "Bir ülkeye mal veya hizmet getirilirken, gümrük vergileri veya ücretleri ödenebilir. Bu vergiler veya ücretler, ithal edilen ürünün türüne, değerine ve ülkenin politikalarına göre değişebilir."
+                    "title": "Zölle und Gebühren:",
+                    "text": "Bei der Einfuhr von Waren oder Dienstleistungen in ein Land können Zölle oder Gebühren anfallen. Diese Steuern oder Gebühren können je nach Art des importierten Produkts, seinem Wert und den Richtlinien des Landes variieren."
                 }
             ]
         }

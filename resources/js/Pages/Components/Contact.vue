@@ -4,6 +4,7 @@
       <!-- ***** Section Title Start ***** -->
       <div class="row">
         <div class="col-lg-12">
+          <div class="hr"></div>
           <div class="center-heading">
             <h2 class="section-title">{{ data.data?.title }}</h2>
           </div>
@@ -57,7 +58,7 @@
                       class="form-control"
                       id="name"
                       v-model="contactForm.name"
-                      :placeholder="data.data?.place_holder.name"
+                      :placeholder="data.data?.place_holder?.name"
                     />
                     <div
                       class="alert alert-danger mt-2"
@@ -75,7 +76,7 @@
                       class="form-control"
                       id="email"
                       v-model="contactForm.email"
-                      :placeholder="data.data?.place_holder.email"
+                      :placeholder="data.data?.place_holder?.email"
                     />
                     <div
                       class="alert alert-danger mt-2"
@@ -94,7 +95,7 @@
                       class="form-control"
                       id="message"
                       v-model="contactForm.message"
-                      :placeholder="data.data?.place_holder.message"
+                      :placeholder="data.data?.place_holder?.message"
                     ></textarea>
                     <div
                       class="alert alert-danger mt-2"

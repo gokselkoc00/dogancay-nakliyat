@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "DENİZYOLU TAŞIMACILIĞI Almanca",
+            "title": "Seetransport",
             "hero": "assets/images/hdenizyolu.jpg",
             "img_url": "assets/images/denizyolutasimaciligi.jpeg",
             "data": [
                 {
-                    "title": "Konteyner Taşımacılığı Al:",
-                    "text": "Yükler, standart boyutlardaki konteynerlara yerleştirilir. Bu şekilde yükler, gemilerde düzenli bir şekilde taşınabilir. Konteyner taşımacılığı, hızlı yükleme ve boşaltma imkanı sağlar."
+                    "title": "Containertransport:",
+                    "text": "Die Ladungen werden in Container mit Standardgrößen verladen. Auf diese Weise kann Ladung geordnet auf Schiffen transportiert werden. Der Containertransport sorgt für schnelles Be- und Entladen."
                 },
                 {
-                    "title": "Fuel Container Load Al:",
-                    "text": "Seçilen konteynırlar eşyalarınızın konması için kapınıza kadar gelebilir. Eğer özel konteynır seçerseniz, eşyalarınızın büyüklüğüne göre 20 feet, 40 feet, 40 High Cube feet ölçülerindeki konteynırlar kullanılmaktadır."
+                    "title": "Beladung des Kraftstoffbehälters:",
+                    "text": "Die ausgewählten Container können zur Aufbewahrung Ihrer Sachen an Ihre Haustür geliefert werden. Wenn Sie sich für einen Spezialcontainer entscheiden, kommen je nach Größe Ihres Hab und Guts Container mit den Maßen 20 Fuß, 40 Fuß, 40 High Cube Fuß zum Einsatz."
                 },
                 {
-                    "title": "Roro Taşımacılığı Al:",
-                    "text": "\"Roll-on/Roll-off\" olarak adlandırılan bu yöntemde, araçlar ve diğer yükler gemiye rahatça sürülebilir veya indirilebilir. Bu yöntem özellikle taşıt taşımacılığında kullanılır."
+                    "title": "RoRo-Transport:",
+                    "text": "Bei dieser \"Roll-on/Roll-off\" genannten Methode können Fahrzeuge und andere Ladung problemlos auf das Schiff geladen oder entladen werden. Diese Methode wird insbesondere im Fahrzeugtransport eingesetzt."
                 },
                 {
-                    "title": "LCL-Less Container Load Al:",
-                    "text": "Eğer daha az miktarda eşyalarınız bulunuyor veya daha az maliyetli olsun diyorsanız bu durumda paylaşımlı konteynırlardan yararlanabilirsiniz."
+                    "title": "LCL-freie Containerladung:",
+                    "text": "Wenn Sie weniger Artikel haben oder es kostengünstiger haben möchten, können Sie gemeinsam genutzte Container verwenden."
                 }
             ]
         }

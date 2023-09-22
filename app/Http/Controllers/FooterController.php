@@ -9,11 +9,22 @@ class FooterController extends Controller
 {
     public function getData()
     {
-        // $lang = session('lang');
+        $lang = session('lang');
         $data = Footer::first();
         $data = json_decode($data->data, true);
-        $data = $data["data"];
+        $footer = $data["data"];
 
-        return response()->json($data);
+        if ($lang === 'tr') {
+            $languages = $data["languages"]["tr"];
+        } elseif ($lang == 'en') {
+            $languages = $data["languages"]["en"];
+        } elseif ($lang == 'ge') {
+            $languages = $data["languages"]["ge"];
+        }
+
+        return response()->json([
+            'footer' => $footer,
+            'languages' => $languages
+        ]);
     }
 }

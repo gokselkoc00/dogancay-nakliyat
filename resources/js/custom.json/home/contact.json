@@ -31,18 +31,18 @@
             }
         },
         "ge": {
-            "title": "Evden Eve Nakliyat Çağrı Merkezi Almanca",
-            "btn_text": "Mesaj Gönder Almanca",
+            "title": "Callcenter für Haus-zu-Haus-Transporte",
+            "btn_text": "Nachricht senden",
             "place_holder": {
-                "name": "Ad - Soyad",
-                "email": "E-Mail Adresi",
-                "message": "Mesaj"
+                "name": "Vorname Familienname",
+                "email": "E-Mail Adresse",
+                "message": "Nachricht"
             },
             "info_names": {
-                "adres": "Adres GE: ",
-                "telefon": "Telefon GE: ",
-                "faks": "Faks GE: ",
-                "email": "Mail GE: "
+                "adres": "Adresse: ",
+                "telefon": "Telefon: ",
+                "faks": "Fax: ",
+                "email": "E-Mail: "
             }
         }
     }

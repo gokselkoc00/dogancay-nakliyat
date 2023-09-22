@@ -52,3 +52,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.main-button-slider:hover{
+    background: #13547a !important;
+}
+</style>

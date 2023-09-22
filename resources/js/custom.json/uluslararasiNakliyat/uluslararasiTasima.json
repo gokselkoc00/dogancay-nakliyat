@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "ULUSLARASI TAŞIMA Almanca",
+            "title": "INTERNATIONALER TRANSPORT",
             "hero": "assets/images/tion.jpg",
             "img_url": "assets/images/uluslararasiTasima.jpeg",
             "data": [
                 {
-                    "title": "Dokümantasyon ve Gümrük İşlemleri Al:",
-                    "text": "Uluslararası taşıma sürecinde lojistik büyük önem taşır. Yüklerin doğru zamanda doğru yere ulaşması için lojistik planlama, takip ve koordinasyon gereklidir."
+                    "title": "Dokumentation und Zollverfahren:",
+                    "text": "Die Logistik ist im internationalen Transportprozess von großer Bedeutung. Damit die Ladung zur richtigen Zeit am richtigen Ort ankommt, sind Logistikplanung, -verfolgung und -koordination erforderlich."
                 },
                 {
-                    "title": "Lojistik Ağları Al:",
-                    "text": "Nispeten küçük ebatlarda ve sizin için acil olarak ihtiyacınız olacak veya çok değerli eşyalarınız için hava yolu tercih etmenizi öneririz."
+                    "title": "Logistiknetzwerke:",
+                    "text": "Für relativ kleine Gegenstände, die Sie dringend benötigen oder die sehr wertvoll sind, empfehlen wir den Lufttransport."
                 },
                 {
-                    "title": "Hava Trafiği ve Gecikmeler Al:",
-                    "text": "Hava trafiği, gecikmelere neden olabilir. Havaalanlarında güvenlik kontrolleri ve diğer prosedürler de teslimat süresini etkileyebilir."
+                    "title": "Flugverkehr und Verspätungen:",
+                    "text": "Der Flugverkehr kann zu Verzögerungen führen. Auch Sicherheitskontrollen und andere Verfahren an Flughäfen können sich auf die Lieferzeit auswirken."
                 },
                 {
-                    "title": "Ticari Taşımacılık Al:",
-                    "text": "Hava yolu taşımacılığına uygun paketlemeden sonra eşyalarınız uygun büyüklükteki hava kargo paletleri ile uçaklara yerleştirilir."
+                    "title": "Gewerblicher Transport:",
+                    "text": "Nach der lufttransportgerechten Verpackung werden Ihre Sachen auf Luftfrachtpaletten entsprechender Größe in Flugzeuge verladen."
                 }
             ]
         }

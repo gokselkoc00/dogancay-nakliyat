@@ -1,57 +1,57 @@
 [
     {
-        "tr":[
+        "tr": [
             {
-                "count":"126",
-                "name":"Projeler"
+                "count": "126",
+                "name": "Projeler"
             },
             {
-                "count":"63",
-                "name":"Geri Dönüş"
+                "count": "63",
+                "name": "Geri Dönüş"
             },
             {
-                "count":"18",
-                "name":"Kazanılan Ödüller"
+                "count": "18",
+                "name": "Kazanılan Ödüller"
             },
             {
-                "count":"27",
-                "name":"Ülkeler"
+                "count": "27",
+                "name": "Ülkeler"
             }
         ],
-        "en":[
+        "en": [
             {
-                "count":"126",
-                "name":"Projects"
+                "count": "126",
+                "name": "Projects"
             },
             {
-                "count":"63",
-                "name":"Feedback"
+                "count": "63",
+                "name": "Feedback"
             },
             {
-                "count":"18",
-                "name":"Awards Won"
+                "count": "18",
+                "name": "Awards Won"
             },
             {
-                "count":"27",
-                "name":"Countries"
+                "count": "27",
+                "name": "Countries"
             }
         ],
-        "ge":[
+        "ge": [
             {
-                "count":"126",
-                "name":"Projeler AL"
+                "count": "126",
+                "name": "Projekte"
             },
             {
-                "count":"63",
-                "name":"Geri Dönüş AL"
+                "count": "63",
+                "name": "Rückmeldung"
             },
             {
-                "count":"18",
-                "name":"Kazanılan Ödüller AL"
+                "count": "18",
+                "name": "Gewonnene Auszeichnungen"
             },
             {
-                "count":"27",
-                "name":"Ülkeler AL"
+                "count": "27",
+                "name": "Länder"
             }
         ]
     }

@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "HAVAYOLU TAŞIMACILIĞI Almanca",
+            "title": "LUFTWEGE-TRANSPORT",
             "hero": "assets/images/hhavayolu.jpg",
             "img_url": "assets/images/havayolutasimaciligi.jpeg",
             "data": [
                 {
-                    "title": "Hızlı Teslimat:",
-                    "text": "Havayolu, diğer taşıma modlarına göre çok daha hızlı teslimat sağlar. Özellikle acil veya zaman duyarlı yükler için tercih edilir."
+                    "title": "Schnelle Lieferung:",
+                    "text": "Die Fluggesellschaft bietet eine viel schnellere Lieferung als andere Transportmittel. Es wird besonders für dringende oder zeitkritische Ladungen bevorzugt."
                 },
                 {
-                    "title": "Hassas ve Değerli Yükler:",
-                    "text": "Değerli veya hassas yükler (örneğin ilaçlar, tıbbi cihazlar, elektronik parçalar) havayoluyla taşınırken, hızlı teslimat ve güvenli taşıma sağlaması nedeniyle tercih edilir."
+                    "title": "Sensible und wertvolle Ladungen:",
+                    "text": "Beim Transport wertvoller oder sensibler Fracht (z. B. Medikamente, medizinische Geräte, elektronische Teile) auf dem Luftweg wird diese Option bevorzugt, da sie eine schnelle Lieferung und einen sicheren Transport ermöglicht."
                 },
                 {
-                    "title": "Global Erişim:",
-                    "text": "Havayolu, dünya genelinde birçok hava limanına erişim sağlar. Bu da uluslararası ticaret ve hızlı teslimat açısından büyük avantajdır."
+                    "title": "Globale Reichweite:",
+                    "text": "Die Fluggesellschaft bietet Zugang zu vielen Flughäfen auf der ganzen Welt. Dies ist ein großer Vorteil im Hinblick auf den internationalen Handel und die schnelle Lieferung."
                 },
                 {
-                    "title": "Takip Edilebilirlik:",
-                    "text": "Havayolu taşımacılığı, yüklerin genellikle iyi bir şekilde takip edilmesine olanak tanır. Gönderi hareketlerini izlemek ve tahmini teslimat zamanlarını bilmek daha kolaydır."
+                    "title": "Rückverfolgbarkeit:",
+                    "text": "Der Lufttransport ermöglicht im Allgemeinen eine gute Verfolgung der Fracht. Es ist einfacher, Sendungsbewegungen zu verfolgen und geschätzte Lieferzeiten zu kennen."
                 }
             ]
         }

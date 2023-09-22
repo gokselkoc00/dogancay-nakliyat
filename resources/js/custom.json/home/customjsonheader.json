@@ -1,111 +1,68 @@
 [
     {
+        "whatsapp_phone": "905399300485",
         "logo": "assets/images/logo.png",
-        "languages": {
-            "tr": [
-                {
-                    "name": "Türkçe",
-                    "key": "tr"
-                },
-                {
-                    "name": "İngilizce",
-                    "key": "en"
-                },
-                {
-                    "name": "Almanca",
-                    "key": "ge"
-                }
-            ],
-            "en": [
-                {
-                    "name": "Turkish",
-                    "key": "tr"
-                },
-                {
-                    "name": "English",
-                    "key": "en"
-                },
-                {
-                    "name": "Germany",
-                    "key": "ge"
-                }
-            ],
-            "ge": [
-                {
-                    "name": "Turkish Almanca",
-                    "key": "tr"
-                },
-                {
-                    "name": "English Almanca",
-                    "key": "en"
-                },
-                {
-                    "name": "Germany Almanca",
-                    "key": "ge"
-                }
-            ]
-        },
         "ge": [
             {
                 "url": "home",
-                "title": "Anasayfa GE",
+                "title": "Startseite",
                 "subItems": null
             },
             {
                 "url": "#features",
-                "title": "Hakkımızda GE",
+                "title": "über uns",
                 "subItems": null
             },
             {
                 "url": "#testimonials",
-                "title": "Hizmetlerimiz GE",
+                "title": "Unsere Dienstleistungen",
                 "subItems": null
             },
             {
                 "url": null,
-                "title": "Ulusararası Taşıma GE",
+                "title": "Internationaler Transport",
                 "subItems": [
                     {
                         "url": "uluslararasi-nakliyat.index",
-                        "title": "Uluslararası Nakliyat"
+                        "title": "Internationaler Transport"
                     },
                     {
                         "url": "planlama-hazirlik.index",
-                        "title": "Planlama Ve Hazırlık"
+                        "title": "Planung und Vorbereitung"
                     },
                     {
                         "url": "tasinma-kontrol-lis.index",
-                        "title": "Taşınma Kontrol Listesi"
+                        "title": "Checkliste für den Umzug"
                     },
                     {
                         "url": "uluslararasi-tasima.index",
-                        "title": "Uluslararası Taşıma"
+                        "title": "Internationaler Transport"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
-                        "title": "Karayolu Taşımacılığı"
+                        "title": "Straßentransporte"
                     },
                     {
                         "url": "havayolu-tasimaciligi.index",
-                        "title": "Havayolu Taşımacılığı"
+                        "title": "Fluglinien transportieren"
                     },
                     {
                         "url": "denizyolu-tasimaciligi.index",
-                        "title": "Denizyolu Taşımacılığı"
+                        "title": "Seetransport"
                     },
                     {
                         "url": "uluslararasi-depolama.index",
-                        "title": "Uluslararası Depolama"
+                        "title": "Internationale Lagerung"
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
-                        "title": "Gümrük İşleri Ve Teslimat"
+                        "title": "Zollangelegenheiten und Lieferung"
                     }
                 ]
             },
             {
                 "url": "#contact-us",
-                "title": "İletişim GE",
+                "title": "Kommunikation",
                 "subItems": null
             }
         ],
@@ -131,45 +88,45 @@
                 "subItems": [
                     {
                         "url": "uluslararasi-nakliyat.index",
-                        "title": "Uluslararası Nakliyat"
+                        "title": "International Transportation"
                     },
                     {
                         "url": "planlama-hazirlik.index",
-                        "title": "Planlama Ve Hazırlık"
+                        "title": "Planning And Preparation"
                     },
                     {
                         "url": "tasinma-kontrol-lis.index",
-                        "title": "Taşınma Kontrol Listesi"
+                        "title": "Moving Checklist"
                     },
                     {
                         "url": "uluslararasi-tasima.index",
-                        "title": "Uluslararası Taşıma"
+                        "title": "International Transport"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
-                        "title": "Karayolu Taşımacılığı"
+                        "title": "Highway transports"
                     },
                     {
                         "url": "havayolu-tasimaciligi.index",
-                        "title": "Havayolu Taşımacılığı"
+                        "title": "Airways transporting"
                     },
                     {
                         "url": "denizyolu-tasimaciligi.index",
-                        "title": "Denizyolu Taşımacılığı"
+                        "title": "Maritime transport"
                     },
                     {
                         "url": "uluslararasi-depolama.index",
-                        "title": "Uluslararası Depolama"
+                        "title": "International Storage"
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
-                        "title": "Gümrük İşleri Ve Teslimat"
+                        "title": "Customs Affairs and Delivery"
                     }
                 ]
             },
             {
                 "url": "#contact-us",
-                "title": "İletişim",
+                "title": "Communication",
                 "subItems": null
             }
         ],

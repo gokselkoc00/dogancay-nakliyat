@@ -3,7 +3,7 @@
         "tr": {
             "title": "TAŞINMA KONTROL LİSTESİ",
             "hero": "assets/images/tasimaciligi.jpg",
-            "img_url": "assets/images/32.png",
+            "img_url": "assets/images/tasinmakontrollistesi.jpeg",
             "data": [
                 {
                     "title": "Plan:",
@@ -26,7 +26,7 @@
         "en": {
             "title": "MOVING CHECKLIST",
             "hero": "assets/images/tasimaciligi.jpg",
-            "img_url": "assets/images/32.png",
+            "img_url": "assets/images/tasinmakontrollistesi.jpeg",
             "data": [
                 {
                     "title": "Plan:",
@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "TAŞINMA KONTROL LİSTESİ ALMANCA",
+            "title": "UMZUGS-CHECKLISTE",
             "hero": "assets/images/tasimaciligi.jpg",
-            "img_url": "assets/images/32.png",
+            "img_url": "assets/images/tasinmakontrollistesi.jpeg",
             "data": [
                 {
-                    "title": "Plan Almanca:",
-                    "text": "Kişisel evraklarınızı (kimlik kartı, doğum belgesi, sağlık kayıtları, öğrenci belgesi, ehliyet.. gibi) kontrol etmeyi unutmayın."
+                    "title": "Planen:",
+                    "text": "Vergessen Sie nicht, Ihre persönlichen Dokumente (wie Personalausweis, Geburtsurkunde, Gesundheitsakten, Studentenbescheinigung, Führerschein usw.) zu überprüfen."
                 },
                 {
-                    "title": "Taşınma Günü Almanca:",
-                    "text": "Taşıma görevlilerimiz ile taşınma önce son kez gezerek beraber kontrol ediniz ve taşınacak eşyaları ve ekstra dikkat edilmesi gereken hususları belirtiniz."
+                    "title": "Umzugstag:",
+                    "text": "Sprechen Sie vor dem Umzug ein letztes Mal mit unseren Umzugsbeauftragten und legen Sie fest, welche Gegenstände bewegt werden sollen und welche Probleme besondere Aufmerksamkeit erfordern."
                 },
                 {
-                    "title": "Hazırlık Almanca:",
-                    "text": "Taşınacak beyaz eşyalarınızı taşınma öncesi elektrikten çekip, kurutup temizlemelisiniz. Avizelerinizi sökmek için usta ayarlayabilirsiniz."
+                    "title": "Vorbereitung:",
+                    "text": "Bevor Sie umziehen, sollten Sie Ihre Elektrogeräte ausstecken, trocknen und reinigen. Sie können einen Meister mit der Demontage Ihrer Kronleuchter beauftragen."
                 },
                 {
-                    "title": "İzin Almanca:",
-                    "text": "Gideceğiniz ülkedeki araç getirme hakkı, oturma izni, değerli eşya ve antika bulundurma izni ve bitkiler için gerekli olan evrakları önceden inceleyip gereğini yapmalısınız."
+                    "title": "Erlaubnis:",
+                    "text": "Sie sollten vorab die für die Mitnahme eines Fahrzeugs, die Aufenthaltserlaubnis, die Erlaubnis zur Aufbewahrung von Wertgegenständen und Antiquitäten sowie die Anlagen in dem Land, in das Sie reisen, erforderlichen Unterlagen prüfen und die erforderlichen Maßnahmen ergreifen."
                 }
             ]
         }

@@ -7,6 +7,7 @@ use App\Http\Controllers\DenizYoluTasimaciligiController;
 use App\Http\Controllers\FeaturesCardController;
 use App\Http\Controllers\FeaturesController;
 use App\Http\Controllers\FooterController;
+use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\GumrukIsleriTeslimatController;
 use App\Http\Controllers\HavaYoluTasimaciligiController;
 use App\Http\Controllers\HeaderController;
@@ -22,6 +23,7 @@ use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+use function PHPUnit\Framework\isNull;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +37,7 @@ use Inertia\Inertia;
 */
 
 $lang = session('lang');
-if (empty($lang)) {
+if (empty($lang) || isNull($lang)) {
     session()->put('lang', 'tr');
 }
 
@@ -58,6 +60,7 @@ Route::get('/counter-data', [CounterController::class, 'getData'])->name('counte
 Route::get('/blog-data', [BlogController::class, 'getData'])->name('blog.data');
 Route::get('/contact-data', [ContactController::class, 'getData'])->name('contact.data');
 Route::post('/contact-store', [ContactController::class, 'store'])->name('contact.store');
+Route::get('/galeri-data', [GaleriController::class, 'getData'])->name('gallery.data');
 Route::get('/uluslararasi-nakliyat-data', [UluslararasiNakliyatController::class, 'getData'])->name('uluslararasi-nakliyat.data');
 Route::get('/uluslararasi-nakliyat', [UluslararasiNakliyatController::class, 'index'])->name('uluslararasi-nakliyat.index');
 Route::get('/planlama-hazirlik-data', [PlanlamaHazirlikController::class, 'getData'])->name('planlama-hazirlik.data');

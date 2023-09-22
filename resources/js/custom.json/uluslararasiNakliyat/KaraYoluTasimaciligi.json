@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "KARAYOLU TAŞIMACILIĞI Almanca",
+            "title": "AUTOBAHNVERKEHR",
             "hero": "assets/images/bg2.jpg",
             "img_url": "assets/images/karayolutasimaciligi.jpeg",
             "data": [
                 {
-                    "title": "Güvenlik ve Takip Al:",
-                    "text": "Teknolojik gelişmeler sayesinde karayolu taşımacılığı, araç takip sistemleri, güvenlik kameraları ve diğer yöntemlerle daha güvenli ve izlenebilir hale gelmiştir."
+                    "title": "Sicherheit und Tracking:",
+                    "text": "Dank der technologischen Entwicklung ist der Straßenverkehr mit Fahrzeugortungssystemen, Überwachungskameras und anderen Methoden sicherer und besser verfolgbar geworden."
                 },
                 {
-                    "title": "Lojistik Ağları Al:",
-                    "text": "Üreticiler, dağıtım merkezleri, depolar ve perakende satış noktaları arasındaki ürün hareketini sağlamak için kara yollarını kullanırlar."
+                    "title": "Logistiknetzwerke:",
+                    "text": "Hersteller nutzen Autobahnen, um Produkte zwischen Vertriebszentren, Lagerhäusern und Einzelhandelsgeschäften zu transportieren."
                 },
                 {
-                    "title": "Hızlı Teslimat Al:",
-                    "text": "Karayolu taşımacılığı, kısa ve orta mesafeli taşımalarda hızlı teslimat sağlar. Özellikle acil ve zaman-duyarlı ürünler için idealdir."
+                    "title": "Schnelle Lieferung:",
+                    "text": "Der Straßentransport ermöglicht eine schnelle Lieferung für Kurz- und Mittelstreckentransporte. Es ist besonders ideal für dringende und zeitkritische Produkte."
                 },
                 {
-                    "title": "Ticari Taşımacılık Al:",
-                    "text": "Ürünlerin tedarik zinciri içindeki farklı noktalara taşınması için kamyonlar, kamyonetler ve diğer ticari araçlar kullanılır."
+                    "title": "Gewerblicher Transport:",
+                    "text": "Für den Transport von Produkten zu verschiedenen Punkten innerhalb der Lieferkette werden LKWs, Transporter und andere Nutzfahrzeuge eingesetzt."
                 }
             ]
         }

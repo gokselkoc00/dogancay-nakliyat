@@ -26,7 +26,7 @@
           :key="index"
         >
           <div class="blog-post-thumb">
-            <div class="img">
+            <div class="">
               <img class="img-fluid custom-img" :src="item.img_url" alt="" />
             </div>
             <div class="blog-content">
@@ -83,5 +83,6 @@ export default {
 .custom-img {
   max-height: 14rem;
   min-height: 12.5rem;
+  border-radius: 20px;
 }
 </style>

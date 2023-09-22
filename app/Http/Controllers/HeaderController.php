@@ -14,23 +14,18 @@ class HeaderController extends Controller
         $data = Header::first();
         $data = json_decode($data->data, true);
         $logo = $data['logo'];
+        $whatsapp_phone = $data['whatsapp_phone'];
         if ($lang === 'tr') {
-            // !!! UYARI languages değişkeninin  $data = $data["tr"] işleminden önce çalıştırılması gerekir. !!!
-            $languages = $data["languages"]["tr"];
             $data = $data["tr"];
         } elseif ($lang == 'en') {
-            // !!! UYARI languages değişkeninin  $data = $data["en"] işleminden önce çalıştırılması gerekir. !!!
-            $languages = $data["languages"]["en"];
             $data = $data["en"];
         } elseif ($lang == 'ge') {
-            // !!! UYARI languages değişkeninin  $data = $data["ge"] işleminden önce çalıştırılması gerekir. !!!
-            $languages = $data["languages"]["ge"];
             $data = $data["ge"];
         }
         return response()->json([
             'data' => $data,
-            'languages' => $languages,
-            'logo' => $logo
+            'logo' => $logo,
+            'whatsapp_phone' => $whatsapp_phone
         ]);
     }
 }

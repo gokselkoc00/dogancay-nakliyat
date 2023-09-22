@@ -1,6 +1,59 @@
 [
 
     {
+        "languages": {
+            "tr": [
+                {
+                    "name": "Türkçe",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "İngilizce",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Almanca",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ],
+            "en": [
+                {
+                    "name": "Turkish",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "English",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Germany",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ],
+            "ge": [
+                {
+                    "name": "Türkisch",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "Englisch",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Deutsch",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ]
+        },
         "data":[
             {
                 "link":"#",
@@ -15,12 +68,8 @@
                 "class":"fa fa-linkedin"
             },
             {
-                "link":"#",
-                "class":"fa fa-rss"
-            },
-            {
-                "link":"#",
-                "class":"fa fa-dribbble"
+                "link":"https://www.instagram.com/dogancayinternational/?hl=tr",
+                "class":"fa fa-instagram"
             }
         ]
     }

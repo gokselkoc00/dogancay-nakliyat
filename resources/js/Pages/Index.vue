@@ -6,6 +6,7 @@
     <Features />
     <Counter />
     <Blog />
+    <Gallery />
     <Contact :errors="errors"/>
   </Layout>
 </template>
@@ -17,6 +18,7 @@ import FeaturesCards from "./Components/FeaturesCards.vue";
 import Features from "./Components/Features.vue";
 import Counter from "./Components/Counter.vue";
 import Blog from "./Components/Blog.vue";
+import Gallery from "./Components/Gallery.vue";
 import Contact from "./Components/Contact.vue";
 export default {
   props: {
@@ -29,6 +31,7 @@ export default {
     Features,
     Counter,
     Blog,
+    Gallery,
     Contact,
   },
 };

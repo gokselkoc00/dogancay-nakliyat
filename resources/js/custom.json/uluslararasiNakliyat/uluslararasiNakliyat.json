@@ -1,0 +1,73 @@
+[
+    {
+        "tr": {
+            "title": "ULUSLARARASI NAKLİYAT",
+            "hero": "assets/images/ULUS.jpg",
+            "img_url": "assets/images/709130984ddc07b51d6b7a996df34ae5.jpg",
+            "data": [
+                {
+                    "title": "Uluslararası Ticaretin Önemi:",
+                    "text": "Uluslararası taşıma, uluslararası ticaretin temelini oluşturur. Ülkeler, farklı kaynaklara ve pazarlara erişim sağlayarak ekonomik büyümeyi destekler. Aynı zamanda kültürel etkileşim, teknoloji transferi ve insan hareketliliğini teşvik eder."
+                },
+                {
+                    "title": "Belgeler ve Gümrük İşlemleri:",
+                    "text": "Uluslararası taşıma sırasında çeşitli belgeler ve gümrük işlemleri gereklidir. İhracat ve ithalat işlemleri, gümrük beyannameleri, taşıma konşimentoları, fatura ve paketleme listeleri gibi belgeler bu sürecin bir parçasıdır. Her ülkenin kendi gümrük prosedürleri ve gereksinimleri vardır."
+                },
+                {
+                    "title": "Lojistik ve Nakliyat Firmaları:",
+                    "text": "Uluslararası taşıma, karmaşık bir süreç olabilir. Bu nedenle birçok lojistik ve nakliyat firması, müşterilere bu süreçte destek sunar. Bu firmalar, taşıma modlarına göre uzmanlaşmış, gümrük işlemlerini yönetebilen ve teslimatın sorunsuz gerçekleşmesini sağlayan profesyonellerdir."
+                },
+                {
+                    "title": "Ticari Taşımacılık:",
+                    "text": "Uluslararası taşıma sırasında çeşitli belgeler ve gümrük işlemleri gereklidir. İhracat ve ithalat işlemleri, gümrük beyannameleri, taşıma konşimentoları, fatura ve paketleme listeleri gibi belgeler bu sürecin bir parçasıdır. Her ülkenin kendi gümrük prosedürleri ve gereksinimleri vardır."
+                }
+            ]
+        },
+        "en": {
+            "title": "INTERNATIONAL SHIPPING",
+            "hero": "assets/images/ULUS.jpg",
+            "img_url": "assets/images/709130984ddc07b51d6b7a996df34ae5.jpg",
+            "data": [
+                {
+                    "title": "The Importance of International Trade:",
+                    "text": "International transportation forms the basis of international trade. Countries support economic growth by providing access to different resources and markets. It also encourages cultural interaction, technology transfer and human mobility."
+                },
+                {
+                    "title": "Documents and Customs Procedures:",
+                    "text": "Various documents and customs procedures are required during international transportation. Documents such as export and import transactions, customs declarations, transportation bills of lading, invoices and packing lists are part of this process. Each country has its own customs procedures and requirements."
+                },
+                {
+                    "title": "Logistics and Transportation Companies:",
+                    "text": "International moving can be a complex process. For this reason, many logistics and transportation companies offer support to customers in this process. These companies are professionals who specialize in transportation modes, manage customs procedures and ensure smooth delivery."
+                },
+                {
+                    "title": "Commercial Transportation:",
+                    "text": "Various documents and customs procedures are required during international transportation. Documents such as export and import transactions, customs declarations, transportation bills of lading, invoices and packing lists are part of this process. Each country has its own customs procedures and requirements."
+                }
+            ]
+        },
+        "ge": {
+            "title": "INTERNATIONALES VERSENDEN",
+            "hero": "assets/images/ULUS.jpg",
+            "img_url": "assets/images/709130984ddc07b51d6b7a996df34ae5.jpg",
+            "data": [
+                {
+                    "title": "Die Bedeutung des internationalen Handels:",
+                    "text": "Der internationale Transport bildet die Grundlage des internationalen Handels. Länder unterstützen das Wirtschaftswachstum, indem sie den Zugang zu verschiedenen Ressourcen und Märkten ermöglichen. Es fördert auch die kulturelle Interaktion, den Technologietransfer und die menschliche Mobilität."
+                },
+                {
+                    "title": "Dokumente und Zollverfahren:",
+                    "text": "Beim internationalen Transport sind verschiedene Dokumente und Zollverfahren erforderlich. Zu diesem Prozess gehören Dokumente wie Export- und Importtransaktionen, Zollanmeldungen, Frachtbriefe, Rechnungen und Packlisten. Jedes Land hat seine eigenen Zollverfahren und Anforderungen."
+                },
+                {
+                    "title": "Logistik- und Transportunternehmen:",
+                    "text": "Ein internationaler Umzug kann ein komplexer Prozess sein. Aus diesem Grund bieten viele Logistik- und Transportunternehmen ihren Kunden Unterstützung bei diesem Prozess an. Bei diesen Unternehmen handelt es sich um Fachleute, die sich auf Transportarten spezialisiert haben, Zollverfahren verwalten und eine reibungslose Lieferung gewährleisten."
+                },
+                {
+                    "title": "Gewerblicher Transport:",
+                    "text": "Beim internationalen Transport sind verschiedene Dokumente und Zollverfahren erforderlich. Zu diesem Prozess gehören Dokumente wie Export- und Importtransaktionen, Zollanmeldungen, Frachtbriefe, Rechnungen und Packlisten. Jedes Land hat seine eigenen Zollverfahren und Anforderungen."
+                }
+            ]
+        }
+    }
+]

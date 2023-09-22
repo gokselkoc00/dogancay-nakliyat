@@ -3,7 +3,7 @@
         "tr": {
             "title": "PLAN VE HAZIRLIK",
             "hero": "assets/images/ing.jpg",
-            "img_url": "assets/images/-e3.jpg",
+            "img_url": "assets/images/planlamahazirlik.png",
             "data": [
                 {
                     "title": "Planlama:",
@@ -26,7 +26,7 @@
         "en": {
             "title": "PLAN AND PREPARATION",
             "hero": "assets/images/ing.jpg",
-            "img_url": "assets/images/-e3.jpg",
+            "img_url": "assets/images/planlamahazirlik.png",
             "data": [
                 {
                     "title": "Planning:",
@@ -47,25 +47,25 @@
             ]
         },
         "ge": {
-            "title": "PLAN VE HAZIRLIK ALMANCA",
+            "title": "PLAN UND VORBEREITUNG",
             "hero": "assets/images/ing.jpg",
-            "img_url": "assets/images/-e3.jpg",
+            "img_url": "assets/images/planlamahazirlik.png",
             "data": [
                 {
-                    "title": "Planlama Almanca:",
-                    "text": "Lojistik planlama, etkili ve verimli bir tedarik zinciri yönetimi için temel bir adımdır. Planlama süreci, malzemelerin ve bilgilerin akışını optimize etmek ve süreçleri koordine etmek amacıyla yapılır."
+                    "title": "Planung:",
+                    "text": "Die Logistikplanung ist ein grundlegender Schritt für ein effektives und effizientes Supply Chain Management. Der Planungsprozess erfolgt mit dem Ziel, den Material- und Informationsfluss zu optimieren und Prozesse zu koordinieren."
                 },
                 {
-                    "title": "Dokümantasyon Almanca:",
-                    "text": "Taşınma kontrol listesi, unutulan detayları önlemek, süreci düzenlemek ve stressiz bir taşınma deneyimi sağlamak için oldukça faydalıdır."
+                    "title": "Dokumentation:",
+                    "text": "Eine Umzugscheckliste ist sehr nützlich, um zu verhindern, dass Details vergessen werden, den Prozess zu organisieren und einen stressfreien Umzug zu gewährleisten."
                 },
                 {
-                    "title": "Hazırlık Almanca:",
-                    "text": "Planın uygulamaya konulması aşaması olarak düşünülebilir. Hazırlık süreci, belirlenen planları uygulamaya koymak, ekipmanları hazırlamak ve tüm detayları düzenlemek için gereklidir."
+                    "title": "Vorbereitendes Deutsch:",
+                    "text": "Es kann als die Phase der Umsetzung des Plans in die Praxis betrachtet werden. Der Vorbereitungsprozess ist notwendig, um die festgelegten Pläne in die Praxis umzusetzen, die Ausrüstung vorzubereiten und alle Details zu regeln."
                 },
                 {
-                    "title": "Bilgi Almanca:",
-                    "text": "Verilecek fiyat teklifinde, verilen teklife ne gibi hizmetlerin dahil olduğunu ve nelerin de hariç olduğu bilgileri bulunmaktadır."
+                    "title": "Information:",
+                    "text": "Das abzugebende Preisangebot enthält Informationen darüber, welche Leistungen im Angebot enthalten sind und welche ausgeschlossen sind."
                 }
             ]
         }

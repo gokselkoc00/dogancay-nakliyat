@@ -16,6 +16,6 @@ class LanguageController extends Controller
         // Dil değişkenini oturuma kaydedin
         $request->session()->put('lang', $language);
 
-        return back()->withInput();
+        return redirect()->back();
     }
 }

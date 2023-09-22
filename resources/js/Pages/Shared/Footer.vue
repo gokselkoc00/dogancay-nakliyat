@@ -2,12 +2,43 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div
+          class="d-flex align-items-center justify-content-between col-lg-12 col-md-12 col-sm-12"
+        >
           <ul class="social">
             <li v-for="(item, index) in footer" :key="index">
-              <a :href="item.link"><i :class="item?.class"></i></a>
+              <a target="_blank" :href="item.link"
+                ><i :class="item?.class"></i
+              ></a>
             </li>
           </ul>
+          <div class="btn-group dropup">
+            <a
+              type="button"
+              class="btn dropdown-toggle d-flex align-items-center"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                class=""
+                :src="$page.props.site_url + currentLanguage?.img_url"
+              />
+              <p cl style="color: #1e1e1e; margin-left: 0.25rem">
+                {{ currentLanguage?.name }}
+              </p>
+            </a>
+            <ul class="dropdown-menu">
+              <li v-for="(item, index) in languages" :key="index">
+                <a
+                  class="dropdown-item"
+                  @click.prevent="changeLanguage(item.key)"
+                >
+                  <img class="img-fluid flag-img" :src="item.img_url" />
+                  {{ item?.name }}
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -21,7 +52,16 @@ export default {
   data() {
     return {
       footer: {},
+      languages: [],
     };
+  },
+  computed: {
+    currentLanguage() {
+      const lang = this.$page.props.lang;
+      if (this.languages != null || this.languages != []) {
+        return this.languages.find((language) => language.key === lang);
+      }
+    },
   },
   mounted() {
     // Sayfa yüklendiğinde veriyi çek
@@ -31,9 +71,10 @@ export default {
     async getData() {
       try {
         axios
-          .get(route('footer.data'))
+          .get(route("footer.data"))
           .then((response) => {
-            this.footer = response.data;
+            this.footer = response.data.footer;
+            this.languages = response.data.languages;
           })
           .catch((error) => {
             console.error(error);
@@ -42,6 +83,17 @@ export default {
         console.error(error);
       }
     },
+  },
+  setup() {
+    const changeLanguage = (lang) => {
+      axios.post("/set-language", { language: lang }).then(() => {
+        window.location.reload();
+      });
+    };
+
+    return {
+      changeLanguage,
+    };
   },
 };
 </script>

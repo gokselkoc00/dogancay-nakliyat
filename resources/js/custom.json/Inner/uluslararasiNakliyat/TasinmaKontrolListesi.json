@@ -1,0 +1,281 @@
+[
+    {
+        "hero": "assets/images/tasinmaKontrolLis/resim1.jpg",
+        "images": [
+            {
+                "img_url": "assets/images/tasinmaKontrolLis/resim2.jpg"
+            }
+        ],
+        "tr": {
+            "title": "TAŞINMA KONTROL LİSTESİ",
+            "check_list_title": "Hazırlık Dönemi",
+            "data": [
+                {
+                    "title": "Taşınma Günü:",
+                    "text": "Taşınma günü görevlilerimiz geldiğinde evde karşılayacak birisi olduğundan emin olunuz. Taşıma görevlilerimiz ile taşınma önce son kez gezerek beraber kontrol ediniz ve taşınacak eşyaları ve ekstra dikkat edilmesi gereken hususları belirtiniz. Bu kontrolde çatı katını, apartman altındaki mahzende bulunan eşyaları da unutmayınız. Taşıma sonunda geriye taşınmasını istediğiniz hiçbir malzemenin kalmadığından emin olunuz. Eşyalar taşındıktan sonra paketleme envanter listesini kontrol ediniz. En sonunda imzalanması geren belgeleri imzalayınız."
+                }
+            ],
+            "check_list": [
+                {
+                    "text": "Vize ve pasaportunuzun geçerlilik sürelerini kontrol ediniz."
+                },
+                {
+                    "text": "Doğançay Nakliyat’dan taşınma gününü teyit ediniz."
+                },
+                {
+                    "text": "Hangi eşyalarınızı uluslararası bir taşınma ile yeni adresinize götüreceğinize karar veriniz."
+                },
+                {
+                    "text": "Geride kalan eşyalarınıza ne yapacaksınız? Onları satabilir ve birilerine verebilirsiniz. Evdeki donmuş gıdalar, deterjan gibi temizlik malzemelerini de taşınma gününe kadar tüketmelisiniz."
+                },
+                {
+                    "text": "Fiyat teklifindeki eşya miktarını karşılaştırarak kontrol ediniz."
+                },
+                {
+                    "text": "Gideceğiniz ülkedeki araç getirme hakkı, oturma izni, değerli eşya ve antika bulundurma izni ve bitkiler için gerekli olan evrakları önceden inceleyip gereğini yapmalısınız."
+                },
+                {
+                    "text": "Taşınacağınız yeni ülke de aşı gereksinimlerini ve sağlık şartlarını incelemede fayda var"
+                },
+                {
+                    "text": "Gidiş biletinizi için rezervasyon yaptırdınız mı? Eğer tarih belli ise önceden almanın birçok avantajı bulunmaktadır. Eğer ilk günler otel de kalacaksanız yer ayırtmanız iyi olur."
+                },
+                {
+                    "text": "Kişisel evraklarınızı (kimlik kartı, doğum belgesi, sağlık kayıtları, öğrenci belgesi, ehliyet.. gibi) kontrol etmeyi unutmayın. Gerekirse, ilgili devlet daireleriyle, okullunuzla, doktorunuzla, avukatınızla ve muhasebecinizle görüşüp kişisel belgelerinizi temin edebilirsiniz."
+                },
+                {
+                    "text": "Araba sigorta belgelerinizi Sigortacınızdan isteyiniz."
+                },
+                {
+                    "text": "Kaza, sağlık ve diğer sigorta ve kasko belgelerinizi kontrol ediniz ve gerekirse transfer için görüşünüz."
+                },
+                {
+                    "text": "Yeni taşınacağınız ülkedeki ehliyet için gerekli belgeleri okuyunuz."
+                },
+                {
+                    "text": "Taşınacağınız adresin yanındaki okulları araştırınız. Gerekirse randevu almalısınız."
+                },
+                {
+                    "text": "Taşınma için İl/ilçe Nüfus Vatandaşlık İşleri Müdürlüğüne ve PTT’ye başvurarak adres değişikliği bilgisini verebilirsiniz."
+                },
+                {
+                    "text": "Beyaz eşyalarınızı serviste kontrol ettiriniz. Ayrıca eğer voltaj değişikliği gerekiyorsa bunun için ne yapmanız gerektiğini servisten öğreniniz."
+                },
+                {
+                    "text": "Elektrik, su, doğalgaz için son ödeme tarihlerini, kalan miktarı ve hesap kapatma için ilgili birimlere başvurunuz."
+                },
+                {
+                    "text": "Kira sözleşmeniniz bitirmek için ev sahibinizle görüşünüz"
+                },
+                {
+                    "text": "Adres değişikliğinizi banka gibi bildirmeniz gereken yerlere iletiniz."
+                },
+                {
+                    "text": "Okul, sağlık ve diş bilgilerinizi temin ediniz."
+                },
+                {
+                    "text": "Banka hesabınızı kapatınız. Hesabınızı yeni taşınacağınız yerdeki anlaştığınız bir bankaya transfer edebilirsiniz."
+                },
+                {
+                    "text": "Evcil hayvanlarınızı veterinere götürerek aşılarının tam olduğundan emin olunuz ve gerekli belgeleri alınız."
+                },
+                {
+                    "text": "Aboneliklerinizi taşınma gününe göre sonlandırınız."
+                },
+                {
+                    "text": "Taşınacak beyaz eşyalarınızı taşınma öncesi elektrikten çekip, kurutup temizlemelisiniz. Avizelerinizi sökmek için usta ayarlayabilirsiniz."
+                },
+                {
+                    "text": "Taşıma araçlarımızın rahat yanaşması için taşınma günü öncesinde komşularınızla veya apartman görevlisiyle görüşmelisiniz."
+                },
+                {
+                    "text": "Eğer paketlemeyi kendiniz yapmak istiyorsanız ve öyle anlaştı iseniz, taşıma kartonlarını, bantları, taşınma battaniyelerini, taşıma için ip, maket bıçağı, kağıt gibi ihtiyaçlarınızı online hizmet veren evex firmamızdan evex.com.tr adresinden temin edebilirsiniz"
+                },
+                {
+                    "text": "Eğer yüksek bir apartmanda oturuyorsanız ve dışardan asansörlü taşıma imkanı yoksa bina içi asansörü kullanma için apartman görevlisi ile görüşünüz."
+                }
+            ]
+        },
+        "en": {
+            "title": "MOVING CHECKLIST",
+            "check_list_title": "Preparatory Period",
+            "data": [
+                {
+                    "title": "Moving Day:",
+                    "text": "When our staff arrives on moving day, make sure there is someone to greet you at home. Check with our moving officers for the last time before the move and specify the items to be moved and the issues that need extra attention. During this check, do not forget the attic and the belongings in the cellar under the apartment. At the end of the transportation, make sure that there is no material left behind that you want to carry. After the items are moved, check the packing inventory list. Finally, sign the documents that need to be signed."
+                }
+            ],
+            "check_list": [
+                {
+                    "text": "Check the validity period of your visa and passport."
+                },
+                {
+                    "text": "Confirm the moving day with Doğançay Nakliyat."
+                },
+                {
+                    "text": "Decide which items you will take to your new address with international moving."
+                },
+                {
+                    "text": "What will you do with leftover items? You can sell them or give them to someone. You should also consume frozen foods and cleaning supplies like detergents before moving day."
+                },
+                {
+                    "text": "Compare the quantity of items in the price quote."
+                },
+                {
+                    "text": "Examine and complete the necessary documents for vehicle import rights, residence permits, valuable items, antiques, and plants in the country you are going to."
+                },
+                {
+                    "text": "It's beneficial to research vaccination requirements and health conditions in the country you are moving to."
+                },
+                {
+                    "text": "Have you made a reservation for your departure ticket? If the date is fixed, there are many advantages to booking in advance. If you plan to stay in a hotel for the first few days, it's a good idea to make a reservation."
+                },
+                {
+                    "text": "Check your personal documents (identity card, birth certificate, health records, student certificate, driver's license, etc.). If necessary, contact relevant government offices, schools, doctors, lawyers, and accountants to obtain your personal documents."
+                },
+                {
+                    "text": "Request your car insurance documents from your insurance company."
+                },
+                {
+                    "text": "Check and, if necessary, negotiate transfer for accident, health, and other insurance and comprehensive insurance documents."
+                },
+                {
+                    "text": "Read the necessary documents for your driver's license in the country you are moving to."
+                },
+                {
+                    "text": "Research nearby schools to your new address. If necessary, make appointments."
+                },
+                {
+                    "text": "For your move, you can inform the Provincial/District Population Citizenship Directorate and the Turkish Post Office about the change of address."
+                },
+                {
+                    "text": "Have your white goods checked by a service. Also, if voltage conversion is required, learn how to do it from the service."
+                },
+                {
+                    "text": "For electricity, water, and natural gas, find out the due dates, remaining amounts, and contact the relevant units for account closure."
+                },
+                {
+                    "text": "Discuss ending your lease agreement with your landlord."
+                },
+                {
+                    "text": "Notify places like banks about your change of address."
+                },
+                {
+                    "text": "Obtain school, health, and dental records."
+                },
+                {
+                    "text": "Close your bank account. You can transfer your account to a bank with which you have an agreement in the new place you are moving to."
+                },
+                {
+                    "text": "Take your pets to the vet to ensure their vaccinations are up to date and obtain the necessary documents."
+                },
+                {
+                    "text": "Terminate subscriptions according to your moving day."
+                },
+                {
+                    "text": "Before moving, disconnect and clean your white goods. You can also hire a technician to remove chandeliers."
+                },
+                {
+                    "text": "To ensure easy access for moving vehicles, you should consult with your neighbors or the building manager before moving day."
+                },
+                {
+                    "text": "If you want to do the packing yourself and have an agreement to do so, you can obtain packing boxes, tapes, moving blankets, moving ropes, utility knives, and paper from our online service provider, evex.com.tr."
+                },
+                {
+                    "text": "If you live in a high-rise building and there is no external elevator for moving, discuss using the building's internal elevator with the building manager."
+                }
+            ]
+        },
+        "ge": {
+            "title": "UMZUGS-CHECKLISTE",
+            "check_list_title": "Vorbereitungszeit",
+
+            "data": [
+                {
+                    "title": "Umzugstag:",
+                    "text": "Wenn unsere Mitarbeiter am Umzugstag eintreffen, sorgen Sie dafür, dass Sie zu Hause von jemandem begrüßt werden. Sprechen Sie vor dem Umzug ein letztes Mal mit unseren Umzugsbeauftragten und legen Sie fest, welche Gegenstände bewegt werden sollen und welche Probleme besondere Aufmerksamkeit erfordern. Vergessen Sie bei dieser Kontrolle nicht den Dachboden und die Sachen im Keller unter der Wohnung. Stellen Sie am Ende des Transports sicher, dass kein Material zurückbleibt, das Sie transportieren möchten. Überprüfen Sie nach dem Umzug der Artikel die Verpackungsinventarliste. Unterschreiben Sie abschließend die zu unterzeichnenden Dokumente."
+                }
+            ],
+            "check_list": [
+                {
+                    "text": "Überprüfen Sie die Gültigkeitsdauer Ihres Visums und Reisepasses."
+                },
+                {
+                    "text": "Bestätigen Sie den Umzugstag bei Doğançay Nakliyat."
+                },
+                {
+                    "text": "Entscheiden Sie, welche Gegenstände Sie mit einem internationalen Umzug an Ihre neue Adresse mitnehmen möchten."
+                },
+                {
+                    "text": "Was werden Sie mit übrig gebliebenen Gegenständen tun? Sie können sie verkaufen oder jemandem geben. Sie sollten auch gefrorene Lebensmittel und Reinigungsmittel wie Waschmittel vor dem Umzugstag verbrauchen."
+                },
+                {
+                    "text": "Vergleichen Sie die Menge der Gegenstände im Preisangebot."
+                },
+                {
+                    "text": "Prüfen Sie die notwendigen Dokumente für die Einfuhrrechte für Fahrzeuge, Aufenthaltsgenehmigungen, wertvolle Gegenstände, Antiquitäten und Pflanzen im Land, in das Sie ziehen werden, und vervollständigen Sie sie."
+                },
+                {
+                    "text": "Es ist ratsam, sich über Impfanforderungen und Gesundheitsbedingungen im Land, in das Sie ziehen, zu informieren."
+                },
+                {
+                    "text": "Haben Sie bereits eine Reservierung für Ihr Abflugticket vorgenommen? Wenn das Datum feststeht, gibt es viele Vorteile, frühzeitig zu buchen. Wenn Sie planen, in den ersten Tagen in einem Hotel zu übernachten, ist es ratsam, eine Reservierung vorzunehmen."
+                },
+                {
+                    "text": "Überprüfen Sie Ihre persönlichen Dokumente (Personalausweis, Geburtsurkunde, Gesundheitsakten, Studentenausweis, Führerschein usw.). Kontaktieren Sie bei Bedarf relevante Regierungsstellen, Schulen, Ärzte, Anwälte und Steuerberater, um Ihre persönlichen Dokumente zu erhalten."
+                },
+                {
+                    "text": "Fordern Sie Ihre Kfz-Versicherungsdokumente von Ihrer Versicherungsgesellschaft an."
+                },
+                {
+                    "text": "Überprüfen Sie Unfall-, Kranken- und andere Versicherungen sowie Vollkaskoversicherungsdokumente und verhandeln Sie sie gegebenenfalls für den Transfer."
+                },
+                {
+                    "text": "Lesen Sie die notwendigen Dokumente für Ihren Führerschein im Land, in das Sie ziehen, durch."
+                },
+                {
+                    "text": "Recherchieren Sie Schulen in der Nähe Ihrer neuen Adresse. Vereinbaren Sie bei Bedarf Termine."
+                },
+                {
+                    "text": "Informieren Sie für Ihren Umzug das Provinz-/Kreisamt für Bevölkerung und Staatsbürgerschaft sowie die Türkische Post über die Änderung der Adresse."
+                },
+                {
+                    "text": "Lassen Sie Ihre Haushaltsgeräte von einem Service überprüfen. Erfahren Sie auch vom Service, wie Sie bei Bedarf eine Spannungsumwandlung durchführen können."
+                },
+                {
+                    "text": "Erfahren Sie die Fälligkeitsdaten, Restbeträge und kontaktieren Sie die zuständigen Stellen für die Kontoschließung von Strom, Wasser und Erdgas."
+                },
+                {
+                    "text": "Besprechen Sie die Beendigung Ihres Mietvertrags mit Ihrem Vermieter."
+                },
+                {
+                    "text": "Benachrichtigen Sie Stellen wie Banken über Ihre Adressänderung."
+                },
+                {
+                    "text": "Besorgen Sie sich Schul-, Gesundheits- und Zahnakten."
+                },
+                {
+                    "text": "Schließen Sie Ihr Bankkonto. Sie können Ihr Konto zu einer Bank übertragen, mit der Sie in Ihrem neuen Wohnort vereinbart haben."
+                },
+                {
+                    "text": "Bringen Sie Ihre Haustiere zum Tierarzt, um sicherzustellen, dass ihre Impfungen auf dem neuesten Stand sind, und holen Sie die erforderlichen Dokumente ein."
+                },
+                {
+                    "text": "Kündigen Sie Abonnements entsprechend Ihrem Umzugstag."
+                },
+                {
+                    "text": "Vor dem Umzug ziehen Sie die Stecker von Ihren Haushaltsgeräten, trocknen und reinigen Sie sie. Sie können auch einen Techniker beauftragen, um Kronleuchter zu entfernen."
+                },
+                {
+                    "text": "Um den Zugang für Umzugswagen zu erleichtern, sollten Sie sich vor dem Umzugstag mit Ihren Nachbarn oder dem Hausmeister absprechen."
+                },
+                {
+                    "text": "Wenn Sie das Packen selbst erledigen möchten und eine Vereinbarung getroffen haben, können Sie Verpackungskartons, Klebeband, Umzugsdecken, Umzugsseile, Teppichmesser, Papier usw. von unserem Online-Dienstleister evex.com.tr beziehen."
+                },
+                {
+                    "text": "Wenn Sie in einem Hochhaus wohnen und kein Außenaufzug für den Umzug vorhanden ist, besprechen Sie die Nutzung des inneren Aufzugs mit dem Hausmeister."
+                }
+            ]
+        }
+    }
+]

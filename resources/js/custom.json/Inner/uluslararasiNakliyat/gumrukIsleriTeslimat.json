@@ -1,0 +1,49 @@
+[
+    {
+        "hero": "assets/images/gumrukislerTeslimat/eler.jpg",
+        "images": [
+            {
+                "img_url": "assets/images/gumrukislerTeslimat/resim1.jpg"
+            }
+        ],
+        "tr": {
+            "title": "GÜMRÜK İŞLERİ VE TESLİMAT",
+            "data": [
+                {
+                    "title": "Gümrük Muayene İşleri:",
+                    "text": "Gümrük işlemleri hem eski evinizin bulunduğu ülkede hem de yeni evinizin bulunduğu ülkede yapılır. Bu konuda planlama ve hazırlık safhasında hangi evrakların hazırlanması gerektiği size bildirilecektir. Gümrüklerde herhangi bir gecikme veya sorunla karşılaşmamak için taşıma koordinatörlerimiz tüm yasal süreci dikkatle takip ederek doğru ve güncel mevzuata göre ilgili belgeleri sunmaktadırlar. Ayrıca sizlere gideceğiniz ülkeye götürülmesi yasak olan maddeler ve vergiye tabi eşya ve ürünler hakkında da bilgilendirme yapacağız. Bütün bu süreç boyunca sizleri bilgilendirecek ve sorunsuz bir taşınma için yapılan işlemleri yakından takip edeceğiz."
+                },
+                {
+                    "title": "Teslimat:",
+                    "text": "Daha önceden planlanan ve belirlenen tarihte eşyalarınız belirlenen adrese teslim edilir. Birden fazla teslim şekli bulunmaktadır. Evden eve teslimde yeni evinize kadar bırakılmaktadır. Ayrıca limana kadar (hava limanı veya deniz limanı) ve gümrüğe kadar olan teslim şekilleri de bulunmaktadır.  Eğer evden eve seçeneğini tercih ederseniz taşıma görevlilerimiz (hava yolu ile deniz yoluyla yapılan taşımalarda ilgili ülkeden taşıma firması ayarlanır ve onların taşıma görevlileri bu işlemleri yapar) eşyalarınızı paketinden çıkartır istediğiniz odaya yerleştirir, mobilyalarınızı tekrar kurar ve kutuları da eşyalarınız gibi istediğiniz yere bırakırlar. Bütün bu işlemlerden sonra çeki listesi-envanter listesi tekrar kontrol edilir ve eksik veya kırılan eşya var mı diye bakılır."
+                }
+            ]
+        },
+        "en": {
+            "title": "CUSTOMS AND DELIVERY",
+            "data": [
+                {
+                    "title": "Customs Inspection Affairs:",
+                    "text": "Customs procedures are carried out both in the country where your old home is located and in the country where your new home is located. You will be informed about which documents need to be prepared during the planning and preparation phase. In order to avoid any delays or problems at customs, our transportation coordinators carefully follow the entire legal process and submit the relevant documents in accordance with accurate and up-to-date legislation. We will also inform you about the items that are prohibited to be taken to the country you will go to and the goods and products that are subject to tax. We will keep you informed throughout this entire process and closely follow the process to ensure a smooth move."
+                },
+                {
+                    "title": "Delivery:",
+                    "text": "Your belongings will be delivered to the specified address on the previously planned and determined date. There is more than one delivery method. In home-to-home delivery, it is delivered to your new home. There are also delivery methods up to the port (airport or sea port) and customs. If you choose the house-to-house option, our movers (for air or sea transportation, a moving company from the relevant country is arranged and their movers carry out these operations) will unpack your belongings, place them in the room you want, set up your furniture again and leave the boxes where you want, just like your belongings. After all these procedures, the packing list-inventory list is checked again to see if there are any missing or broken items."
+                }
+            ]
+        },
+        "ge": {
+            "title": "ZOLL UND LIEFERUNG",
+            "data": [
+                {
+                    "title": "Zollkontrollangelegenheiten:",
+                    "text": "Zollverfahren werden sowohl in dem Land durchgeführt, in dem sich Ihr altes Zuhause befindet, als auch in dem Land, in dem sich Ihr neues Zuhause befindet. Welche Unterlagen erstellt werden müssen, erfahren Sie bereits in der Planungs- und Vorbereitungsphase. Um Verzögerungen oder Probleme beim Zoll zu vermeiden, verfolgen unsere Transportkoordinatoren sorgfältig den gesamten rechtlichen Prozess und reichen die relevanten Dokumente gemäß den genauen und aktuellen Rechtsvorschriften ein. Wir informieren Sie auch über die Gegenstände, deren Mitnahme in das Zielland verboten ist, sowie über die steuerpflichtigen Waren und Produkte. Wir werden Sie während des gesamten Prozesses auf dem Laufenden halten und den Prozess genau verfolgen, um einen reibungslosen Ablauf zu gewährleisten."
+                },
+                {
+                    "title": "Lieferung:",
+                    "text": "Ihre Sachen werden zum vorher geplanten und festgelegten Termin an die angegebene Adresse geliefert. Es gibt mehr als eine Versandart. Bei der Home-to-Home-Lieferung erfolgt die Lieferung in Ihr neues Zuhause. Es gibt auch Liefermethoden bis zum Hafen (Flughafen oder Seehafen) und zum Zoll. Wenn Sie sich für die Haus-zu-Haus-Option entscheiden, packen unsere Umzugsunternehmen (für Luft- oder Seetransporte wird ein Umzugsunternehmen aus dem jeweiligen Land beauftragt und die Umzugsunternehmen führen diese Arbeiten durch) Ihr Hab und Gut aus, stellen es in dem von Ihnen gewünschten Raum ab, Stellen Sie Ihre Möbel wieder auf und lassen Sie die Kartons dort, wo Sie möchten, genau wie Ihre Habseligkeiten. Nach all diesen Vorgängen wird die Packliste-Inventarliste noch einmal überprüft, um festzustellen, ob Artikel fehlen oder defekt sind."
+                }
+            ]
+        }
+    }
+]

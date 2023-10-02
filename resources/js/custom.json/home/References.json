@@ -1,0 +1,246 @@
+[
+    {
+        "tr": {
+            "home": {
+                "title": "Referanslarımız"
+            },
+            "inner": {
+                "title": "Referanslarımız",
+                "text": "Referanslarımız, başarılı projelerimizin ve müşteri memnuniyetinin bir yansımasıdır. Birçok müşterimiz, bizimle çalışmaktan duydukları memnuniyeti ve hizmetlerimizden duydukları güveni paylaşmışlardır.",
+                "text_footer":"Büyüyen filo ve ekipmanlarımızla taşımacılık hizmetinde firmamızı tercih ettiğiniz için teşekkür ederiz."
+            }
+        },
+        "en": {
+            "home": {
+                "title": "Our references"
+            },
+            "inner": {
+                "title": "Our references",
+                "text": "Our references are a reflection of our successful projects and customer satisfaction. Many of our customers have shared their satisfaction in working with us and their trust in our services.",
+                "text_footer":"Thank you for choosing our company in transportation service with our growing fleet and equipment."
+            }
+        },
+        "ge": {
+            "home": {
+                "title": "Unsere Referenzen"
+            },
+            "inner": {
+                "title": "Unsere Referenzen",
+                "text": "Unsere Referenzen spiegeln unsere erfolgreichen Projekte und die Zufriedenheit unserer Kunden wider. Viele unserer Kunden haben ihre Zufriedenheit mit der Zusammenarbeit mit uns und ihr Vertrauen in unsere Dienstleistungen zum Ausdruck gebracht.",
+                "text_footer":"Vielen Dank, dass Sie sich für unser Transportunternehmen mit unserer wachsenden Flotte und Ausrüstung entschieden haben."
+            }
+        },
+        "images": [
+            {
+                "img_url": "assets/images/referanslarimiz/tbmm.png",
+                "title": "TÜRKİYE BÜYÜK MİLLET MECLİSİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/genelkurmay.png",
+                "title": "GENELKURMAY BAŞKANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/karakuvvetleri.png",
+                "title": "KARA KUVVETLERİ KOMUTANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/havakuvvetleri.png",
+                "title": "HAVA KUVVETLERİ KOMUTANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/denizkuvvetleri.png",
+                "title": "DENİZ KUVVETLERİ KOMUTANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/jandargenel.png",
+                "title": "JANDARMA GENEL KOMUTANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/default-image.jpg",
+                "title": "GAZİ ORDU EVİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/savunmasanayi.png",
+                "title": "SAVUNMA SANAYİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/karaharpokulu.jpg",
+                "title": "KARA HARP OKULU",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/tubitak.png",
+                "title": "TÜBİTAK",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/tubitakuzay.png",
+                "title": "TÜBİTAK RASAT UYDUSU TAŞIMA",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/havelsan.png",
+                "title": "HAVELSAN",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/akp.png",
+                "title": "ADALET VE KALKINMA PARTİSİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/mhp.png",
+                "title": "MİLLİYETÇİ HAREKET PARTİSİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/chp.png",
+                "title": "CUMHURİYET HALK PARTİSİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/cevreormanbak.png",
+                "title": "ÇEVRE VE ORMAN BAKANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/maliyebakanligi.png",
+                "title": "MALİYE BAKANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/meb.png",
+                "title": "MİLLİ EĞİTİM BAKANLIĞI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/guzelsanatlarmud.jpg",
+                "title": "GÜZEL SANATLAR GENEL MÜDÜRLÜĞÜ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/gaziuni.jpg",
+                "title": "GAZİ ÜNİVERSİTESİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/yildirimuni.png",
+                "title": "YILDIRIM BEYAZIT ÜNİVERSİTESİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/hacettepeuni.jpg",
+                "title": "HACETTEPE ÜNİVERSİTESİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/ankarauni.png",
+                "title": "ANKARA ÜNİVERSİTESİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/genelenerji.png",
+                "title": "GENEL ENERJİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/dogusoto.png",
+                "title": "DOĞUŞ OTO",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/fordotokoc.png",
+                "title": "FORD OTO KOÇ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/isbankasi.png",
+                "title": "İŞ BANKASI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/vakifbank.jpg",
+                "title": "VAKIFLAR BANKASI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/ziraatbankasi.png",
+                "title": "ZİRAAT BANKASI",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/yda.png",
+                "title": "YDA İNŞAAT",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/nuraolholding.jpeg",
+                "title": "NUROL HOLDİNG",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/abdarmy.jpeg",
+                "title": "ABD SİLAHLI KUVVETLERİ ANKARA DESTEK TESİSLERİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/turktraktor.jpg",
+                "title": "TÜRK TRAKTÖR",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/petrolofisi.png",
+                "title": "PETROL OFİSİ",
+                "alt": "referanslar resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/referanslarimiz/arvento.png",
+                "title": "ARVENTO",
+                "alt": "referanslar resim",
+                "order": 0
+            }
+        ]
+    }
+]

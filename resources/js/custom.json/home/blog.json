@@ -6,58 +6,52 @@
             "text": "Müşteri memnuniyetini en üst düzeyde tutarak, uzman ekibimiz ve modern araç filomuzla nakliyat ihtiyaçlarınızı en iyi şekilde karşılıyoruz. Değerli eşyalarınızın güvenli ve sorunsuz bir şekilde taşınmasını sağlamak için titizlikle çalışıyoruz.",
             "data": [
                 {
-                    "img_url": "assets/images/blog/resim13.jpg",
-                    "title": "Uluslararası Taşıma",
-                    "text": "Bu nakliyat türü, ülkeler arasında malların ve hizmetlerin taşınmasını sağlar.Uluslararası taşıma, ulaşım altyapısının gelişmesini teşvik edebilir.",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim15.jpg",
+                    "img_url": "assets/images/blog/resim1.jpg",
                     "title": "Planlama Ve Hazırlık",
                     "text": "Bu hazırlık aşamasının tam ve doğru yapılması taşınma esnasında oluşabilecek birçok sorun ve riskleri daha oluşmadan ortadan kaldırır",
-                    "url": ""
+                    "url": "/planlama-hazirlik"
                 },
                 {
-                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "img_url": "assets/images/blog/resim2.jpg",
                     "title": "Taşınma Kontrol Listesi",
                     "text": "Taşıma kontrol listesi, bir malın veya yükün bir noktadan diğerine taşınması sürecinde yapılması gereken adımları ve kontrolleri belirten önemli bir araçtır.",
-                    "url": ""
+                    "url": "/tasinma-kontrol-listesi"
+                },
+                {
+                    "img_url": "assets/images/blog/resim3.jpg",
+                    "title": "Taşıma Hizmetlerimiz",
+                    "text": "Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.",
+                    "url": "/tasima-hizmetlerimiz"
                 },
                 {
                     "img_url": "assets/images/blog/resim4.jpg",
-                    "title": "Uluslararası Taşıma Hizmetimiz",
-                    "text": "Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.Farklı ülkeler, doğal kaynaklarını ve üretim yeteneklerini paylaşarak daha verimli bir şekilde kullanabilirler",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim14.jpg",
                     "title": "Karayolu Taşımacılığı",
                     "text": "Karayolu ile ev ve ofis taşıma; ülke içerisindeki taşınma adresleri, kara yoluyla gidilmesi daha uygun ve yakın olan ülkeler ve Avrupa Ülkelerine yapılacak olan taşıma yerleri için en çok tercih edilen taşıma yöntemidir.",
-                    "url": ""
+                    "url": "/karayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "img_url": "assets/images/blog/resim5.jpg",
                     "title": "Havayolu Taşımacılığı",
                     "text": "Hava yoluyla yapılan uluslararası ev ve ofis taşıma işlemi diğer taşıma metotlarına göre en hızlı taşıma yöntemidir. Bunula birlikte bu yöntemin diğerlerine göre en pahalı taşıma şekli olduğunu unutmamanız gerekir.",
-                    "url": ""
+                    "url": "/havayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "img_url": "assets/images/blog/resim6.jpg",
                     "title": "Denizyolu Taşımacılığı",
                     "text": "Deniz yoluyla yapılan uluslararası ev ve ofis taşımacılığı birçok açıdan mantıklı bir çözümdür fakat eşyalarınız varış süresinin biraz zaman alacağını hesaba katmanız gerekir.",
-                    "url": ""
+                    "url": "/denizyolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
-                    "title": "Uluslararası Depolama",
+                    "img_url": "assets/images/blog/resim7.png",
+                    "title": "Depolama",
                     "text": "Eşyalarınızı en iyi şekilde ve ihtiyaçlarınıza göre depolamak için iki farkı depolama hizmeti sunuyoruz. Bunlar Akıllı depo/Self Storage ve Akıllı Depo/Taşınabilir Depo hizmetleridir.",
-                    "url": ""
+                    "url": "/depolama"
                 },
                 {
-                    "img_url": "assets/images/blog/resim12.jpg",
+                    "img_url": "assets/images/blog/resim8.jpg",
                     "title": "Gümrük İşleri Ve Teslimat",
                     "text": "Gümrük işlemleri hem eski evinizin bulunduğu ülkede hem de yeni evinizin bulunduğu ülkede yapılır. Bu konuda planlama ve hazırlık safhasında hangi evrakların hazırlanması",
-                    "url": ""
+                    "url": "/gumruk-isleri-teslimat"
                 }
             ]
         },
@@ -67,58 +61,52 @@
             "text": "By keeping customer satisfaction at the highest level, we meet your transportation needs in the best way possible with our expert team and modern vehicle fleet. We work meticulously to ensure that your valuable belongings are transported safely and smoothly.",
             "data": [
                 {
-                    "img_url": "assets/images/blog/resim13.jpg",
-                    "title": "International Transport",
-                    "text": "This type of transportation enables the transportation of goods and services between countries. International transportation can encourage the development of transportation infrastructure.",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim15.jpg",
+                    "img_url": "assets/images/blog/resim1.jpg",
                     "title": "Planning And Preparation",
-                    "text": "Carrying out this preparation phase completely and correctly will eliminate many problems and risks that may occur during the move before they occur.",
-                    "url": ""
+                    "text": "Carrying out this preparation phase completely and correctly eliminates many problems and risks that may occur during the move before they occur.",
+                    "url": "/planlama-hazirlik"
                 },
                 {
-                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "img_url": "assets/images/blog/resim2.jpg",
                     "title": "Moving Checklist",
                     "text": "A transportation checklist is an important tool that indicates the steps and checks that need to be carried out during the transportation of a good or load from one point to another.",
-                    "url": ""
+                    "url": "/tasinma-kontrol-listesi"
+                },
+                {
+                    "img_url": "assets/images/blog/resim3.jpg",
+                    "title": "Our Transportation Services",
+                    "text": "We provide this service including sea, air and land transportation, as well as packaging, self-storage and smart storage services.",
+                    "url": "/tasima-hizmetlerimiz"
                 },
                 {
                     "img_url": "assets/images/blog/resim4.jpg",
-                    "title": "Our International Transportation Service",
-                    "text": "We provide this service, including sea, air and land transportation, as well as packaging, self-storage and smart storage services. Different countries can use their natural resources and production capabilities more efficiently by sharing them.",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim14.jpg",
                     "title": "Highway transports",
                     "text": "Home and office transportation by road; It is the most preferred transportation method for moving addresses within the country, countries that are more convenient and closer to reach by land, and transportation destinations to European countries.",
-                    "url": ""
+                    "url": "/karayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "img_url": "assets/images/blog/resim5.jpg",
                     "title": "Airways transporting",
                     "text": "International home and office transportation by air is the fastest transportation method compared to other transportation methods. However, you should not forget that this method is the most expensive form of transportation compared to others.",
-                    "url": ""
+                    "url": "/havayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "img_url": "assets/images/blog/resim6.jpg",
                     "title": "Maritime transport",
                     "text": "International home and office transportation by sea is a logical solution in many respects, but you need to take into account that it will take some time for your belongings to arrive.",
-                    "url": ""
+                    "url": "/denizyolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
-                    "title": "International Storage",
+                    "img_url": "assets/images/blog/resim7.png",
+                    "title": "Storage",
                     "text": "We offer two different storage services to store your belongings in the best way and according to your needs. These are Smart Warehouse/Self Storage and Smart Warehouse/Portable Warehouse services.",
-                    "url": ""
+                    "url": "/depolama"
                 },
                 {
-                    "img_url": "assets/images/blog/resim12.jpg",
+                    "img_url": "assets/images/blog/resim8.jpg",
                     "title": "Customs Affairs and Delivery",
-                    "text": "Customs procedures are carried out both in the country where your old home is located and in the country where your new home is located. What documents should be prepared in this regard during the planning and preparation phase",
-                    "url": ""
+                    "text": "Customs procedures are carried out both in the country where your old home is located and in the country where your new home is located. What documents should be prepared in this regard during the planning and preparation phase?",
+                    "url": "/gumruk-isleri-teslimat"
                 }
             ]
         },
@@ -128,58 +116,52 @@
             "text": "Indem wir die Kundenzufriedenheit auf höchstem Niveau halten, erfüllen wir Ihre Transportbedürfnisse mit unserem Expertenteam und unserem modernen Fuhrpark bestmöglich. Wir arbeiten sorgfältig daran, dass Ihre wertvollen Gegenstände sicher und reibungslos transportiert werden.",
             "data": [
                 {
-                    "img_url": "assets/images/blog/resim13.jpg",
-                    "title": "Internationaler Transport",
-                    "text": "Diese Transportart ermöglicht den Transport von Gütern und Dienstleistungen zwischen Ländern. Der internationale Transport kann die Entwicklung der Transportinfrastruktur fördern.",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim15.jpg",
+                    "img_url": "assets/images/blog/resim1.jpg",
                     "title": "Planung und Vorbereitung",
                     "text": "Durch die vollständige und korrekte Durchführung dieser Vorbereitungsphase werden viele Probleme und Risiken, die beim Umzug auftreten können, bereits im Vorfeld beseitigt.",
-                    "url": ""
+                    "url": "/planlama-hazirlik"
                 },
                 {
-                    "img_url": "assets/images/fa5fb1df31def4bde86af615848e6296.jpg",
+                    "img_url": "assets/images/blog/resim2.jpg",
                     "title": "Checkliste für den Umzug",
                     "text": "Eine Transportcheckliste ist ein wichtiges Hilfsmittel, das die Schritte und Kontrollen angibt, die beim Transport einer Ware oder Ladung von einem Ort zum anderen durchgeführt werden müssen.",
-                    "url": ""
+                    "url": "/tasinma-kontrol-listesi"
+                },
+                {
+                    "img_url": "assets/images/blog/resim3.jpg",
+                    "title": "Unsere Transportdienstleistungen",
+                    "text": "Wir bieten diesen Service einschließlich See-, Luft- und Landtransporten sowie Verpackungs-, Self-Storage- und Smart-Storage-Dienstleistungen an.",
+                    "url": "/tasima-hizmetlerimiz"
                 },
                 {
                     "img_url": "assets/images/blog/resim4.jpg",
-                    "title": "Unser internationaler Transportservice",
-                    "text": "Wir bieten diesen Service an, einschließlich See-, Luft- und Landtransporten sowie Verpackungs-, Self-Storage- und Smart-Storage-Services. Verschiedene Länder können ihre natürlichen Ressourcen und Produktionskapazitäten effizienter nutzen, indem sie sie teilen.",
-                    "url": ""
-                },
-                {
-                    "img_url": "assets/images/blog/resim14.jpg",
                     "title": "Straßentransporte",
                     "text": "Transport zu Hause und im Büro auf der Straße; Es ist die am meisten bevorzugte Transportmethode für den Umzug von Adressen innerhalb des Landes, in Länder, die auf dem Landweg bequemer und näher zu erreichen sind, sowie für Transportziele in europäische Länder.",
-                    "url": ""
+                    "url": "/karayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/0854328c83c346709c430756173de697.jpg",
+                    "img_url": "assets/images/blog/resim5.jpg",
                     "title": "Fluglinien transportieren",
                     "text": "Der internationale Heim- und Bürotransport per Flugzeug ist im Vergleich zu anderen Transportmethoden die schnellste Transportmethode. Sie sollten jedoch nicht vergessen, dass diese Methode im Vergleich zu anderen die teuerste Transportart ist.",
-                    "url": ""
+                    "url": "/havayolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/d6b1871dd200e97b3aa7129a788a2e20.jpg",
+                    "img_url": "assets/images/blog/resim6.jpg",
                     "title": "Seetransport",
                     "text": "Der internationale Heim- und Bürotransport auf dem Seeweg ist in vielerlei Hinsicht eine logische Lösung, Sie müssen jedoch damit rechnen, dass es einige Zeit dauern wird, bis Ihre Sachen ankommen.",
-                    "url": ""
+                    "url": "/denizyolu-tasimaciligi"
                 },
                 {
-                    "img_url": "assets/images/cad5bdba44d2392ab82ed8bead1f33d7.jpg",
-                    "title": "Internationale Lagerung",
-                    "text": "Wir bieten zwei unterschiedliche Lagerdienstleistungen an, um Ihre Habseligkeiten optimal und bedarfsgerecht aufzubewahren. Dabei handelt es sich um die Dienste Smart Warehouse/Self Storage und Smart Warehouse/Portable Warehouse.",
-                    "url": ""
+                    "img_url": "assets/images/blog/resim7.png",
+                    "title": "Lagerung",
+                    "text": "Wir bieten zwei verschiedene Lagerdienstleistungen an, um Ihre Habseligkeiten bestmöglich und bedarfsgerecht aufzubewahren. Dabei handelt es sich um die Dienste Smart Warehouse/Self Storage und Smart Warehouse/Portable Warehouse.",
+                    "url": "/depolama"
                 },
                 {
-                    "img_url": "assets/images/blog/resim12.jpg",
+                    "img_url": "assets/images/blog/resim8.jpg",
                     "title": "Zollangelegenheiten und Lieferung",
                     "text": "Zollverfahren werden sowohl in dem Land durchgeführt, in dem sich Ihr altes Zuhause befindet, als auch in dem Land, in dem sich Ihr neues Zuhause befindet. Welche Unterlagen sollten diesbezüglich in der Planungs- und Vorbereitungsphase erstellt werden?",
-                    "url": ""
+                    "url": "/gumruk-isleri-teslimat"
                 }
             ]
         }

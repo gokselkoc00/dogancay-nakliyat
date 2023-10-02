@@ -1,6 +1,6 @@
 <template>
-  <section class="counter">
-    <div class="content">
+  <section class="counter"  :style="{ backgroundImage: `url(${image})` }">
+    <div class="content"  :style="{ backgroundImage: `url(${test})` }">
       <div class="container">
         <div class="row">
           <div
@@ -9,8 +9,8 @@
             :key="index"
           >
             <div class="count-item decoration-bottom">
-              <strong>{{ animatedCounters[index] }}</strong>
-              <span>{{ item.name }}</span>
+              <strong style="color: black;">{{ animatedCounters[index] }}</strong>
+              <span style="color: black; text-transform: uppercase;"><b>{{ item.name }}</b></span>
             </div>
           </div>
         </div>
@@ -27,11 +27,13 @@ export default {
   data() {
     return {
       //   data: {},
+      test:""
     };
   },
   setup() {
     const state = reactive({
       data: {},
+      image:"",
       counters: [],
       animatedCounters: [],
     });
@@ -40,8 +42,9 @@ export default {
       axios
         .get(route("counter.data"))
         .then((response) => {
-          state.data = response.data;
-          state.counters = response.data;
+          state.data = response.data.data;
+          state.counters = response.data.data;
+          state.image = response.data.image;
           startCounting();
         })
         .catch((error) => {

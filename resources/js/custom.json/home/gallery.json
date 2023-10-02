@@ -20,7 +20,7 @@
         ,
         "images": [
             {
-                "img_url": "assets/images/gallery/resim1.jpg",
+                "img_url": "assets/images/gallery/resim1.png",
                 "alt": "galeri resim",
                 "order": 0
             },
@@ -30,7 +30,7 @@
                 "order": 0
             },
             {
-                "img_url": "assets/images/gallery/resim3.jpg",
+                "img_url": "assets/images/gallery/resim3.png",
                 "alt": "galeri resim",
                 "order": 0
             },
@@ -55,12 +55,12 @@
                 "order": 0
             },
             {
-                "img_url": "assets/images/gallery/resim9.jpg",
+                "img_url": "assets/images/gallery/resim9.png",
                 "alt": "galeri resim",
                 "order": 0
             },
             {
-                "img_url": "assets/images/gallery/resim10.jpg",
+                "img_url": "assets/images/gallery/resim10.png",
                 "alt": "galeri resim",
                 "order": 0
             },
@@ -86,6 +86,21 @@
             },
             {
                 "img_url": "assets/images/gallery/resim15.jpg",
+                "alt": "galeri resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/gallery/resim6.jpg",
+                "alt": "galeri resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/gallery/resim17.jpg",
+                "alt": "galeri resim",
+                "order": 0
+            },
+            {
+                "img_url": "assets/images/gallery/resim18.png",
                 "alt": "galeri resim",
                 "order": 0
             }

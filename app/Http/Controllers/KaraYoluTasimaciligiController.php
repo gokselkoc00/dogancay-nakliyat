@@ -19,6 +19,9 @@ class KaraYoluTasimaciligiController extends Controller
         $data = KaraYoluTasimaciligi::first();
         $data = json_decode($data->data, true);
 
+        $images = $data["images"];
+        $hero = $data["hero"];
+
         if ($lang === 'tr') {
             $data = $data["tr"];
         } elseif ($lang == 'en') {
@@ -26,6 +29,10 @@ class KaraYoluTasimaciligiController extends Controller
         } elseif ($lang == 'ge') {
             $data = $data["ge"];
         }
-        return response()->json($data);
+        return response()->json([
+            'data' => $data,
+            'images' => $images,
+            'hero' => $hero,
+        ]);
     }
 }

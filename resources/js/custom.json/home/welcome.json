@@ -1,25 +1,5 @@
 [
     {
-        "tr": {
-            "title": "Uluslararası Nakliyat 'DOĞANÇAY'",
-            "button": {
-                "title": "Daha Fazla",
-                "url": "#features"
-            }
-        },
-        "en": {
-            "title": "International Shipping 'DOĞANÇAY'",
-            "button": {
-                "title": "More",
-                "url": "#features"
-            }
-        },
-        "ge": {
-            "title": "Internationaler Transport 'DOĞANÇAY'",
-            "button": {
-                "title": "Mehr",
-                "url": "#features"
-            }
-        }
+        "img_url":"assets/images/welcome/hero.jpg"
     }
 ]

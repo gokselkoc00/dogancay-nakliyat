@@ -10,6 +10,7 @@
               data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s"
               v-for="item in data"
               :key="item.id"
+              style="pointer-events: none;"
             >
               <div class="features-small-item">
                 <div class="icon">

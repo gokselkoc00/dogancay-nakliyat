@@ -1,7 +1,7 @@
 [
     {
         "whatsapp_phone": "905399300485",
-        "logo": "assets/images/logo.png",
+        "logo": "assets/images/logo/dogancaylogo.png",
         "ge": [
             {
                 "url": "home",
@@ -9,23 +9,25 @@
                 "subItems": null
             },
             {
-                "url": "#features",
-                "title": "über uns",
-                "subItems": null
-            },
-            {
-                "url": "#testimonials",
-                "title": "Unsere Dienstleistungen",
-                "subItems": null
-            },
-            {
                 "url": null,
-                "title": "Internationaler Transport",
+                "title": "Institutionell",
                 "subItems": [
                     {
-                        "url": "uluslararasi-nakliyat.index",
-                        "title": "Internationaler Transport"
+                        "url": "aboutus-inner.index",
+                        "title": "über uns"
                     },
+                    {
+                        "url": "references-inner.index",
+                        "title": "Unsere Referenzen"
+                    }
+                ]
+            },
+
+            {
+                "url": null,
+                "title": "Unsere Dienstleistungen",
+                "subItems": [
+
                     {
                         "url": "planlama-hazirlik.index",
                         "title": "Planung und Vorbereitung"
@@ -35,8 +37,8 @@
                         "title": "Checkliste für den Umzug"
                     },
                     {
-                        "url": "uluslararasi-tasima.index",
-                        "title": "Internationaler Transport"
+                        "url": "tasima-hizmetlerimiz.index",
+                        "title": "Unsere Transportdienstleistungen"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
@@ -51,8 +53,8 @@
                         "title": "Seetransport"
                     },
                     {
-                        "url": "uluslararasi-depolama.index",
-                        "title": "Internationale Lagerung"
+                        "url": "depolama.index",
+                        "title": "Lagerung"
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
@@ -61,7 +63,7 @@
                 ]
             },
             {
-                "url": "#contact-us",
+                "url": "contact-us-inner.index",
                 "title": "Kommunikation",
                 "subItems": null
             }
@@ -73,23 +75,23 @@
                 "subItems": null
             },
             {
-                "url": "#features",
-                "title": "Abouts",
-                "subItems": null
-            },
-            {
-                "url": "#testimonials",
-                "title": "Services",
-                "subItems": null
+                "url": null,
+                "title": "Institutional",
+                "subItems": [
+                    {
+                        "url": "aboutus-inner.index",
+                        "title": "About Us"
+                    },
+                    {
+                        "url": "references-inner.index",
+                        "title": "References"
+                    }
+                ]
             },
             {
                 "url": null,
-                "title": "International Shipping",
+                "title": "Services",
                 "subItems": [
-                    {
-                        "url": "uluslararasi-nakliyat.index",
-                        "title": "International Transportation"
-                    },
                     {
                         "url": "planlama-hazirlik.index",
                         "title": "Planning And Preparation"
@@ -99,8 +101,8 @@
                         "title": "Moving Checklist"
                     },
                     {
-                        "url": "uluslararasi-tasima.index",
-                        "title": "International Transport"
+                        "url": "tasima-hizmetlerimiz.index",
+                        "title": "Our Transportation Services"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
@@ -115,8 +117,8 @@
                         "title": "Maritime transport"
                     },
                     {
-                        "url": "uluslararasi-depolama.index",
-                        "title": "International Storage"
+                        "url": "depolama.index",
+                        "title": "Storage"
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
@@ -125,7 +127,7 @@
                 ]
             },
             {
-                "url": "#contact-us",
+                "url": "contact-us-inner.index",
                 "title": "Communication",
                 "subItems": null
             }
@@ -137,23 +139,23 @@
                 "subItems": null
             },
             {
-                "url": "#features",
-                "title": "Hakkımızda",
-                "subItems": null
-            },
-            {
-                "url": "#testimonials",
-                "title": "Hizmetlerimiz",
-                "subItems": null
+                "url": null,
+                "title": "Kurumsal",
+                "subItems": [
+                    {
+                        "url": "aboutus-inner.index",
+                        "title": "Hakkımızda"
+                    },
+                    {
+                        "url": "references-inner.index",
+                        "title": "Referanslarımız"
+                    }
+                ]
             },
             {
                 "url": null,
-                "title": "Ulusararası Taşıma",
+                "title": "Hizmetlerimiz",
                 "subItems": [
-                    {
-                        "url": "uluslararasi-nakliyat.index",
-                        "title": "Uluslararası Nakliyat"
-                    },
                     {
                         "url": "planlama-hazirlik.index",
                         "title": "Planlama Ve Hazırlık"
@@ -163,8 +165,8 @@
                         "title": "Taşınma Kontrol Listesi"
                     },
                     {
-                        "url": "uluslararasi-tasima.index",
-                        "title": "Uluslararası Taşıma"
+                        "url": "tasima-hizmetlerimiz.index",
+                        "title": "Taşıma Hizmetlerimiz"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
@@ -179,8 +181,8 @@
                         "title": "Denizyolu Taşımacılığı"
                     },
                     {
-                        "url": "uluslararasi-depolama.index",
-                        "title": "Uluslararası Depolama"
+                        "url": "depolama.index",
+                        "title": "Depolama"
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
@@ -189,7 +191,7 @@
                 ]
             },
             {
-                "url": "#contact-us",
+                "url": "contact-us-inner.index",
                 "title": "İletişim",
                 "subItems": null
             }

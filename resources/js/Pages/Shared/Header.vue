@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light header-area header-sticky">
     <div class="container container-fluid main-nav">
       <a href="#" class="logo mt-1">
-        <img :src="logo" alt="qtus8h1t.png" height="36" />
+        <img :src="logo" alt="Dogancay Logo" height="36" />
       </a>
       <button
         @click="toggleMobileMenu"
@@ -54,7 +54,7 @@
               </li>
               <!-- Normal başlık -->
               <li class="nav-item" v-else>
-                <a class="nav-link active" :href="item.url">{{ item.title }}</a>
+                <a class="nav-link active" :href="route(item?.url)">{{ item.title }}</a>
               </li>
             </div>
           </li>

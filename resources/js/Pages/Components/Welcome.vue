@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-area" id="welcome">
+  <div class="welcome-area" id="welcome" :style="{ backgroundImage: `url(${img_url})` }">
     <!-- ***** Header Text Start ***** -->
     <div class="header-text">
       <div class="container">
@@ -7,12 +7,7 @@
           <div
             class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12"
           >
-            <h1>
-              {{ data.title }} <strong></strong
-              ><br /><strong></strong>
-            </h1>
-            <p></p>
-            <a :href="data?.button?.url" class="main-button-slider">{{ data?.button?.title}}</a>
+
           </div>
         </div>
       </div>
@@ -29,6 +24,7 @@ export default {
   data() {
     return {
       data: {},
+      img_url:""
     };
   },
   mounted() {
@@ -40,7 +36,7 @@ export default {
         axios
           .get(route('welcome.data'))
           .then((response) => {
-            this.data = response.data;
+            this.img_url = response.data;
           })
           .catch((error) => {
             console.error(error);
@@ -56,5 +52,9 @@ export default {
 <style scoped>
 .main-button-slider:hover{
     background: #13547a !important;
+}
+
+.welcome-area{
+    height: 80vh;
 }
 </style>

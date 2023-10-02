@@ -1,0 +1,37 @@
+[
+    {
+        "hero": "assets/images/havayoluTas/resim1.jpg",
+        "images": [
+            {
+                "img_url": "assets/images/havayoluTas/havayolutasimaciligi.jpeg"
+            }
+        ],
+        "tr": {
+            "title": "HAVAYOLU TAŞIMACILIĞI",
+            "data": [
+                {
+                    "title": "Uluslararası Ev ve Ofis Taşıma:",
+                    "text": "Hava yoluyla yapılan uluslararası ev ve ofis taşıma işlemi diğer taşıma metotlarına göre en hızlı taşıma yöntemidir. Bunula birlikte bu yöntemin diğerlerine göre en pahalı taşıma şekli olduğunu unutmamanız gerekir. Nispeten küçük ebatlarda ve sizin için acil olarak ihtiyacınız olacak veya çok değerli eşyalarınız için hava yolu tercih etmenizi öneririz. Hava yolu taşımacılığına uygun paketlemeden sonra eşyalarınız uygun büyüklükteki hava kargo paletleri ile uçaklara yerleştirilir. Eşyalarınızın büyüklüğü, miktarı, uçak cinsi ve uçak kargo kapı genişliği gibi faktörler hava yolu ile ev ve ofis taşıma için önemli olan faktörlerdir."
+                }
+            ]
+        },
+        "en": {
+            "title": "AIRWAYS TRANSPORTING",
+            "data": [
+                {
+                    "title": "International Home and Office Moving:",
+                    "text": "International home and office transportation by air is the fastest transportation method compared to other transportation methods. However, you should not forget that this method is the most expensive form of transportation compared to others. We recommend that you choose air transportation for items that are relatively small in size and that you will need urgently or are very valuable. After packaging suitable for air transportation, your belongings are placed on planes with air cargo pallets of appropriate size. Factors such as the size and quantity of your belongings, aircraft type and aircraft cargo door width are important factors for home and office transportation by air."
+                }
+            ]
+        },
+        "ge": {
+            "title": "LUFTWEGE-TRANSPORT",
+            "data": [
+                {
+                    "title": "Internationaler Haus- und Büroumzug:",
+                    "text": "Der internationale Heim- und Bürotransport per Flugzeug ist im Vergleich zu anderen Transportmethoden die schnellste Transportmethode. Sie sollten jedoch nicht vergessen, dass diese Methode im Vergleich zu anderen die teuerste Transportart ist. Für relativ kleine Gegenstände, die Sie dringend benötigen oder die sehr wertvoll sind, empfehlen wir den Lufttransport. Nach der lufttransportgerechten Verpackung werden Ihre Sachen auf Luftfrachtpaletten entsprechender Größe in Flugzeuge verladen. Faktoren wie die Größe und Menge Ihrer Gegenstände, der Flugzeugtyp und die Breite der Flugzeugfrachttüren sind wichtige Faktoren für den Heim- und Bürotransport per Flugzeug."
+                }
+            ]
+        }
+    }
+]

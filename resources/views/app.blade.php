@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/images/meta/meta-logo.png" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 
@@ -14,6 +15,9 @@
     <link href="{{ asset('assets/css/font-awesome.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/templatemo-softy-pinko.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/flex-slider.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/icon/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css') }}" rel="stylesheet">
 
     @routes
     @inertiaHead

@@ -1,7 +1,8 @@
 <template>
   <section class="testimonials" id="testimonials">
     <div class="container">
-      <div class="row mt-5">
+        <div class="hr"></div>
+      <div class="row">
         <div class="col-lg-12">
           <div class="center-heading">
             <h2 class="section-title">
@@ -30,16 +31,16 @@
               <img class="img-fluid custom-img" :src="item.img_url" alt="" />
             </div>
             <div class="blog-content">
-              <h3>
+              <h3 class="marker">
                 <a href="#">{{ item.title }}</a>
               </h3>
               <div class="text">
                 {{ item.text }}
               </div>
             </div>
-            <a :href="item.url" class="main-button" target="_blank">{{
+            <Link :href="item.url" class="main-button" >{{
               data.btn_text
-            }}</a>
+            }}</Link>
           </div>
         </div>
       </div>
@@ -79,10 +80,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .custom-img {
-  max-height: 14rem;
-  min-height: 12.5rem;
+  max-height: 260px;
+  min-height: 260px;
+  width: 100%;
   border-radius: 20px;
+}
+.blog-post-thumb .blog-content .marker a:hover{
+    color: #2186c2;
 }
 </style>

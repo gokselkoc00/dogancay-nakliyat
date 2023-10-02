@@ -1,0 +1,21 @@
+/* Header Title Animasyonu */
+.slide-title-enter-active {
+    transition: all 2s ease-out;
+  }
+
+  .slide-title-enter-from,
+  .slide-title-leave-to {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  /* Header Image Animasyonu */
+
+  .slide-img-enter-active {
+    transition: all 2s ease-out;
+  }
+
+  .slide-img-enter-from,
+  .slide-img-leave-to {
+    transform: translateX(300px);
+    opacity: 0;
+  }

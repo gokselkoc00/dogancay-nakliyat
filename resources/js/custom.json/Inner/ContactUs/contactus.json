@@ -1,0 +1,55 @@
+[
+    {
+        "tr": {
+            "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.",
+            "form_title": "İletişim Formu",
+            "title": "Evden Eve Nakliyat Çağrı Merkezi",
+            "btn_text": "Mesaj Gönder",
+            "place_holder": {
+                "name": "Ad - Soyad",
+                "email": "E-Mail Adresi",
+                "message": "Mesaj"
+            },
+            "info_names": {
+                "adres": "Adres: ",
+                "telefon": "Telefon: ",
+                "faks": "Faks: ",
+                "email": "Mail: "
+            }
+        },
+        "en": {
+            "contact_text": "To get information about our services, you can reach us at any time of the week on our support line at 444 1980.",
+            "form_title": "Contact Form",
+            "title": "House to House Transportation Call Center",
+            "btn_text": "Send Message",
+            "place_holder": {
+                "name": "Name - surname",
+                "email": "E-Mail Address",
+                "message": "Message"
+            },
+            "info_names": {
+                "adres": "Address: ",
+                "telefon": "Phone: ",
+                "faks": "Fax: ",
+                "email": "Mail: "
+            }
+        },
+        "ge": {
+            "contact_text": "Um Informationen zu unseren Dienstleistungen zu erhalten, erreichen Sie uns zu jeder Zeit der Woche unter unserer Support-Hotline unter 444 1980.",
+            "form_title": "Kontakt Formular",
+            "title": "Callcenter für Haus-zu-Haus-Transporte",
+            "btn_text": "Nachricht senden",
+            "place_holder": {
+                "name": "Vorname Familienname",
+                "email": "E-Mail Adresse",
+                "message": "Nachricht"
+            },
+            "info_names": {
+                "adres": "Adresse: ",
+                "telefon": "Telefon: ",
+                "faks": "Fax: ",
+                "email": "E-Mail: "
+            }
+        }
+    }
+]

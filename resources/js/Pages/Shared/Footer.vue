@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div
-          class="d-flex align-items-center justify-content-between col-lg-12 col-md-12 col-sm-12"
+          class="d-flex align-items-center justify-content-between col-lg-12 col-md-12 col-sm-12 "
         >
           <ul class="social">
             <li v-for="(item, index) in footer" :key="index">

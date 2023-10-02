@@ -1,7 +1,9 @@
 <template>
-  <section class="section padding-top-70 padding-bottom-0" id="features">
+  <section class="section  padding-bottom-0" id="features" style="padding-top: 30px;">
     <div class="container">
-      <div v-for="(item, index) in data" :key="index">
+        <div class="hr"></div>
+
+      <div v-for="(item, index) in data" :key="index" class="mt-5">
         <div class="row" v-if="item.position == 'L'">
           <div
             class="col-lg-5 col-md-12 col-sm-12 align-self-center"

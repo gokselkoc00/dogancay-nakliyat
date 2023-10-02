@@ -1,6 +1,6 @@
 /*
 
-Softy 
+Softy
 
 https://templatemo.com/tm-535-softy-pinko
 
@@ -22,17 +22,17 @@ Table of contents
 12. preloader
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body,
@@ -169,10 +169,10 @@ ul {
   margin-bottom: 0px;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -442,10 +442,10 @@ button.main-button:hover {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 .header-area {
   position: fixed;
@@ -717,10 +717,10 @@ header
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 welcome
---------------------------------------------- 
+---------------------------------------------
 */
 .welcome-area {
   overflow: hidden;
@@ -728,7 +728,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/evden_eve.jpg);
+  /* background-image: url(../images/evden_eve.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -839,10 +839,10 @@ welcome
 }
 
 
-/* 
+/*
 ---------------------------------------------
 features
---------------------------------------------- 
+---------------------------------------------
 */
 .features-small-item {
   cursor: pointer;
@@ -929,10 +929,10 @@ features
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 parallax & home seperator
---------------------------------------------- 
+---------------------------------------------
 */
 .mini {
   min-height: 215px;
@@ -1074,7 +1074,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/20140209_114057.jpg);
+  /* background-image: url(../images/20140209_114057.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1107,7 +1107,7 @@ parallax & home seperator
   height: 32px;
   top: 160px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  /* background: url(../images/circle-dec.png) center center no-repeat; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1125,7 +1125,7 @@ parallax & home seperator
   height: 32px;
   top: 140px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  /* background: url(../images/circle-dec.png) center center no-repeat; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1207,10 +1207,10 @@ parallax & home seperator
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 team
---------------------------------------------- 
+---------------------------------------------
 */
 .team-item {
   background: #fff;
@@ -1293,10 +1293,10 @@ team
   line-height: 26px;
 }
 
-/* 
+/*
 ---------------------------------------------
 pricing
---------------------------------------------- 
+---------------------------------------------
 */
 .pricing-item {
   background: #000000;
@@ -1410,10 +1410,10 @@ pricing
   margin-top: 50px;
 }
 
-/* 
+/*
 ---------------------------------------------
 blog
---------------------------------------------- 
+---------------------------------------------
 */
 .blog-post-thumb {
   text-align: center;
@@ -1487,10 +1487,10 @@ blog
 }
 
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 #contact-us {
@@ -1540,10 +1540,10 @@ contact
   padding: 20px;
 }
 
-/* 
+/*
 ---------------------------------------------
 footer
---------------------------------------------- 
+---------------------------------------------
 */
 footer {
   background-image: linear-gradient(127deg, #ffffff 0%, #ffffff 91%);
@@ -1606,10 +1606,10 @@ footer .copyright {
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 #preloader {
   overflow: hidden;
@@ -1709,5 +1709,5 @@ preloader
   color: #fff;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.152); /* Saydamlığı ayarlayın */
-  
+
 }

@@ -12,7 +12,7 @@ class CounterController extends Controller
         $lang = session('lang');
         $data = Counter::first();
         $data = json_decode($data->data, true);
-
+        $image = $data["img_url"];
         if ($lang === 'tr') {
             $data = $data["tr"];
         } elseif ($lang == 'en') {
@@ -20,6 +20,9 @@ class CounterController extends Controller
         } elseif ($lang == 'ge') {
             $data = $data["ge"];
         }
-        return response()->json($data);
+        return response()->json([
+            'data'=>$data,
+            'image' => $image
+        ]);
     }
 }

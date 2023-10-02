@@ -10,7 +10,7 @@
           <Swiper
             class="pt-3"
             :autoplay="{
-              delay: 150000,
+              delay: 1500,
               disableOnInteraction: false,
             }"
             :scrollbar="false"

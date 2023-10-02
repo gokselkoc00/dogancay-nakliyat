@@ -13,8 +13,8 @@
 
 
 -- dogancay_nakliyat için veritabanı yapısı dökülüyor
-CREATE DATABASE IF NOT EXISTS `dogancay_nakliyat` /*!40100 DEFAULT CHARACTER SET utf16 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `dogancay_nakliyat`;
+CREATE DATABASE IF NOT EXISTS `dogancay_test` /*!40100 DEFAULT CHARACTER SET utf16 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `dogancay_test`;
 
 -- tablo yapısı dökülüyor dogancay_nakliyat.about_us
 CREATE TABLE IF NOT EXISTS `about_us` (

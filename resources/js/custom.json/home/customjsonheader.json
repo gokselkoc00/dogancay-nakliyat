@@ -1,7 +1,61 @@
 [
     {
+
         "whatsapp_phone": "905399300485",
         "logo": "assets/images/logo/dogancaylogo.png",
+        "languages": {
+            "tr": [
+                {
+                    "name": "Türkçe",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "İngilizce",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Almanca",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ],
+            "en": [
+                {
+                    "name": "Turkish",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "English",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Germany",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ],
+            "ge": [
+                {
+                    "name": "Türkisch",
+                    "key": "tr",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "name": "Englisch",
+                    "key": "en",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "name": "Deutsch",
+                    "key": "ge",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ]
+        },
         "ge": [
             {
                 "url": "home",

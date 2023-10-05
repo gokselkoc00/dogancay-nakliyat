@@ -18,7 +18,7 @@
       </button>
       <div class="collapse navbar-collapse custom-navbar" id="navbarScroll">
         <ul
-          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll align-items-center"
           style="--bs-scroll-height: 100px"
         >
           <li class="nav-item" v-for="(item, index) in headerData" :key="index">
@@ -54,11 +54,52 @@
               </li>
               <!-- Normal başlık -->
               <li class="nav-item" v-else>
-                <a class="nav-link active" :href="route(item?.url)">{{ item.title }}</a>
+                <a class="nav-link active" :href="route(item?.url)">{{
+                  item.title
+                }}</a>
               </li>
             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link active dropdown-toggle"
+              href="#"
+              id="navbarScrollingDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center;
+              "
+            >
+              <img
+                class=""
+                :src="$page.props.site_url + currentLanguage?.img_url"
+              />
+              <p class="lang-dropdown-text">
+                {{ currentLanguage?.name }}
+              </p>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li v-for="(item, index) in languages" :key="index">
+                <a
+                  style="text-align: left"
+                  class="dropdown-item"
+                  @click.prevent="changeLanguage(item.key)"
+                >
+                  <img
+                    class="mr-2"
+                    :src="$page.props.site_url + item?.img_url"
+                  />
+                  {{ item.name }}
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item ml-1">
             <a
               class="whatsapp"
               :href="'https://api.whatsapp.com/send?phone=' + whatsapp_phone"
@@ -86,9 +127,17 @@ export default {
       headerData: {},
       logo: "",
       whatsapp_phone: "",
+      languages: [],
     };
   },
-
+  computed: {
+    currentLanguage() {
+      const lang = this.$page.props.lang;
+      if (this.languages != null || this.languages != []) {
+        return this.languages.find((language) => language.key === lang);
+      }
+    },
+  },
   mounted() {
     this.getData();
     this.initializeWindowResizeHandler();
@@ -102,6 +151,7 @@ export default {
             this.headerData = response.data.data;
             this.logo = response.data.logo;
             this.whatsapp_phone = response.data.whatsapp_phone;
+            this.languages = response.data.languages;
           })
           .catch((error) => {
             console.error(error);
@@ -138,6 +188,18 @@ export default {
         });
       });
     },
+  },
+
+  setup() {
+    const changeLanguage = (lang) => {
+      axios.post("/set-language", { language: lang }).then(() => {
+        window.location.reload();
+      });
+    };
+
+    return {
+      changeLanguage,
+    };
   },
 };
 </script>
@@ -183,10 +245,18 @@ export default {
   color: #1e1e1e !important;
 }
 .custom-wp {
-  max-height: 2rem !important;
+  max-height: 2.5rem !important;
 }
 .flag-img {
   max-height: 1.3125rem !important;
+}
+
+.lang-dropdown-text {
+  color: #f5f5f5;
+  margin-left: 0.25rem;
+}
+.lang-dropdown-text:hover {
+  color: #7d0e0e !important;
 }
 
 @media (max-width: 992px) {

@@ -42,12 +42,12 @@
             @submit.prevent="createContactForm"
           >
             <div class="row justify-content-center">
-              <h3 style="color: #0d4aa0b2">
+              <h3 >
                 {{ data.data?.form_title }}
               </h3>
             </div>
             <div class="row mt-4">
-              <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="col-lg-12 col-md-12 col-sm-12">
                 <fieldset>
                   <input
                     name="name"
@@ -66,7 +66,7 @@
                   </div>
                 </fieldset>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="col-lg-12 col-md-12 col-sm-12">
                 <fieldset>
                   <input
                     name="email"
@@ -84,7 +84,7 @@
                   </div>
                 </fieldset>
               </div>
-              <div class="col-lg-12 mt-3">
+              <div class="col-lg-12 ">
                 <fieldset>
                   <textarea
                     name="message"
@@ -200,14 +200,8 @@ export default {
 
 .custom-form {
   margin-top: 0px;
-  border-top: 3px solid #2186c2 !important;
-  border-bottom: 3px solid #2186c2 !important;
-  border-left: 3px solid #2186c2 !important;
-  border-right: 3px solid #2186c2 !important;
-  border-radius: 10px !important;
+
   padding: 30px !important;
-  background: white;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12) !important;
 }
 @media (max-width: 992px) {
   .contact-form-container {

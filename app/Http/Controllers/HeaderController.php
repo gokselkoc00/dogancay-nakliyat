@@ -15,17 +15,22 @@ class HeaderController extends Controller
         $data = json_decode($data->data, true);
         $logo = $data['logo'];
         $whatsapp_phone = $data['whatsapp_phone'];
+        $headerData = [];
         if ($lang === 'tr') {
-            $data = $data["tr"];
+            $headerData = $data["tr"];
+            $languages = $data["languages"]["tr"];
         } elseif ($lang == 'en') {
-            $data = $data["en"];
+            $headerData = $data["en"];
+            $languages = $data["languages"]["tr"];
         } elseif ($lang == 'ge') {
-            $data = $data["ge"];
+            $headerData = $data["ge"];
+            $languages = $data["languages"]["tr"];
         }
         return response()->json([
-            'data' => $data,
+            'data' => $headerData,
             'logo' => $logo,
-            'whatsapp_phone' => $whatsapp_phone
+            'whatsapp_phone' => $whatsapp_phone,
+            'languages' => $languages,
         ]);
     }
 }

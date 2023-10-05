@@ -1,9 +1,9 @@
 [
     {
-        "hero": "assets/images/ing.jpg",
+        "hero": "assets/images/planlama-hazirlik/ing.jpg",
         "images": [
             {
-                "img_url": "assets/images/planlamahazirlik.png"
+                "img_url": "assets/images/planlama-hazirlik/planlamahazirlik.jpeg"
             }
         ],
         "tr": {

@@ -134,6 +134,8 @@ export default {
     currentLanguage() {
       const lang = this.$page.props.lang;
       if (this.languages != null || this.languages != []) {
+        console.log(lang)
+
         return this.languages.find((language) => language.key === lang);
       }
     },

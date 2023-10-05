@@ -21,10 +21,10 @@ class HeaderController extends Controller
             $languages = $data["languages"]["tr"];
         } elseif ($lang == 'en') {
             $headerData = $data["en"];
-            $languages = $data["languages"]["tr"];
+            $languages = $data["languages"]["en"];
         } elseif ($lang == 'ge') {
             $headerData = $data["ge"];
-            $languages = $data["languages"]["tr"];
+            $languages = $data["languages"]["ge"];
         }
         return response()->json([
             'data' => $headerData,

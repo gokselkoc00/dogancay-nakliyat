@@ -22,8 +22,10 @@ class ContactUsController extends Controller
         $data = json_decode($data->data, true);
         $dataGeneral = GeneralInformation::first();
         $dataGeneral = json_decode($dataGeneral->data, true);
+
         $map_url = $dataGeneral["map_url"];
-        
+        $hero = $data["hero"];
+
         if ($lang === 'tr') {
             $data = $data["tr"];
             $dataGeneral = $dataGeneral["tr"];
@@ -37,7 +39,8 @@ class ContactUsController extends Controller
         return response()->json([
             'data' => $data,
             'dataGeneral' => $dataGeneral,
-            'map_url' => $map_url
+            'map_url' => $map_url,
+            'hero' => $hero,
         ]);
     }
 }

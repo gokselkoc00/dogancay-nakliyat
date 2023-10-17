@@ -2,10 +2,10 @@
   <section class="section padding-top-70 padding-bottom-0">
     <div class="container d-block overflow-hidden">
       <div class="hr"></div>
-      <div class="col-md-12 mt-5 text-center">
-        <div>
+      <div class="row mt-5 text-center ">
+        <div class="col-md-12 col-lg-4 mt-5">
             <h2 class="section-title">{{ title?.title }}</h2>
-            <p class="mt-3">{{ title?.text }}</p>
+            <p class="mt-3 text-left">{{ title?.text }}</p>
         </div>
         <Swiper
           :autoplay="{
@@ -17,7 +17,7 @@
             clickable: true,
           }"
           :modules="modules"
-          class="Swiper"
+          class="Swiper col-md-12 col-lg-8"
         >
           <SwiperSlide v-for="item in images" :key="item.id"
             ><img class="img-fluid custom-slide-img" :src="item.img_url"

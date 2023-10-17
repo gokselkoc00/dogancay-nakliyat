@@ -19,7 +19,6 @@ class DepolamaController extends Controller
         $data = Depolama::first();
         $data = json_decode($data->data, true);
 
-        $images = $data["images"];
         $hero = $data["hero"];
 
         if ($lang === 'tr') {
@@ -31,7 +30,6 @@ class DepolamaController extends Controller
         }
         return response()->json([
             'data' => $data,
-            'images' => $images,
             'hero' => $hero,
         ]);
     }

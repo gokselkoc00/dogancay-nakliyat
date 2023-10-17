@@ -2,43 +2,43 @@
     {
         "tr": [
             {
-                "title": "Uluslararası Nakliyat",
-                "position":"L",
-                "img_url": "assets/images/noun-network-2528735.png",
+                "title": "Taşıma Hizmetlerimiz",
+                "position": "R",
+                "img_url": "assets/images/features/resim3.jpg",
                 "text": "Başka bir eve taşınmak insanların şahsi ve toplumsal hayatlarında karşılaştığı stres dolu bir süreçtir.  Uluslararası taşınma ise bu stres seviyesini çok yukarılara çıkarmaktadır. (Yapılan bir araştırmaya göre bu seviye boşanma sürecinden bile fazladır). Bu yüzden Doğançay Nakliyat olarak hedefimiz sizin gönül rahatlığıyla taşınmanızı sağlayacak bir müşteri memnuniyeti sağlamaktır."
             },
             {
                 "title": "Geniş Olanaklar",
-                "position":"R",
-                "img_url": "assets/images/noun-truck-1009383.png",
+                "position": "L",
+                "img_url": "assets/images/features/resim2.jpg",
                 "text": "Coğrafi sınırlar gibi engellere takılmadan ülke içinde herhangi bir noktadan dünyanın birçok ülkesine ev ve ofis taşıma servisi sunmaktadır. Paketleme, taşıma, gümrük muayene işlemleri, depolama, eşya yerleşimi ve ilgili diğer taşınma sürecinin tamamında bir bütün olarak ele çalıp çözüm sunmaktadır."
             }
         ],
         "en": [
             {
                 "title": "International Shipping",
-                "position":"L",
-                "img_url": "assets/images/noun-network-2528735.png",
+                "position": "R",
+                "img_url": "assets/images/features/resim3.jpg",
                 "text": "Moving to another house is a stressful process that people face in their personal and social lives. International moving increases this stress level much higher. (According to a study, this level is even higher than the divorce process). That's why, as Doğançay Transportation, our goal is to provide customer satisfaction that will allow you to move with peace of mind."
             },
             {
                 "title": "Wide Possibilities",
-                "position":"R",
-                "img_url": "assets/images/noun-truck-1009383.png",
+                "position": "L",
+                "img_url": "assets/images/features/resim2.jpg",
                 "text": "It offers home and office moving services from any point within the country to many countries in the world, without encountering obstacles such as geographical borders. It deals with packaging, transportation, customs inspection procedures, storage, goods placement and other related moving processes as a whole and offers solutions."
             }
         ],
-        "ge":[
+        "ge": [
             {
                 "title": "Internationaler Transport",
-                "position":"L",
-                "img_url": "assets/images/noun-network-2528735.png",
+                "position": "R",
+                "img_url": "assets/images/features/resim3.jpg",
                 "text": "Der Umzug in ein anderes Haus ist ein stressiger Prozess, dem Menschen in ihrem persönlichen und sozialen Leben ausgesetzt sind. Bei internationalen Umzügen erhöht sich dieser Stresspegel deutlich. (Laut einer Studie liegt dieser Wert sogar über dem Scheidungsprozess). Aus diesem Grund ist es unser Ziel als Doğançay Transportation, die Kundenzufriedenheit zu gewährleisten, damit Sie beruhigt umziehen können."
             },
             {
                 "title": "Große Möglichkeiten",
-                "position":"R",
-                "img_url": "assets/images/noun-truck-1009383.png",
+                "position": "L",
+                "img_url": "assets/images/features/resim2.jpg",
                 "text": "Es bietet Haus- und Büroumzugsdienste von jedem Punkt des Landes in viele Länder der Welt an, ohne auf Hindernisse wie geografische Grenzen zu stoßen. Es befasst sich mit Verpackung, Transport, Zollkontrollverfahren, Lagerung, Warenabwicklung und anderen damit verbundenen Umzugsprozessen als Ganzes und bietet Lösungen an."
             }
         ]

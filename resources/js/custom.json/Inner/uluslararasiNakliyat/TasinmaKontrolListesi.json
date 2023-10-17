@@ -1,18 +1,13 @@
 [
     {
-        "hero": "assets/images/tasinmaKontrolLis/resim1.jpg",
-        "images": [
-            {
-                "img_url": "assets/images/tasinmaKontrolLis/resim2.jpg"
-            }
-        ],
+        "hero": "assets/images/tasinmaKontrolLis/hero.jpg",
         "tr": {
             "title": "TAŞINMA KONTROL LİSTESİ",
             "check_list_title": "Hazırlık Dönemi",
             "data": [
                 {
-                    "title": "Taşınma Günü:",
-                    "text": "Taşınma günü görevlilerimiz geldiğinde evde karşılayacak birisi olduğundan emin olunuz. Taşıma görevlilerimiz ile taşınma önce son kez gezerek beraber kontrol ediniz ve taşınacak eşyaları ve ekstra dikkat edilmesi gereken hususları belirtiniz. Bu kontrolde çatı katını, apartman altındaki mahzende bulunan eşyaları da unutmayınız. Taşıma sonunda geriye taşınmasını istediğiniz hiçbir malzemenin kalmadığından emin olunuz. Eşyalar taşındıktan sonra paketleme envanter listesini kontrol ediniz. En sonunda imzalanması geren belgeleri imzalayınız."
+                    "text": "Taşınma günü görevlilerimiz geldiğinde evde karşılayacak birisi olduğundan emin olunuz. Taşıma görevlilerimiz ile taşınma önce son kez gezerek beraber kontrol ediniz ve taşınacak eşyaları ve ekstra dikkat edilmesi gereken hususları belirtiniz. Bu kontrolde çatı katını, apartman altındaki mahzende bulunan eşyaları da unutmayınız. Taşıma sonunda geriye taşınmasını istediğiniz hiçbir malzemenin kalmadığından emin olunuz. Eşyalar taşındıktan sonra paketleme envanter listesini kontrol ediniz. En sonunda imzalanması geren belgeleri imzalayınız.",
+                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
                 }
             ],
             "check_list": [
@@ -101,8 +96,8 @@
             "check_list_title": "Preparatory Period",
             "data": [
                 {
-                    "title": "Moving Day:",
-                    "text": "When our staff arrives on moving day, make sure there is someone to greet you at home. Check with our moving officers for the last time before the move and specify the items to be moved and the issues that need extra attention. During this check, do not forget the attic and the belongings in the cellar under the apartment. At the end of the transportation, make sure that there is no material left behind that you want to carry. After the items are moved, check the packing inventory list. Finally, sign the documents that need to be signed."
+                    "text": "When our staff arrives on moving day, make sure there is someone to greet you at home. Check with our moving officers for the last time before the move and specify the items to be moved and the issues that need extra attention. During this check, do not forget the attic and the belongings in the cellar under the apartment. At the end of the transportation, make sure that there is no material left behind that you want to carry. After the items are moved, check the packing inventory list. Finally, sign the documents that need to be signed.",
+                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
                 }
             ],
             "check_list": [
@@ -189,11 +184,10 @@
         "ge": {
             "title": "UMZUGS-CHECKLISTE",
             "check_list_title": "Vorbereitungszeit",
-
             "data": [
                 {
-                    "title": "Umzugstag:",
-                    "text": "Wenn unsere Mitarbeiter am Umzugstag eintreffen, sorgen Sie dafür, dass Sie zu Hause von jemandem begrüßt werden. Sprechen Sie vor dem Umzug ein letztes Mal mit unseren Umzugsbeauftragten und legen Sie fest, welche Gegenstände bewegt werden sollen und welche Probleme besondere Aufmerksamkeit erfordern. Vergessen Sie bei dieser Kontrolle nicht den Dachboden und die Sachen im Keller unter der Wohnung. Stellen Sie am Ende des Transports sicher, dass kein Material zurückbleibt, das Sie transportieren möchten. Überprüfen Sie nach dem Umzug der Artikel die Verpackungsinventarliste. Unterschreiben Sie abschließend die zu unterzeichnenden Dokumente."
+                    "text": "Wenn unsere Mitarbeiter am Umzugstag eintreffen, sorgen Sie dafür, dass Sie zu Hause von jemandem begrüßt werden. Sprechen Sie vor dem Umzug ein letztes Mal mit unseren Umzugsbeauftragten und legen Sie fest, welche Gegenstände bewegt werden sollen und welche Probleme besondere Aufmerksamkeit erfordern. Vergessen Sie bei dieser Kontrolle nicht den Dachboden und die Sachen im Keller unter der Wohnung. Stellen Sie am Ende des Transports sicher, dass kein Material zurückbleibt, das Sie transportieren möchten. Überprüfen Sie nach dem Umzug der Artikel die Verpackungsinventarliste. Unterschreiben Sie abschließend die zu unterzeichnenden Dokumente.",
+                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
                 }
             ],
             "check_list": [

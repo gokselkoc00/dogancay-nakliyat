@@ -3,17 +3,17 @@
         "tr": [
             {
                 "title": "Eşya Depolama",
-                "img_url": "assets/images/featured-item-01.png",
+                "img_url": "fa-solid fa-warehouse",
                 "text": "Evinizde bulunan atmaya kıyamadığınız veya fazla malzemelerinizi Ankara ve İstanbul’da bulunan Eşya depolama merkezlerimizde saklayabilirsiniz."
             },
             {
                 "title": "Evden Eve Nakliyat",
-                "img_url": "assets/images/reassembly_icon_1.png",
+                "img_url": "fa-solid fa-boxes-packing",
                 "text":"Eşyalarınızın Belirlediğiniz adresler arası kapalı kasa kamyonlar içerisinde taşıma hizmetini sağlamaktayız. Kurumsal evden eve nakliyat hizmeti için 444 1980 numaralı çağrı merkezinden ekzpersiz randevusu oluşturun."
             },
             {
                 "title": "Parça Eşya Taşıma",
-                "img_url": "assets/images/reassembly_icon_2.png",
+                "img_url": "fa-solid fa-truck-arrow-right",
                 "text": "Parça eşya taşıma hizmeti için İster Ankara içi isterseniz de diğer illere Doğançay Evden Eve Nakliyat güvencesi ile eşyalarınızı taşıtın."
             }
         ],

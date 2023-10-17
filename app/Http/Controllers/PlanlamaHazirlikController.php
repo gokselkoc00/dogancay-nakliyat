@@ -19,9 +19,8 @@ class PlanlamaHazirlikController extends Controller
         $data = PlanlamaHazirlik::first();
         $data = json_decode($data->data, true);
 
-        $images = $data["images"];
         $hero = $data["hero"];
-        
+
         if ($lang === 'tr') {
             $data = $data["tr"];
         } elseif ($lang == 'en') {
@@ -31,7 +30,6 @@ class PlanlamaHazirlikController extends Controller
         }
         return response()->json([
             'data' => $data,
-            'images' => $images,
             'hero' => $hero,
         ]);
     }

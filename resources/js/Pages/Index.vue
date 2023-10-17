@@ -1,15 +1,15 @@
 <template>
-  <Head title="Anasayfa"></Head>
-  <Layout>
-    <Welcome />
-    <FeaturesCards />
-    <AboutUs />
-    <Features />
-    <Blog />
-    <Gallery />
-    <References />
-    <Contact :errors="errors"/>
-  </Layout>
+    <Head title="Anasayfa"></Head>
+    <Layout>
+        <Welcome />
+        <FeaturesCards />
+        <AboutUs />
+        <Features />
+        <Blog />
+        <Gallery />
+        <References />
+        <Contact :errors="errors" />
+    </Layout>
 </template>
 
 <script>
@@ -24,20 +24,20 @@ import Gallery from "./Components/Gallery.vue";
 import References from "./Components/References.vue";
 import Contact from "./Components/Contact.vue";
 export default {
-  props: {
-    errors: Object,
-  },
-  components: {
-    Layout,
-    Welcome,
-    AboutUs,
-    FeaturesCards,
-    Features,
-    Counter,
-    Blog,
-    Gallery,
-    References,
-    Contact,
-  },
+    props: {
+        errors: Object,
+    },
+    components: {
+        Layout,
+        Welcome,
+        AboutUs,
+        FeaturesCards,
+        Features,
+        Counter,
+        Blog,
+        Gallery,
+        References,
+        Contact,
+    },
 };
 </script>

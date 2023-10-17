@@ -18,6 +18,7 @@ class ContactController extends Controller
         $dataGeneral = GeneralInformation::first();
         $dataGeneral = json_decode($dataGeneral->data, true);
 
+
         if ($lang === 'tr') {
             $data = $data["tr"];
             $dataGeneral = $dataGeneral["tr"];
@@ -28,24 +29,27 @@ class ContactController extends Controller
             $data = $data["ge"];
             $dataGeneral = $dataGeneral["ge"];
         }
-        return response()->json(['data' => $data, 'dataGeneral' => $dataGeneral]);
+        return response()->json([
+            'data' => $data,
+            'dataGeneral' => $dataGeneral
+        ]);
     }
 
     public function store(ContactFormRequest $request)
     {
-
         $isValidated =  $request->validated();
         if ($isValidated) {
 
             $isCreated = ContactForm::create([
                 'name' => $request->name,
+                'last_name' => $request->last_name,
                 'email' => $request->email,
+                'phone' => $request->phone,
                 'message' => $request->message,
             ]);
             if ($isCreated) {
-                 redirect()->back();
+                redirect()->back();
             }
         }
-
     }
 }

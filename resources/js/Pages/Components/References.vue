@@ -1,5 +1,5 @@
 <template>
-  <section class="section padding-top-70 padding-bottom-0">
+  <section class="section padding-top-70" style="padding-bottom: 1rem;">
     <div class="container d-block overflow-hidden">
       <div class="hr"></div>
       <div class="col-lg-12">
@@ -143,9 +143,9 @@ export default {
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  border: #2186c2 solid 4px;
-  border-radius: 20px;
-  background: #f5f5f5;
+  border: #ccc solid 1px;
+  border-radius: 4px;
+  /* background: #f5f5f5; */
 }
 @media (max-width: 1200px) {
   .icon-box {

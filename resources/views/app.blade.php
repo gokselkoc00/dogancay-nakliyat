@@ -15,10 +15,14 @@
     <link href="{{ asset('assets/css/font-awesome.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/templatemo-softy-pinko.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/flex-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/icon/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css') }}"
+        rel="stylesheet">
+    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
 
+    <!-- ICON LIBRARIES -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     @routes
     @inertiaHead
 </head>
@@ -38,7 +42,6 @@
     <link href="{{ asset('assets/js/custom.js') }}" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 </body>
 
 </html>

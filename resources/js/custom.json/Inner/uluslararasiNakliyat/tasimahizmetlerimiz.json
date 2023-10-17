@@ -1,24 +1,16 @@
 [
     {
-        "hero": "assets/images/tasimahizmetleri/tion.jpg",
-        "images": [
-            {
-                "img_url": "assets/images/tasimahizmetleri/resim1.jpg"
-            },
-            {
-                "img_url": "assets/images/tasimahizmetleri/resim2.jpg"
-            }
-        ],
+        "hero": "assets/images/tasimahizmetleri/hero.jpg",
         "tr": {
             "title": "TAŞIMA HİZMETLERİMİZ",
             "data": [
                 {
-                    "title": "Hizmetlerimiz:",
-                    "text": "Uluslararası taşıma hizmetimiz uluslararası firmaların, yurtdışına görevlendirilmiş diplomatik personelin ve sivil şahısların uluslararası ev ve ofis taşıma işlemlerini kapsamaktadır. Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz."
+                    "text": "Uluslararası taşıma hizmetimiz uluslararası firmaların, yurtdışına görevlendirilmiş diplomatik personelin ve sivil şahısların uluslararası ev ve ofis taşıma işlemlerini kapsamaktadır. Bu hizmeti deniz, hava, ve kara yoluyla yapılan taşımacılık ile paketleme, self-storage ve akıllı depolama hizmetleri dahil olarak veriyoruz.",
+                    "img_url": "assets/images/tasimahizmetleri/resim1.jpg"
                 },
                 {
-                    "title": "Taşıma Metotları:",
-                    "text": "Uluslararası ev ve ofis taşımacılığında taşınma metodu belirlenirken bazı kriterlere göre kara verilir. Bunlar ne kadar zamanda taşınma isteniyor, eşyaların büyüklüğü ne kadar,  bütçenizin durumu ve taşınma yerlerinin fiziksel konu(kaçıncı katta olduğu…vb). Taşıma koordinatörümüz bu değerlendirmeleri göz önüne alarak size en uygun fiyat teklifini sunacak ve taşınma metodunu belirleyecektir. Yine de alternatif teklifler sunulabilir. Bu metotlar deniz yolu, hava yolu ve kara yoluyla yapılan ev ve of taşımasıdır. Her bir metodun maliyet etkinlik, teslim süresi zamanı ve eşyaların büyüklüğü açısından avantaj ve dezavantajları bulunmaktadır."
+                    "text": "Uluslararası ev ve ofis taşımacılığında taşınma metodu belirlenirken bazı kriterlere göre kara verilir. Bunlar ne kadar zamanda taşınma isteniyor, eşyaların büyüklüğü ne kadar,  bütçenizin durumu ve taşınma yerlerinin fiziksel konu(kaçıncı katta olduğu…vb). Taşıma koordinatörümüz bu değerlendirmeleri göz önüne alarak size en uygun fiyat teklifini sunacak ve taşınma metodunu belirleyecektir. Yine de alternatif teklifler sunulabilir. Bu metotlar deniz yolu, hava yolu ve kara yoluyla yapılan ev ve of taşımasıdır. Her bir metodun maliyet etkinlik, teslim süresi zamanı ve eşyaların büyüklüğü açısından avantaj ve dezavantajları bulunmaktadır.",
+                    "img_url": "assets/images/tasimahizmetleri/resim2.jpg"
                 }
             ]
         },
@@ -26,12 +18,12 @@
             "title": "OUR TRANSPORTATION SERVICES",
             "data": [
                 {
-                    "title": "Our services:",
-                    "text": "Our international transportation service covers international home and office transportation of international companies, diplomatic personnel assigned abroad and civilian individuals. We provide this service including sea, air and land transportation, as well as packaging, self-storage and smart storage services."
+                    "text": "Our international transportation service covers international home and office transportation of international companies, diplomatic personnel assigned abroad and civilian individuals. We provide this service including sea, air and land transportation, as well as packaging, self-storage and smart storage services.",
+                    "img_url": "assets/images/tasimahizmetleri/resim1.jpg"
                 },
                 {
-                    "title": "Transport Methods:",
-                    "text": "When determining the moving method in international home and office transportation, the decision is made according to some criteria. These are how long it will take to move, how big the belongings are, the state of your budget and the physical issue of the moving location (what floor it is on, etc.). Taking these evaluations into consideration, our transportation coordinator will offer you the most affordable price offer and determine the moving method. However, alternative offers may be presented. These methods are home and office transportation by sea, air and land. Each method has advantages and disadvantages in terms of cost effectiveness, delivery time and size of the items."
+                    "text": "When determining the moving method in international home and office transportation, the decision is made according to some criteria. These are how long it will take to move, how big the belongings are, the state of your budget and the physical issue of the moving location (what floor it is on, etc.). Taking these evaluations into consideration, our transportation coordinator will offer you the most affordable price offer and determine the moving method. However, alternative offers may be presented. These methods are home and office transportation by sea, air and land. Each method has advantages and disadvantages in terms of cost effectiveness, delivery time and size of the items.",
+                    "img_url": "assets/images/tasimahizmetleri/resim2.jpg"
                 }
             ]
         },
@@ -39,12 +31,12 @@
             "title": "UNSERE TRANSPORTLEISTUNGEN",
             "data": [
                 {
-                    "title": "Unsere Dienstleistungen:",
-                    "text": "Unser internationaler Transportservice umfasst internationale Heim- und Bürotransporte von internationalen Unternehmen, im Ausland eingesetztem Diplomatenpersonal und Zivilpersonen. Wir bieten diesen Service einschließlich See-, Luft- und Landtransporten sowie Verpackungs-, Self-Storage- und Smart-Storage-Dienstleistungen an."
+                    "text": "Unser internationaler Transportservice umfasst internationale Heim- und Bürotransporte von internationalen Unternehmen, im Ausland eingesetztem Diplomatenpersonal und Zivilpersonen. Wir bieten diesen Service einschließlich See-, Luft- und Landtransporten sowie Verpackungs-, Self-Storage- und Smart-Storage-Dienstleistungen an.",
+                    "img_url": "assets/images/tasimahizmetleri/resim1.jpg"
                 },
                 {
-                    "title": "Transportmethoden:",
-                    "text": "Bei der Festlegung der Umzugsmethode im internationalen Heim- und Bürotransport wird die Entscheidung anhand einiger Kriterien getroffen. Dabei geht es um die Dauer des Umzugs, die Größe des Umzugsguts, den Stand Ihres Budgets und den physischen Standort des Umzugsorts (auf welcher Etage er sich befindet usw.). Unter Berücksichtigung dieser Bewertungen unterbreitet Ihnen unser Transportkoordinator das günstigste Preisangebot und legt die Umzugsmethode fest. Es können jedoch Alternativangebote vorgelegt werden. Diese Methoden sind Heim- und Bürotransporte auf dem See-, Luft- und Landweg. Jede Methode hat Vor- und Nachteile hinsichtlich Kosteneffizienz, Lieferzeit und Größe der Artikel."
+                    "text": "Bei der Festlegung der Umzugsmethode im internationalen Heim- und Bürotransport wird die Entscheidung anhand einiger Kriterien getroffen. Dabei geht es um die Dauer des Umzugs, die Größe des Umzugsguts, den Stand Ihres Budgets und den physischen Standort des Umzugsorts (auf welcher Etage er sich befindet usw.). Unter Berücksichtigung dieser Bewertungen unterbreitet Ihnen unser Transportkoordinator das günstigste Preisangebot und legt die Umzugsmethode fest. Es können jedoch Alternativangebote vorgelegt werden. Diese Methoden sind Heim- und Bürotransporte auf dem See-, Luft- und Landweg. Jede Methode hat Vor- und Nachteile hinsichtlich Kosteneffizienz, Lieferzeit und Größe der Artikel.",
+                    "img_url": "assets/images/tasimahizmetleri/resim2.jpg"
                 }
             ]
         }

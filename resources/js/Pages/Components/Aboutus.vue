@@ -1,8 +1,8 @@
 <template>
-  <div class="section padding-bottom-0">
+  <div class=" padding-bottom-0">
     <div class="container">
       <div class="hr"></div>
-      <div class="row col-md-12 col-lg-12 mt-5">
+      <div class="row mt-5">
         <div class="col-md-12 col-lg-6 d-flex align-items-center">
           <div>
             <img
@@ -65,7 +65,7 @@ export default {
 }
 
 .custom-img {
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 @media (max-width: 992px) {

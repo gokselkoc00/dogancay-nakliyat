@@ -20,7 +20,6 @@ class TasimaHizmetlerimizController extends Controller
         $data = TasimaHizmetlerimiz::first();
         $data = json_decode($data->data, true);
 
-        $images = $data["images"];
         $hero = $data["hero"];
 
         if ($lang === 'tr') {
@@ -32,7 +31,6 @@ class TasimaHizmetlerimizController extends Controller
         }
         return response()->json([
             'data' => $data,
-            'images' => $images,
             'hero' => $hero,
         ]);
     }

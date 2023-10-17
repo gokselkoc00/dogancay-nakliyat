@@ -1,12 +1,16 @@
 <template>
   <Head title="Hakkımızda"></Head>
   <Layout>
+    <div class="row">
+            <img style="max-height: 400px; width: 100%;" :src="heroImage" class="img-fluid">
+
+        </div>
     <div class="container">
       <div
         class="row"
-        style="padding-top: 180px; padding-bottom: 70px; text-align: center"
+        style="padding-top: 80px; padding-bottom: 70px; text-align: center"
       >
-        <div class="col-md-12 col-lg-12">
+        <div class=" col-md-12 col-lg-12">
           <h1>
             {{ title?.title }}
           </h1>
@@ -16,9 +20,10 @@
           <div
             v-for="(item, index) in images"
             :key="index"
-            class="col-xl-3 col-lg-3 col-md-6 d-flex"
+            class="col-xl-3 col-lg-4 col-md-6 d-flex align-items-stretch"
           >
-            <div class="icon-box referances-item">
+            <div class="icon-box referances-item"             style="width: 100%;"
+>
               <div class="referances-icon">
                 <div>
                   <img class="custom-logo-img img-fluid" :src="item?.img_url" />
@@ -54,6 +59,7 @@ export default {
     return {
       images: {},
       title: {},
+      heroImage:""
     };
   },
   components: {
@@ -70,6 +76,7 @@ export default {
           .then((response) => {
             this.images = response.data.images;
             this.title = response.data.title;
+            this.heroImage = response.data.heroImage;
           })
           .catch((error) => {
             console.error(error);
@@ -90,10 +97,11 @@ export default {
 }
 
 .icon-box {
-  width: 100% !important;
-  margin-bottom: 16px;
+    margin-bottom: 16px;
   padding: 2rem;
-  transition: all ease-in-out .4s;
+  transition: all ease-in-out 0.4s;
+  min-width: 285px;
+  text-align: center;
 }
 .icon-box:hover{
     transform: translateY(-10px);
@@ -103,12 +111,11 @@ export default {
   min-height: 100px;
 }
 .referances-item {
-  display: flex;
+    display: flex;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
-  border: #2186c2 solid 3px;
-  border-radius: 10px;
-  background: #f5f5f5;
+  border: #ccc solid 1px;
+  border-radius: 4px;
 }
 </style>

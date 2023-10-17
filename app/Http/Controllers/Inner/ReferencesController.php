@@ -19,6 +19,7 @@ class ReferencesController extends Controller
         $data = References::first();
         $data = json_decode($data->data, true);
         $images = $data["images"];
+        $heroImage = $data["hero_img_inner"];
 
         if ($lang === 'tr') {
             $title = $data["tr"]["inner"];
@@ -30,7 +31,8 @@ class ReferencesController extends Controller
 
         return response()->json([
             'images' => $images,
-            'title' => $title
+            'title' => $title,
+            'heroImage' => $heroImage
         ]);
     }
 }

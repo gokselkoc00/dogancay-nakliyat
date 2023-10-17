@@ -19,3 +19,27 @@
     transform: translateX(300px);
     opacity: 0;
   }
+
+
+/* GENERAL ANIMATION*/
+.nested-enter-active .inner,
+.nested-leave-active .inner {
+  transition: all 0.3s ease-in-out;
+}
+
+.nested-enter-from .inner,
+.nested-leave-to .inner {
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+
+.cst-content-img {
+    border-radius: 3px;
+    max-height: 480px;
+  }
+
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }

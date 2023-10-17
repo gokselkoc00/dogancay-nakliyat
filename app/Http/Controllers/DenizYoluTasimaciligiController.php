@@ -19,7 +19,6 @@ class DenizYoluTasimaciligiController extends Controller
         $data = DenizYoluTasimaciligi::first();
         $data = json_decode($data->data, true);
 
-        $images = $data["images"];
         $hero = $data["hero"];
 
         if ($lang === 'tr') {
@@ -31,7 +30,6 @@ class DenizYoluTasimaciligiController extends Controller
         }
         return response()->json([
             'data' => $data,
-            'images' => $images,
             'hero' => $hero,
         ]);
     }

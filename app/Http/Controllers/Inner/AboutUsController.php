@@ -19,6 +19,7 @@ class AboutUsController extends Controller
         $data = AboutUsInner::first();
         $data = json_decode($data->data, true);
         $image = $data["image"];
+        $hero = $data["hero"];
         if ($lang === 'tr') {
             $data = $data["tr"];
         } elseif ($lang == 'en') {
@@ -28,7 +29,8 @@ class AboutUsController extends Controller
         }
         return response()->json([
             'data' => $data,
-            'image' => $image
+            'image' => $image,
+            'hero' => $hero
         ]);
     }
 }

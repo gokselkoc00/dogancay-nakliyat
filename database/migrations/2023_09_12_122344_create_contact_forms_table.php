@@ -16,6 +16,8 @@ return new class extends Migration
         Schema::create('contact_forms', function (Blueprint $table) {
             $table->id();
             $table->text('name')->nullable();
+            $table->text('last_name')->nullable();
+            $table->text('phone')->nullable();
             $table->text('email')->nullable();
             $table->text('message')->nullable();
             $table->softDeletes();

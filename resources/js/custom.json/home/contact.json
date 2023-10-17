@@ -1,48 +1,39 @@
 [
     {
         "tr": {
-            "title": "Evden Eve Nakliyat Çağrı Merkezi",
+            "title": "Doğançay Nakliyat Çağrı Merkezi",
+            "contact_title": "BİZE ULAŞIN",
             "btn_text": "Mesaj Gönder",
             "place_holder": {
-                "name": "Ad - Soyad",
+                "name": "Ad",
+                "last_name": "Soyad",
+                "phone": "Telefon",
                 "email": "E-Mail Adresi",
                 "message": "Mesaj"
-            },
-            "info_names": {
-                "adres": "Adres: ",
-                "telefon": "Telefon: ",
-                "faks": "Faks: ",
-                "email": "Mail: "
             }
         },
         "en": {
-            "title": "House to House Transportation Call Center",
+            "title": "Doğançay Nakliyat Call Center",
             "btn_text": "Send Message",
+            "contact_title": "CONTACT US",
             "place_holder": {
-                "name": "Name - surname",
+                "name": "Name",
+                "last_name": "Surname",
+                "phone": "Phone",
                 "email": "E-Mail Address",
                 "message": "Message"
-            },
-            "info_names": {
-                "adres": "Address: ",
-                "telefon": "Phone: ",
-                "faks": "Fax: ",
-                "email": "Mail: "
             }
         },
         "ge": {
-            "title": "Callcenter für Haus-zu-Haus-Transporte",
+            "title": "Callcenter für Doğançay Nakliyat",
+            "contact_title": "KONTAKTIERE UNS",
             "btn_text": "Nachricht senden",
             "place_holder": {
-                "name": "Vorname Familienname",
+                "name": "Vorname",
+                "last_name": "Familienname",
+                "phone": "Telefon",
                 "email": "E-Mail Adresse",
                 "message": "Nachricht"
-            },
-            "info_names": {
-                "adres": "Adresse: ",
-                "telefon": "Telefon: ",
-                "faks": "Fax: ",
-                "email": "E-Mail: "
             }
         }
     }

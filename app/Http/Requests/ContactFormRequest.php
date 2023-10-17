@@ -25,6 +25,8 @@ class ContactFormRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:255', 'string'],
+            'last_name' => ['required', 'max:255', 'string'],
+            'phone' => ['required', 'max:255', 'string'],
             'email' => ['required', 'max:255', 'string','email'],
             'message' => ['required', 'max:255', 'string'],
         ];
@@ -36,9 +38,19 @@ class ContactFormRequest extends FormRequest
             'name.required' => 'İsim boş bırakılamaz.',
             'name.max' => 'İsim 255 karakterden uzun olamaz.',
             'name.string' => 'İsim karakterlerden oluşmalıdır.',
+
+            'last_name.required' => 'Soyisim boş bırakılamaz.',
+            'last_name.max' => 'Soyisim 255 karakterden uzun olamaz.',
+            'last_name.string' => 'Soyisim karakterlerden oluşmalıdır.',
+
+            'phone.required' => 'Telefon boş bırakılamaz.',
+            'phone.max' => 'Telefon 255 karakterden uzun olamaz.',
+            'phone.string' => 'Telefon karakterlerden oluşmalıdır.',
+
             'message.required' => 'Mesaj boş bırakılamaz.',
             'message.max' => 'Mesaj 255 karakterden uzun olamaz.',
             'message.string' => 'Mesaj karakterlerden oluşmalıdır.',
+
             'email.required' => 'Mail boş bırakılamaz.',
             'email.max' => 'Mail 255 karakterden uzun olamaz.',
             'email.string' => 'Mail karakterlerden oluşmalıdır.',

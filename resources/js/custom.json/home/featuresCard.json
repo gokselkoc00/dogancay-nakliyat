@@ -20,34 +20,34 @@
         "en": [
             {
                 "title": "Item Storage",
-                "img_url": "assets/images/featured-item-01.png",
+                "img_url": "fa-solid fa-warehouse",
                 "text": "You can store your excess items or items at home in our storage centers in Ankara and Istanbul."
             },
             {
                 "title": "House to House Transportation",
-                "img_url": "assets/images/reassembly_icon_1.png",
+                "img_url": "fa-solid fa-boxes-packing",
                 "text":"We provide transportation services for your belongings in closed box trucks between the addresses you specify. For corporate home-to-home transportation service, make an appointment for an expert at the call center at 444 1980."
             },
             {
                 "title": "Partial Goods Transportation",
-                "img_url": "assets/images/reassembly_icon_2.png",
+                "img_url": "fa-solid fa-truck-arrow-right",
                 "text": "For partial goods transportation service, transport your belongings within Ankara or to other provinces with the assurance of Doğançay Home to Home Transportation."
             }
         ],
         "ge": [
             {
                 "title": "Artikellagerung",
-                "img_url": "assets/images/featured-item-01.png",
+                "img_url": "fa-solid fa-warehouse",
                 "text": "Sie können Ihre überschüssigen Artikel oder Artikel zu Hause in unseren Lagerzentren in Ankara und Istanbul lagern."
             },
             {
                 "title": "Transport von Haus zu Haus",
-                "img_url": "assets/images/reassembly_icon_1.png",
+                "img_url": "fa-solid fa-boxes-packing",
                 "text":"Wir bieten den Transport Ihrer Sachen in geschlossenen Kofferfahrzeugen zwischen den von Ihnen angegebenen Adressen an. Vereinbaren Sie für den Firmentransport von Haus zu Haus einen Termin mit einem Experten im Callcenter unter 444 1980."
             },
             {
                 "title": "Teilweiser Gütertransport",
-                "img_url": "assets/images/reassembly_icon_2.png",
+                "img_url": "fa-solid fa-truck-arrow-right",
                 "text": "Für den Teiltransport von Gütern transportieren Sie Ihre Sachen innerhalb von Ankara oder in andere Provinzen mit der Zusicherung von Doğançay Home to Home Transportation."
             }
         ]

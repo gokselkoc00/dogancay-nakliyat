@@ -2,7 +2,7 @@
     <nav :class="{ 'header-area-scrolled': isScrolled }"
         class="navbar navbar-expand-lg navbar-light header-area header-sticky">
         <div :class="{ 'container-scrolled': isScrolled }" class="container container-fluid main-nav">
-            <a href="#" class="logo mt-1">
+            <a href="/" class="logo mt-1">
                 <img :src="logo" alt="Dogancay Logo" height="36" />
             </a>
             <button @click="toggleMobileMenu" class="navbar-toggler mobile-button menu-trigger" type="button"
@@ -37,9 +37,9 @@
                 </li>
                 <!-- Normal başlık -->
                 <li class="nav-item" v-else>
-                    <a class="nav-link active" :href="route(item?.url)">{{
+                    <Link class="nav-link active" :href="route(item?.url)">{{
                         item.title
-                    }}</a>
+                    }}</Link>
                 </li>
             </div>
             </li>

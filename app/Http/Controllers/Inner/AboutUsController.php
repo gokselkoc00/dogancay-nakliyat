@@ -18,8 +18,11 @@ class AboutUsController extends Controller
         $lang = session('lang');
         $data = AboutUsInner::first();
         $data = json_decode($data->data, true);
+
         $image = $data["image"];
         $hero = $data["hero"];
+        $permission_licence = $data["permission_licence"];
+
         if ($lang === 'tr') {
             $data = $data["tr"];
         } elseif ($lang == 'en') {
@@ -30,7 +33,8 @@ class AboutUsController extends Controller
         return response()->json([
             'data' => $data,
             'image' => $image,
-            'hero' => $hero
+            'hero' => $hero,
+            'permission_licence' => $permission_licence,
         ]);
     }
 }

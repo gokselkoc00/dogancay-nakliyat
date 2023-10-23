@@ -54,19 +54,25 @@
                 }
             ]
         },
+        "companies":[
+            {
+                "img_url":"assets/images/footer-img/resim1.png"
+            },
+            {
+                "img_url":"assets/images/footer-img/resim2.png"
+            },
+            {
+                "img_url":"assets/images/footer-img/resim3.png"
+            },
+            {
+                "img_url":"assets/images/footer-img/resim4.png"
+            },
+            {
+                "img_url":"assets/images/footer-img/resim5.png"
+            }
+        ],
         "data":[
-            {
-                "link":"#",
-                "class":"fa fa-facebook"
-            },
-            {
-                "link":"#",
-                "class":"fa fa-twitter"
-            },
-            {
-                "link":"#",
-                "class":"fa fa-linkedin"
-            },
+     
             {
                 "link":"https://www.instagram.com/dogancayinternational/?hl=tr",
                 "class":"fa-brands fa-instagram"

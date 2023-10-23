@@ -1,5 +1,23 @@
 [
     {
-        "img_url":"assets/images/welcome/hero.jpg"
+        "tr": {
+            "data": [
+                {
+                    "title": "Taşıma Hizmetlerimiz",
+                    "text": "Uluslararası taşıma hizmetimiz uluslararası firmaların, yurtdışına görevlendirilmiş diplomatik personelin ve sivil şahısların uluslararası ev ve ofis taşıma işlemlerini kapsamaktadır.",
+                    "img_url": "assets/images/welcome/resim2.jpg"
+                },
+                {
+                    "title": "Planlama Ve Hazırlık",
+                    "text": "Bütün taşınma işlemleri önceden detaylı bir planlama gerektirirse de Uluslararası ev ve ofis taşımacılığında çok daha fazla hazırlık ve çalışma gerekmektedir.",
+                    "img_url": "assets/images/welcome/resim3.jpeg"
+                },
+                {
+                    "title": "Depolama",
+                    "text": "Eşyalarınızı en iyi şekilde ve ihtiyaçlarınıza göre depolamak için iki farkı depolama hizmeti sunuyoruz. Bunlar Akıllı depo/Self Storage ve Akıllı Depo/Taşınabilir Depo hizmetleridir.",
+                    "img_url": "assets/images/welcome/resim1.png"
+                }
+            ]
+        }
     }
 ]

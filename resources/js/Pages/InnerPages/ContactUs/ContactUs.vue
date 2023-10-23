@@ -33,7 +33,70 @@
             </div>
             <div class="hr"></div>
             <div class="row mt-5">
-                <div class="row" style="width: -webkit-fill-available; justify-content: center;">
+
+                 <!-- ***** Get Offer Form Start ***** -->
+                 <div class="row" style="width: -webkit-fill-available; justify-content: center;">
+                    <h2>{{ data.data?.form_title }}</h2>
+                </div>
+                <div class="row mt-5">
+                    <form class="row g-3" @submit.prevent="createContactForm">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">{{ data.data?.get_offer_place_hold?.name }}</label>
+                                <input v-model="contactForm.name" class="form-control" id="name">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.name">
+                                    {{ errors.name }}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="last_name" class="form-label">{{ data.data?.get_offer_place_hold?.last_name }}</label>
+                                <input v-model="contactForm.last_name" class="form-control" id="last_name">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.last_name">
+                                    {{ errors.last_name }}
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <label for="phone" class="form-label">{{ data.data?.get_offer_place_hold?.phone }}</label>
+                                <input v-model="contactForm.phone" class="form-control" id="phone">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.phone">
+                                    {{ errors.phone }}
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
+                                <input v-model="contactForm.email" class="form-control" id="email">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
+                                    {{ errors.email }}
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mt-3">
+                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
+                                <input v-model="contactForm.email" class="form-control" id="email">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
+                                    {{ errors.email }}
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mt-3">
+                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
+                                <input v-model="contactForm.email" class="form-control" id="email">
+                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
+                                    {{ errors.email }}
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <fieldset class="text-center mt-4">
+                                    <button type="submit" id="form-submit" class="main-button">
+                                        {{ data.data?.btn_text }}
+                                    </button>
+                                </fieldset>
+                            </div>
+                        </form>
+                </div>
+                <!-- ***** Get Offer Form End ***** -->
+
+                <div class="row mt-5" style="width: -webkit-fill-available; justify-content: center;">
                     <h2>{{ data.data?.form_title }}</h2>
                 </div>
                 <div class="row mt-5">

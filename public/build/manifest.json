@@ -2,11 +2,11 @@
   "__plugin-vue_export-helper-c27b6911.js": {
     "file": "assets/_plugin-vue_export-helper-c27b6911.js"
   },
-  "_swiper-03ebedb1.js": {
+  "_swiper-eebc342b.js": {
     "css": [
       "assets/swiper-0705b292.css"
     ],
-    "file": "assets/swiper-03ebedb1.js",
+    "file": "assets/swiper-eebc342b.js",
     "imports": [
       "resources/js/app.js"
     ]
@@ -112,7 +112,7 @@
     "css": [
       "assets/Aboutus-bb8491c9.css"
     ],
-    "file": "assets/Aboutus-6daa4594.js",
+    "file": "assets/Aboutus-c315dcd0.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -128,7 +128,7 @@
     "css": [
       "assets/Blog-e3df3b99.css"
     ],
-    "file": "assets/Blog-56c5017c.js",
+    "file": "assets/Blog-f5a1a65e.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -144,7 +144,7 @@
     "css": [
       "assets/Contact-87cdeb2d.css"
     ],
-    "file": "assets/Contact-d09c86d6.js",
+    "file": "assets/Contact-191b68f5.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -153,7 +153,7 @@
     "src": "resources/js/Pages/Components/Contact.vue"
   },
   "resources/js/Pages/Components/Counter.vue": {
-    "file": "assets/Counter-f7128fae.js",
+    "file": "assets/Counter-c160b2f4.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -162,7 +162,7 @@
     "src": "resources/js/Pages/Components/Counter.vue"
   },
   "resources/js/Pages/Components/Features.vue": {
-    "file": "assets/Features-a169e318.js",
+    "file": "assets/Features-b839c799.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -178,7 +178,7 @@
     "css": [
       "assets/FeaturesCards-537a2c80.css"
     ],
-    "file": "assets/FeaturesCards-fad9e8d4.js",
+    "file": "assets/FeaturesCards-86077b9b.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -194,10 +194,10 @@
     "css": [
       "assets/Gallery-5edb0a5a.css"
     ],
-    "file": "assets/Gallery-e5f67e4f.js",
+    "file": "assets/Gallery-61d9de55.js",
     "imports": [
       "resources/js/Pages/Shared/Layout.vue",
-      "_swiper-03ebedb1.js",
+      "_swiper-eebc342b.js",
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/Pages/Shared/Header.vue",
@@ -208,7 +208,7 @@
     "src": "resources/js/Pages/Components/Gallery.vue"
   },
   "resources/js/Pages/Components/Preloader.vue": {
-    "file": "assets/Preloader-74a4202e.js",
+    "file": "assets/Preloader-504a25bf.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
@@ -224,11 +224,11 @@
     "css": [
       "assets/References-0fd6021a.css"
     ],
-    "file": "assets/References-81705360.js",
+    "file": "assets/References-cb13096c.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
-      "_swiper-03ebedb1.js",
+      "_swiper-eebc342b.js",
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/Pages/Shared/Header.vue",
       "resources/js/Pages/Shared/Footer.vue",
@@ -245,7 +245,7 @@
     "css": [
       "assets/Welcome-e412a1d0.css"
     ],
-    "file": "assets/Welcome-c83e73e4.js",
+    "file": "assets/Welcome-a0d5e95c.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -254,7 +254,7 @@
     "src": "resources/js/Pages/Components/Welcome.vue"
   },
   "resources/js/Pages/Index.vue": {
-    "file": "assets/Index-fcfc09bc.js",
+    "file": "assets/Index-ba1a0364.js",
     "imports": [
       "resources/js/Pages/Shared/Layout.vue",
       "resources/js/Pages/Components/Welcome.vue",
@@ -271,20 +271,20 @@
       "resources/js/Pages/Shared/Header.vue",
       "resources/js/Pages/Shared/Footer.vue",
       "resources/js/Pages/Components/Preloader.vue",
-      "_swiper-03ebedb1.js"
+      "_swiper-eebc342b.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Index.vue"
   },
   "resources/js/Pages/InnerPages/AboutUs/AboutUs.css": {
-    "file": "assets/AboutUs-760ba972.css",
+    "file": "assets/AboutUs-92f592c2.css",
     "src": "resources/js/Pages/InnerPages/AboutUs/AboutUs.css"
   },
   "resources/js/Pages/InnerPages/AboutUs/AboutUs.vue": {
     "css": [
-      "assets/AboutUs-760ba972.css"
+      "assets/AboutUs-92f592c2.css"
     ],
-    "file": "assets/AboutUs-529bc119.js",
+    "file": "assets/AboutUs-ea37a265.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -304,7 +304,7 @@
     "css": [
       "assets/ContactUs-f313c01d.css"
     ],
-    "file": "assets/ContactUs-b4db3a9e.js",
+    "file": "assets/ContactUs-48d92593.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -324,7 +324,7 @@
     "css": [
       "assets/DenizYoluTasimaciligi-921510a7.css"
     ],
-    "file": "assets/DenizYoluTasimaciligi-db36e31f.js",
+    "file": "assets/DenizYoluTasimaciligi-fa17b1ef.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -344,7 +344,7 @@
     "css": [
       "assets/Depolama-f5c65757.css"
     ],
-    "file": "assets/Depolama-c4987c42.js",
+    "file": "assets/Depolama-bf81315c.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -364,7 +364,7 @@
     "css": [
       "assets/GumrukIsleriTeslimat-8fb915da.css"
     ],
-    "file": "assets/GumrukIsleriTeslimat-d40c9bc7.js",
+    "file": "assets/GumrukIsleriTeslimat-9e58d4cf.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -384,7 +384,7 @@
     "css": [
       "assets/HavaYoluTasimaciligi-6f720ce6.css"
     ],
-    "file": "assets/HavaYoluTasimaciligi-bf15afb8.js",
+    "file": "assets/HavaYoluTasimaciligi-c3c69ecd.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -404,7 +404,7 @@
     "css": [
       "assets/KaraYoluTasimaciligi-210a30c5.css"
     ],
-    "file": "assets/KaraYoluTasimaciligi-20dcef23.js",
+    "file": "assets/KaraYoluTasimaciligi-01402d99.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -424,7 +424,7 @@
     "css": [
       "assets/PlanlamaHazirlik-35a066d9.css"
     ],
-    "file": "assets/PlanlamaHazirlik-9af277fe.js",
+    "file": "assets/PlanlamaHazirlik-6d60989e.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -444,7 +444,7 @@
     "css": [
       "assets/References-e11a5edd.css"
     ],
-    "file": "assets/References-e654e2bd.js",
+    "file": "assets/References-d3aed263.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -464,7 +464,7 @@
     "css": [
       "assets/TasimaHizmetlerimiz-8cdc4fa3.css"
     ],
-    "file": "assets/TasimaHizmetlerimiz-0b4bfcb3.js",
+    "file": "assets/TasimaHizmetlerimiz-81990261.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -484,7 +484,7 @@
     "css": [
       "assets/TasinmaKontrolListesi-2062ac34.css"
     ],
-    "file": "assets/TasinmaKontrolListesi-63d10f60.js",
+    "file": "assets/TasinmaKontrolListesi-ceadeedc.js",
     "imports": [
       "resources/js/app.js",
       "resources/js/Pages/Shared/Layout.vue",
@@ -497,7 +497,7 @@
     "src": "resources/js/Pages/InnerPages/TasinmaKontrolListesi/TasinmaKontrolListesi.vue"
   },
   "resources/js/Pages/Shared/Footer.vue": {
-    "file": "assets/Footer-633fb5d9.js",
+    "file": "assets/Footer-0d63edcd.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -513,7 +513,7 @@
     "css": [
       "assets/Header-fa3d5086.css"
     ],
-    "file": "assets/Header-702afbc4.js",
+    "file": "assets/Header-d5137b64.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -529,7 +529,7 @@
     "css": [
       "assets/HeaderTest-01eafa4a.css"
     ],
-    "file": "assets/HeaderTest-2c46dc08.js",
+    "file": "assets/HeaderTest-e2912673.js",
     "imports": [
       "resources/js/app.js",
       "__plugin-vue_export-helper-c27b6911.js"
@@ -538,7 +538,7 @@
     "src": "resources/js/Pages/Shared/HeaderTest.vue"
   },
   "resources/js/Pages/Shared/Layout.vue": {
-    "file": "assets/Layout-081de459.js",
+    "file": "assets/Layout-2cf151a0.js",
     "imports": [
       "resources/js/Pages/Shared/Header.vue",
       "resources/js/Pages/Shared/Footer.vue",
@@ -550,7 +550,7 @@
     "src": "resources/js/Pages/Shared/Layout.vue"
   },
   "resources/js/Pages/Test.vue": {
-    "file": "assets/Test-165d4e4c.js",
+    "file": "assets/Test-3f6a0bd7.js",
     "imports": [
       "__plugin-vue_export-helper-c27b6911.js",
       "resources/js/app.js"
@@ -588,7 +588,7 @@
       "resources/js/Pages/Shared/Layout.vue",
       "resources/js/Pages/Test.vue"
     ],
-    "file": "assets/app-cd16413a.js",
+    "file": "assets/app-df9e15e1.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },

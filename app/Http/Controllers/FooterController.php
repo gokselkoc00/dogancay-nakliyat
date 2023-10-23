@@ -13,6 +13,7 @@ class FooterController extends Controller
         $data = Footer::first();
         $data = json_decode($data->data, true);
         $footer = $data["data"];
+        $companies = $data["companies"];
 
         if ($lang === 'tr') {
             $languages = $data["languages"]["tr"];
@@ -24,7 +25,8 @@ class FooterController extends Controller
 
         return response()->json([
             'footer' => $footer,
-            'languages' => $languages
+            'languages' => $languages,
+            'companies' => $companies
         ]);
     }
 }

@@ -3,13 +3,11 @@
     <div class="container">
       <div class="hr"></div>
       <div class="row mt-5">
-        <div class="col-md-12 col-lg-6 d-flex align-items-center">
-          <div>
+        <div class="col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
             <img
               class="img-fluid custom-img"
               :src="$page.props.site_url + image"
             />
-          </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="left-heading">
@@ -60,9 +58,6 @@ export default {
 
 
 <style scoped>
-.section {
-  padding-top: 10px !important;
-}
 
 .custom-img {
   border-radius: 4px;

@@ -20,25 +20,50 @@
             </div>
             <div class="custom-carousel-caption d-none d-md-block mt-5"></div>
             <div class="col-md-12 row" style="padding-top: 80px; padding-bottom: 70px;  text-align: center;">
-               
-                <div class="row mt-5" >
-                <div class="col-md-12 col-lg-6 " style="
+
+                <div class="row mt-5">
+                    <div class="col-md-12 col-lg-6 " style="
                     display: flex;
                     justify-content: center;
                     align-items: center;">
-                    <img class="img-fluid" style="border-radius: 3px;" :src="image" />
-                </div>
-                <div class="col-md-12 col-lg-6 text-content" style="padding-right: 0px;">
-                    <div>
-                        <h2>{{ data?.title }}</h2>
+                        <img class="img-fluid w-100" style="border-radius: 3px;" :src="image" />
                     </div>
-                    <div class="mt-4">
-                        <p style="text-align: left;">
-                            {{ data?.text }}
-                        </p>
+                    <div class="col-md-12 col-lg-6 text-content" style="padding-right: 0px;">
+                        <div>
+                            <h2>{{ data?.title }}</h2>
+                        </div>
+                        <div class="mt-4">
+                            <p style="text-align: left;">
+                                {{ data?.text }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12  mt-5">
+                        <div class="custom-carousel-caption d-none d-md-block mt-5"></div>
+
+                        <div class="col-12 mt-5">
+                            <h1 class="text-left"> {{ data?.licence_title }}</h1>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 d-flex align-items-stretch mt-5">
+                            <div class="icon-box referances-item" style="width: 100%;">
+                                <div>
+                                    <a target="_blank" :href="permission_licence">
+                                        <img class="img-fluid" style="border-radius: 3px; max-height: 500px;"
+                                            :src="permission_licence" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 d-flex align-items-stretch">
+
+                        </div> -->
+                        <!-- <a target="_blank" :href="permission_licence">
+                            <img class="img-fluid" style="border-radius: 3px; max-height: 500px;"
+                                :src="permission_licence" />
+                        </a> -->
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </Layout>
@@ -53,7 +78,8 @@ export default {
         return {
             data: {},
             image: "",
-            hero: ""
+            hero: "",
+            permission_licence: "",
         };
     },
     components: {
@@ -71,6 +97,7 @@ export default {
                         this.data = response.data.data;
                         this.image = response.data.image;
                         this.hero = response.data.hero;
+                        this.permission_licence = response.data.permission_licence;
                     })
                     .catch((error) => {
                         console.error(error);
@@ -84,6 +111,27 @@ export default {
 </script>
 
 <style scoped>
+.icon-box {
+    margin-bottom: 16px;
+    transition: all ease-in-out 0.4s;
+    /* min-width: 285px; */
+    text-align: center;
+}
+
+.icon-box:hover {
+    transform: translateY(-10px);
+}
+
+
+.referances-item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+}
+
 
 .header-title {
     display: block;

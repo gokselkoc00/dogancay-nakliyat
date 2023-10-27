@@ -2,47 +2,87 @@
     <Head title="Deniz Yolu Taşımacılığı"></Head>
     <Layout>
         <div class="row">
-            <img style="max-height: 400px; width: 100%;" :src="hero" class="img-fluid">
+            <img
+                style="max-height: 400px; width: 100%"
+                :src="hero"
+                class="img-fluid"
+            />
         </div>
         <div class="container">
             <div class="row" style="margin-top: 80px">
-                <div class="col-md-12" style="display: flex; align-items: center; justify-content: center">
+                <div
+                    class="col-md-12"
+                    style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    "
+                >
                     <div class=" ">
-                        <Transition name="slide-title">
-                            <h1 class="header-title" v-if="data.data?.title">
-                                {{ data.data?.title }}
-                            </h1>
-                        </Transition>
+                        <h2
+                            class="c-h2-title"
+                            v-if="data.data?.title"
+                            data-aos="fade-left"
+                            data-aos-duration="3000"
+                        >
+                            {{ data.data?.title }}
+                        </h2>
                     </div>
                 </div>
             </div>
             <div class="custom-carousel-caption d-none d-md-block mt-5"></div>
 
-            <div class="container" style="margin-bottom: 6rem;">
+            <div class="container" style="margin-bottom: 6rem">
                 <div v-for="(item, index) in contentList?.data" :key="index">
                     <div class="row" v-if="index % 2 === 0">
-                        <div class="col-lg-6 align-items-stretch order-2 order-lg-1 img aos-init aos-animate mt-5 mb-5"
-                            data-aos="zoom-in" data-aos-delay="150">
-                            <img class="cst-content-img img-fluid" :src="item?.img_url" alt="" />
+                        <div
+                            class="col-lg-6 align-items-stretch order-2 order-lg-1 img aos-init aos-animate mt-5 mb-5"
+                        >
+                            <img
+                                class="cst-content-img img-fluid"
+                                :src="item?.img_url"
+                                alt=""
+                                data-aos="fade-left"
+                                data-aos-duration="3000"
+                            />
                         </div>
                         <div
-                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-1 order-lg-2">
+                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-1 order-lg-2"
+                        >
                             <div class="content">
-                                <p>{{ item?.text }}</p>
+                                <p
+                                    data-aos="fade-right"
+                                    data-aos-duration="3000"
+                                >
+                                    {{ item?.text }}
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="row" v-else>
                         <div
-                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
+                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+                        >
                             <div class="content">
-                                <p>{{ item?.text }}</p>
+                                <p
+                                    data-aos="fade-left"
+                                    data-aos-duration="3000"
+                                >
+                                    {{ item?.text }}
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 align-items-stretch order-1 order-lg-2 img aos-init aos-animate mt-5 mb-5"
-                            data-aos="zoom-in" data-aos-delay="150">
-                            <img class="cst-content-img img-fluid" :src="item?.img_url" alt="" />
+                        <div
+                            class="col-lg-6 align-items-stretch order-1 order-lg-2 img aos-init aos-animate mt-5 mb-5"
+                        >
+                            <img
+                                class="cst-content-img img-fluid"
+                                :src="item?.img_url"
+                                alt=""
+                                data-aos="fade-right"
+                                data-aos-duration="3000"
+                            />
                         </div>
                     </div>
                 </div>
@@ -50,7 +90,6 @@
         </div>
     </Layout>
 </template>
-
 
 <script>
 import axios from "axios";
@@ -61,7 +100,7 @@ export default {
         return {
             data: {},
             contentList: [],
-            hero: ""
+            hero: "",
         };
     },
     components: {
@@ -129,7 +168,7 @@ export default {
     margin-left: 0.83rem;
 
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;
@@ -139,7 +178,7 @@ export default {
 .header-title::before {
     margin-right: 0.83rem;
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;

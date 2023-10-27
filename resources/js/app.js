@@ -3,8 +3,11 @@ import { InertiaProgress } from '@inertiajs/progress';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { Link, Head } from "@inertiajs/vue3";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 InertiaProgress.init()
+AOS.init();
 
 createInertiaApp({
     resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),

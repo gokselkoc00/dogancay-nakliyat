@@ -1,45 +1,80 @@
 /* Header Title Animasyonu */
 .slide-title-enter-active {
-    transition: all 2s ease-out;
-  }
+    transition: all 1s ease-out;
+}
 
-  .slide-title-enter-from,
-  .slide-title-leave-to {
+.slide-title-enter-from,
+.slide-title-leave-to {
     transform: translateX(-300px);
     opacity: 0;
-  }
-  /* Header Image Animasyonu */
+}
+/* Header Image Animasyonu */
 
-  .slide-img-enter-active {
+.slide-img-enter-active {
     transition: all 2s ease-out;
-  }
+}
 
-  .slide-img-enter-from,
-  .slide-img-leave-to {
+.slide-img-enter-from,
+.slide-img-leave-to {
     transform: translateX(300px);
     opacity: 0;
-  }
-
+}
 
 /* GENERAL ANIMATION*/
 .nested-enter-active .inner,
 .nested-leave-active .inner {
-  transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nested-enter-from .inner,
 .nested-leave-to .inner {
-  transform: translateX(30px);
-  opacity: 0;
+    transform: translateX(30px);
+    opacity: 0;
 }
-
 
 .cst-content-img {
     border-radius: 3px;
     max-height: 480px;
-  }
+}
 
-  .row {
+.row {
     margin-right: 0px !important;
     margin-left: 0px !important;
-  }
+}
+
+.c-h2-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #222;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.c-h2-title::after {
+    margin-left: 0.83rem;
+    margin-bottom: -0.1rem !important;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #2186c2;
+    display: inline-block;
+}
+
+.c-h2-title::before {
+    margin-right: 0.83rem;
+    margin-bottom: -0.1rem !important;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #2186c2;
+    display: inline-block;
+}
+
+@media (max-width: 992px) {
+    .c-h2-title {
+        white-space: unset;
+    }
+}

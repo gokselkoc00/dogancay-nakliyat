@@ -18,6 +18,44 @@
                     "img_url": "assets/images/welcome/resim1.png"
                 }
             ]
+        },
+        "en": {
+            "data": [
+                {
+                    "title": "Our Moving Services",
+                    "text": "Our services include transportation services for international companies, diplomatic personnel and private customers planning to move abroad.",
+                    "img_url": "assets/images/welcome/resim2.jpg"
+                },
+                {
+                    "title": "Planning and Preparation",
+                    "text": "All residential moving consist of lots of details, but an international moving comes with even more requirements and preparations.",
+                    "img_url": "assets/images/welcome/resim3.jpeg"
+                },
+                {
+                    "title": "Storage",
+                    "text": "We offer two types of storages to keep your belongings in the best conditions that meet you demands. One of them is Smart-Storage/Movable Storage solution and the other is Smart Storage/Self-Storage.",
+                    "img_url": "assets/images/welcome/resim1.png"
+                }
+            ]
+        },
+        "ge": {
+            "data": [
+                {
+                    "title": "Unsere Umzugsdienstleistungen",
+                    "text": "Unsere Dienstleistungen umfassen Transportdienstleistungen für internationale Unternehmen, diplomatisches Personal und private Kunden, die ins Ausland umziehen möchten.",
+                    "img_url": "assets/images/welcome/resim2.jpg"
+                },
+                {
+                    "title": "Planung und Vorbereitung",
+                    "text": "Alle Wohnungswechsel beinhalten viele Details, aber ein internationaler Umzug erfordert noch mehr Anforderungen und Vorbereitungen.",
+                    "img_url": "assets/images/welcome/resim3.jpeg"
+                },
+                {
+                    "title": "Lagerung",
+                    "text": "Wir bieten zwei Arten von Lagerungsmöglichkeiten an, um Ihre Sachen unter den besten Bedingungen aufzubewahren, die Ihren Anforderungen entsprechen. Eine davon ist Smart-Storage/Movable Storage-Lösung und die andere ist Smart Storage/Self-Storage.",
+                    "img_url": "assets/images/welcome/resim1.png"
+                }
+            ]
         }
     }
 ]

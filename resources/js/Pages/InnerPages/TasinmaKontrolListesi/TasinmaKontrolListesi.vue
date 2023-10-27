@@ -2,17 +2,26 @@
     <Head title="Taşınma Kontrol Listesi"></Head>
     <Layout>
         <div class="row">
-            <img style="max-height: 400px; width: 100%;" :src="hero" class="img-fluid">
+            <img
+                style="max-height: 400px; width: 100%"
+                :src="hero"
+                class="img-fluid"
+            />
         </div>
         <div class="container">
-            <div class="row" style="margin-top: 80px; ">
-                <div class="col-md-12" style="display: flex; align-items: center; justify-content: center">
-                    <div class=" ">
-                        <Transition name="slide-title">
-                            <h1 class="header-title" v-if="data.data?.title">
-                                {{ data.data?.title }}
-                            </h1>
-                        </Transition>
+            <div class="row mt-5">
+                <div
+                    class="col-md-12 d-flex align-items-center justify-content-center"
+                >
+                    <div>
+                        <h2
+                            class="c-h2-title"
+                            v-if="data.data?.title"
+                            data-aos="fade-right"
+                            data-aos-duration="3000"
+                        >
+                            {{ data.data?.title }}
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -21,27 +30,57 @@
             <div class="container">
                 <div v-for="(item, index) in contentList?.data" :key="index">
                     <div class="row" v-if="index % 2 === 0">
-                        <div class="col-lg-6 align-items-stretch order-2 order-lg-1 img aos-init aos-animate mt-5 mb-5"
-                            data-aos="zoom-in" data-aos-delay="150">
-                            <img class="cst-content-img img-fluid" :src="item?.img_url" alt="" />
+                        <div
+                            class="col-lg-6 align-items-stretch order-2 order-lg-1 img aos-init aos-animate mt-5 mb-5"
+                            data-aos="zoom-in"
+                            data-aos-delay="150"
+                        >
+                            <img
+                                class="cst-content-img img-fluid"
+                                :src="item?.img_url"
+                                alt="img"
+                                data-aos="fade-right"
+                                data-aos-duration="3000"
+                            />
                         </div>
                         <div
-                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-1 order-lg-2">
+                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-1 order-lg-2"
+                        >
                             <div class="content">
-                                <p>{{ item?.text }}</p>
+                                <p
+                                    data-aos="fade-left"
+                                    data-aos-duration="3000"
+                                >
+                                    {{ item?.text }}
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="row" v-else>
                         <div
-                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
+                            class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+                        >
                             <div class="content">
-                                <p>{{ item?.text }}</p>
+                                <p
+                                    data-aos="fade-right"
+                                    data-aos-duration="3000"
+                                >
+                                    {{ item?.text }}
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-6 align-items-stretch order-1 order-lg-2 img aos-init aos-animate mt-5 mb-5"
-                            data-aos="zoom-in" data-aos-delay="150">
-                            <img class="cst-content-img img-fluid" :src="item?.img_url" alt="" />
+                        <div
+                            class="col-lg-6 align-items-stretch order-1 order-lg-2 img aos-init aos-animate mt-5 mb-5"
+                            data-aos="zoom-in"
+                            data-aos-delay="150"
+                        >
+                            <img
+                                class="cst-content-img img-fluid"
+                                :src="item?.img_url"
+                                alt=""
+                                data-aos="fade-left"
+                                data-aos-duration="3000"
+                            />
                         </div>
                     </div>
                 </div>
@@ -49,25 +88,49 @@
             <div class="custom-carousel-caption d-none d-md-block mt-5"></div>
 
             <div class="container">
-                <div class="row mt-5" style="margin-bottom: 6rem;">
+                <div class="row mt-5">
                     <div class="d-block">
                         <div class="text-center">
-                            <h2>{{ data.data?.check_list_title }}</h2>
+                            <h2
+                                class="c-h2-title"
+                                data-aos="fade-up"
+                                data-aos-duration="3000"
+                            >
+                                {{ data.data?.check_list_title }}
+                            </h2>
                         </div>
                         <div class="mt-3">
                             <ul class="list-group list-group">
-                                <transition-group name="bounce">
-                                    <li class="mt-3" style="border-radius: 30px"
-                                        v-for="(item, index) in data.data?.check_list" :key="index">
-                                        <div class="d-flex align-items-center">
-                                            <i style="color: #a1a1a1; display: flex; font-size: 8px;"
-                                                class="fa-solid fa-circle inline"></i>
-                                            <p style="display: flex; margin-left: 1rem">
-                                                {{ item?.text }}
-                                            </p>
-                                        </div>
-                                    </li>
-                                </transition-group>
+                                <li
+                                    class="mt-3"
+                                    style="border-radius: 30px"
+                                    v-for="(item, index) in data.data
+                                        ?.check_list"
+                                    :key="index"
+                                >
+                                    <div
+                                        class="d-flex align-items-center"
+                                        data-aos="fade-left"
+                                        data-aos-duration="3000"
+                                    >
+                                        <i
+                                            style="
+                                                color: #a1a1a1;
+                                                display: flex;
+                                                font-size: 8px;
+                                            "
+                                            class="fa-solid fa-circle inline"
+                                        ></i>
+                                        <p
+                                            style="
+                                                display: flex;
+                                                margin-left: 1rem;
+                                            "
+                                        >
+                                            {{ item?.text }}
+                                        </p>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -76,7 +139,6 @@
         </div>
     </Layout>
 </template>
-
 
 <script>
 import axios from "axios";
@@ -87,7 +149,7 @@ export default {
         return {
             data: {},
             contentList: [],
-            hero: ""
+            hero: "",
         };
     },
     components: {
@@ -155,7 +217,7 @@ export default {
     margin-left: 0.83rem;
 
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;
@@ -165,7 +227,7 @@ export default {
 .header-title::before {
     margin-right: 0.83rem;
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;

@@ -19,19 +19,19 @@
         ],
         "en": [
             {
-                "title": "Item Storage",
+                "title": "Storage",
                 "img_url": "fa-solid fa-warehouse",
-                "text": "You can store your excess items or items at home in our storage centers in Ankara and Istanbul."
+                "text": "We can store your additional goods that you do not want to throw away in our warehouses both in Ankara and Istanbul."
             },
             {
-                "title": "House to House Transportation",
+                "title": "Residential Door to Door Moving",
                 "img_url": "fa-solid fa-boxes-packing",
-                "text":"We provide transportation services for your belongings in closed box trucks between the addresses you specify. For corporate home-to-home transportation service, make an appointment for an expert at the call center at 444 1980."
+                "text":"We offer moving of your belongings in closed box removal vans between the addresses you specify. Make an appointment from our Call Center by calling 444 1980 for free survey of your goods subject to move."
             },
             {
                 "title": "Partial Goods Transportation",
                 "img_url": "fa-solid fa-truck-arrow-right",
-                "text": "For partial goods transportation service, transport your belongings within Ankara or to other provinces with the assurance of Doğançay Home to Home Transportation."
+                "text": "We can transport your parcel items not only in Ankara but also in everywhere in Turkey."
             }
         ],
         "ge": [

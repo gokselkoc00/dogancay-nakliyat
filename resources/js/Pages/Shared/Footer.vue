@@ -1,32 +1,67 @@
 <template>
     <footer>
-        <div class="row justify-content-center" style="padding-bottom: 1rem;">
-            <img v-for="(item,, index) in companies" :key="index" class="ml-3 img-fluid" style="max-height: 80px;"
-                :src="item.img_url">
+        <div
+            class="row justify-content-center mt-5 mb-5"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+        >
+            <img
+                v-for="(item,, index) in companies"
+                :key="index"
+                class="ml-3 img-fluid"
+                style="max-height: 80px"
+                :src="item.img_url"
+            />
         </div>
-        <hr style="width: 100%; margin-top: 0px;">
+        <hr style="width: 100%; margin-top: 0px" />
         <div class="container">
-
             <div class="row">
-                <div class="d-flex align-items-center justify-content-between col-lg-12 col-md-12 col-sm-12 ">
+                <div
+                    class="d-flex align-items-center justify-content-between col-lg-12 col-md-12 col-sm-12"
+                >
                     <ul class="social">
                         <li v-for="(item, index) in footer" :key="index">
-                            <a target="_blank" :href="item.link"><i :class="item?.class"></i></a>
+                            <a target="_blank" :href="item.link"
+                                ><i :class="item?.icon_class"></i
+                            ></a>
                         </li>
                     </ul>
                     <div class="btn-group dropup">
-                        <a type="button" class="btn dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <img class="" :src="$page.props.site_url + currentLanguage?.img_url" />
-                            <p cl style="color: #1e1e1e; margin-left: 0.25rem">
-                                {{ currentLanguage?.name }}
-                            </p>
+                        <a
+                            type="button"
+                            class="btn dropdown-toggle d-flex align-items-center"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            <img
+                                style="max-height: 32px"
+                                class=""
+                                :src="
+                                    $page.props.site_url +
+                                    currentLanguage?.img_url
+                                "
+                            />
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul
+                            class="dropdown-menu"
+                            style="
+                                min-width: 0;
+                                background: transparent;
+                                border: unset;
+                            "
+                        >
                             <li v-for="(item, index) in languages" :key="index">
-                                <a class="dropdown-item" @click.prevent="changeLanguage(item.key)">
-                                    <img class="img-fluid flag-img" :src="item.img_url" />
-                                    {{ item?.name }}
+                                <a
+                                    style="text-align: center; cursor: pointer"
+                                    class="dropdown-item c-l-dropdown-item"
+                                    @click.prevent="changeLanguage(item.key)"
+                                >
+                                    <img
+                                        style="max-height: 32px"
+                                        :src="
+                                            $page.props.site_url + item?.img_url
+                                        "
+                                    />
                                 </a>
                             </li>
                         </ul>
@@ -91,3 +126,9 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.c-l-dropdown-item {
+    background-color: unset;
+}
+</style>

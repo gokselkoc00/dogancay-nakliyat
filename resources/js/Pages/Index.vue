@@ -5,7 +5,7 @@
         <FeaturesCards />
         <AboutUs />
         <Features />
-        <Blog />
+        <Services />
         <Gallery />
         <References />
         <Contact :errors="errors" />
@@ -19,7 +19,7 @@ import AboutUs from "./Components/AboutUs.vue";
 import FeaturesCards from "./Components/FeaturesCards.vue";
 import Features from "./Components/Features.vue";
 import Counter from "./Components/Counter.vue";
-import Blog from "./Components/Blog.vue";
+import Services from "./Components/Services.vue";
 import Gallery from "./Components/Gallery.vue";
 import References from "./Components/References.vue";
 import Contact from "./Components/Contact.vue";
@@ -34,7 +34,7 @@ export default {
         FeaturesCards,
         Features,
         Counter,
-        Blog,
+        Services,
         Gallery,
         References,
         Contact,

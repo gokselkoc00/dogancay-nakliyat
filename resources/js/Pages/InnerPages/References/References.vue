@@ -2,37 +2,82 @@
     <Head title="Referanslarımız"></Head>
     <Layout>
         <div class="row">
-            <img style="max-height: 400px; width: 100%;" :src="heroImage" class="img-fluid">
-
+            <img
+                style="max-height: 400px; width: 100%"
+                :src="heroImage"
+                class="img-fluid"
+            />
         </div>
         <div class="container">
-            <div class="row" style="padding-top: 80px; padding-bottom: 70px; text-align: center">
-                <div class="col-md-12" style="display: flex; align-items: center; justify-content: center">
-                    <div class=" ">
-                        <Transition name="slide-title">
-                            <h1 class="header-title" v-if="title?.title">
-                                {{ title?.title }}
-                            </h1>
-
-                        </Transition>
-                        <Transition name="slide-title">
-                            <p class="mt-5" v-if="title?.text">{{ title?.text }}</p>
-
-
-                        </Transition>
+            <div
+                class="row"
+                style="
+                    padding-top: 80px;
+                    padding-bottom: 70px;
+                    text-align: center;
+                "
+            >
+                <div
+                    class="col-md-12"
+                    style="
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    "
+                >
+                    <div>
+                        <h1
+                            class="header-title"
+                            v-if="title?.title"
+                            data-aos="fade-right"
+                            data-aos-duration="3000"
+                        >
+                            {{ title?.title }}
+                        </h1>
+                        <p
+                            class="mt-5"
+                            data-aos="fade-left"
+                            data-aos-duration="3000"
+                            v-if="title?.text"
+                        >
+                            {{ title?.text }}
+                        </p>
                     </div>
                 </div>
 
-                <div class="row w-100 mt-5" style="margin-left: 0px; margin-right: 0px">
-                    <div v-for="(item, index) in images" :key="index"
-                        class="col-xl-3 col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="icon-box referances-item" style="width: 100%;">
+                <div
+                    class="row w-100 mt-5"
+                    style="margin-left: 0px; margin-right: 0px"
+                >
+                    <div
+                        v-for="(item, index) in images"
+                        :key="index"
+                        class="col-xl-3 col-lg-4 col-md-6 d-flex align-items-stretch"
+                    >
+                        <div
+                            class="icon-box referances-item"
+                            style="width: 100%"
+                            data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
+                        >
                             <div class="referances-icon">
                                 <div>
-                                    <img class="custom-logo-img img-fluid" :src="item?.img_url" />
-                                    <h6 class="text-center" style="padding-top: 1.5rem">
-                                        <Link style="color: black;" :href="route('references-inner.index')">{{ item?.title
-                                        }}</Link>
+                                    <img
+                                        class="custom-logo-img img-fluid"
+                                        :src="item?.img_url"
+                                    />
+                                    <h6
+                                        class="text-center"
+                                        style="padding-top: 1.5rem"
+                                    >
+                                        <Link
+                                            style="color: black"
+                                            :href="
+                                                route('references-inner.index')
+                                            "
+                                            >{{ item?.title }}</Link
+                                        >
                                     </h6>
                                 </div>
                                 <!-- <div class="row" style="padding-top: 1rem">
@@ -43,7 +88,13 @@
                     </div>
                 </div>
                 <div class="row w-100 justify-content-center">
-                    <p class="mt-5">{{ title?.text_footer }}</p>
+                    <p
+                        class="mt-5"
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                    >
+                        {{ title?.text_footer }}
+                    </p>
                 </div>
             </div>
         </div>
@@ -59,7 +110,7 @@ export default {
         return {
             images: {},
             title: {},
-            heroImage: ""
+            heroImage: "",
         };
     },
     components: {
@@ -122,7 +173,6 @@ export default {
     border-radius: 4px;
 }
 
-
 .header-title {
     display: block;
     align-items: center;
@@ -139,7 +189,7 @@ export default {
     margin-left: 0.83rem;
 
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;
@@ -149,7 +199,7 @@ export default {
 .header-title::before {
     margin-right: 0.83rem;
     margin-bottom: 0.9rem !important;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background: #2186c2;

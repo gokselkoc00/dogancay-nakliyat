@@ -1,8 +1,5 @@
 [
     {
-
-        "whatsapp_phone": "905399300485",
-        "logo": "assets/images/logo/dogancaylogo.png",
         "languages": {
             "tr": [
                 {
@@ -76,12 +73,10 @@
                     }
                 ]
             },
-
             {
                 "url": null,
                 "title": "Unsere Dienstleistungen",
                 "subItems": [
-
                     {
                         "url": "planlama-hazirlik.index",
                         "title": "Planung und Vorbereitung"
@@ -120,6 +115,11 @@
                 "url": "contact-us-inner.index",
                 "title": "Kommunikation",
                 "subItems": null
+            },
+            {
+                "url": "getoffer.index",
+                "title": "Angebot anfordern",
+                "subItems": null
             }
         ],
         "en": [
@@ -152,23 +152,23 @@
                     },
                     {
                         "url": "tasinma-kontrol-lis.index",
-                        "title": "Moving Checklist"
+                        "title": "Moving Check List"
                     },
                     {
                         "url": "tasima-hizmetlerimiz.index",
-                        "title": "Our Transportation Services"
+                        "title": "Our Moving Services"
                     },
                     {
                         "url": "karayolu-tasimaciligi.index",
-                        "title": "Highway transports"
+                        "title": "Moving by Land"
                     },
                     {
                         "url": "havayolu-tasimaciligi.index",
-                        "title": "Airways transporting"
+                        "title": "Moving By Air"
                     },
                     {
                         "url": "denizyolu-tasimaciligi.index",
-                        "title": "Maritime transport"
+                        "title": "Moving by Sea"
                     },
                     {
                         "url": "depolama.index",
@@ -176,13 +176,18 @@
                     },
                     {
                         "url": "gumruk-isleri-tes.index",
-                        "title": "Customs Affairs and Delivery"
+                        "title": "Customs Clearance and Delivery"
                     }
                 ]
             },
             {
                 "url": "contact-us-inner.index",
-                "title": "Communication",
+                "title": "Contact",
+                "subItems": null
+            },
+            {
+                "url": "getoffer.index",
+                "title": "Get Offer",
                 "subItems": null
             }
         ],
@@ -247,6 +252,11 @@
             {
                 "url": "contact-us-inner.index",
                 "title": "İletişim",
+                "subItems": null
+            },
+            {
+                "url": "getoffer.index",
+                "title": "Teklif Al",
                 "subItems": null
             }
         ]

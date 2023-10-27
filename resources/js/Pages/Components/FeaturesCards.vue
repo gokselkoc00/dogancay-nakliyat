@@ -1,21 +1,25 @@
 <template>
-    <section class="services mt-5 ">
+    <section class="services mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
                         <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
-                            data-aos-delay="100" v-for="item in data" :key="item.id">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <div class="icon"><i :class="item?.img_url"></i></div>
-                                <!-- <div class="icon">
-                  <i><img class="img-fluid" :src="item.img_url" alt="" /></i>
-                </div> -->
-                                <h4 class="title"><a target="_blank">{{
-                                    item?.title }}</a></h4>
+                        <div
+                            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0"
+                            data-aos="flip-left"
+                            data-aos-duration="3000"
+                            v-for="item in data"
+                            :key="item.id"
+                        >
+                            <div class="icon-box">
+                                <div class="icon">
+                                    <i :class="item?.img_url"></i>
+                                </div>
+                                <h4 class="title">
+                                    <a target="_blank">{{ item?.title }}</a>
+                                </h4>
                                 <p class="description">{{ item?.text }}</p>
-
                             </div>
                         </div>
                     </div>
@@ -57,7 +61,6 @@ export default {
 </script>
 
 <style scoped>
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -78,7 +81,7 @@ export default {
 }
 
 .services .icon-box::before {
-    content: '';
+    content: "";
     position: absolute;
     background: #e1f0fa !important;
     right: -60px;
@@ -145,8 +148,6 @@ export default {
 .services .icon-box:hover .icon i {
     color: #3498db !important;
 }
-
-
 
 @-webkit-keyframes fade-up {
     0% {

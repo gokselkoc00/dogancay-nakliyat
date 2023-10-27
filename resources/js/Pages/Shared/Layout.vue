@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <Preloader />
+  <!-- <Preloader /> -->
   <slot></slot>
   <Footer />
 </template>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\GeneralInformation;
 use App\Models\Header;
 use Illuminate\Http\Request;
 
@@ -13,9 +14,15 @@ class HeaderController extends Controller
         $lang = session('lang');
         $data = Header::first();
         $data = json_decode($data->data, true);
-        $logo = $data['logo'];
-        $whatsapp_phone = $data['whatsapp_phone'];
+
+        $dataGeneral = GeneralInformation::first();
+        $dataGeneral = json_decode($dataGeneral->data, true);
+
+        $logo = $dataGeneral['logo'];
+        $whatsapp_phone = $dataGeneral['whatsapp_phone'];
+        $whatsapp_img = $dataGeneral['whatsapp_img'];
         $headerData = [];
+
         if ($lang === 'tr') {
             $headerData = $data["tr"];
             $languages = $data["languages"]["tr"];
@@ -30,6 +37,7 @@ class HeaderController extends Controller
             'data' => $headerData,
             'logo' => $logo,
             'whatsapp_phone' => $whatsapp_phone,
+            'whatsapp_img' => $whatsapp_img,
             'languages' => $languages,
         ]);
     }

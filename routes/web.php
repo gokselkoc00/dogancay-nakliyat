@@ -10,6 +10,7 @@ use App\Http\Controllers\FeaturesCardController;
 use App\Http\Controllers\FeaturesController;
 use App\Http\Controllers\FooterController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\GetOfferController;
 use App\Http\Controllers\GumrukIsleriTeslimatController;
 use App\Http\Controllers\HavaYoluTasimaciligiController;
 use App\Http\Controllers\HeaderController;
@@ -83,8 +84,14 @@ Route::get('/references-inner-data', [InnerReferencesController::class, 'getData
 // Contact Us İnner Start
 Route::get('/iletisim-data', [ContactUsController::class, 'getData'])->name('contact-us-inner.data');
 Route::get('/iletisim', [ContactUsController::class, 'index'])->name('contact-us-inner.index');
-
+Route::post('/iletisim-offer-store', [ContactUsController::class, 'store'])->name('contact-us-inner.store');
 // Contact Us İnner End
+
+// Get Offer  Start
+Route::get('/getoffer-data', [GetOfferController::class, 'getData'])->name('getoffer.data');
+Route::get('/getoffer', [GetOfferController::class, 'index'])->name('getoffer.index');
+Route::post('/getoffer-store', [GetOfferController::class, 'store'])->name('getoffer.store');
+// Get Offer  End
 
 // Hizmetlerimiz Start
 Route::get('/planlama-hazirlik-data', [PlanlamaHazirlikController::class, 'getData'])->name('planlama-hazirlik.data');

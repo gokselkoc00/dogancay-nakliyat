@@ -72,10 +72,10 @@
             }
         ],
         "data":[
-     
+
             {
                 "link":"https://www.instagram.com/dogancayinternational/?hl=tr",
-                "class":"fa-brands fa-instagram"
+                "icon_class":"fa-brands fa-instagram"
             }
         ]
     }

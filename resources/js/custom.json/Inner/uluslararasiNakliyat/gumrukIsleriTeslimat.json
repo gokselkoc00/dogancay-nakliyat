@@ -1,7 +1,6 @@
 [
     {
         "hero": "assets/images/gumrukislerTeslimat/hero.jpg",
-       
         "tr": {
             "title": "GÜMRÜK İŞLERİ VE TESLİMAT",
             "data": [
@@ -18,31 +17,31 @@
             ]
         },
         "en": {
-            "title": "CUSTOMS AND DELIVERY",
+            "title": "CUSTOMS CLEARANCE AND DELIVERY",
             "data": [
                 {
-                    "title": "Customs Inspection Affairs:",
-                    "text": "Customs procedures are carried out both in the country where your old home is located and in the country where your new home is located. You will be informed about which documents need to be prepared during the planning and preparation phase. In order to avoid any delays or problems at customs, our transportation coordinators carefully follow the entire legal process and submit the relevant documents in accordance with accurate and up-to-date legislation. We will also inform you about the items that are prohibited to be taken to the country you will go to and the goods and products that are subject to tax. We will keep you informed throughout this entire process and closely follow the process to ensure a smooth move.",
+                    "title": "Customs Clearance:",
+                    "text": "Custom Clearance is required for most of international moving for both source country and target country. During preparation phase, we will inform you about necessary documentations required during custom clearance. In order not to encounter any issues or delay during custom clearance, we ensure to prepare, complete and submit correct documentation and legal arrangement of goods. We will warn you about prohibited items and inform about items subject to tax. Throughout the process we will keep you up to date and follow the process closely in favor of smoothness of moving plan.",
                     "img_url": "assets/images/gumrukislerTeslimat/resim1.jpg"
                 },
                 {
                     "title": "Delivery:",
-                    "text": "Your belongings will be delivered to the specified address on the previously planned and determined date. There is more than one delivery method. In home-to-home delivery, it is delivered to your new home. There are also delivery methods up to the port (airport or sea port) and customs. If you choose the house-to-house option, our movers (for air or sea transportation, a moving company from the relevant country is arranged and their movers carry out these operations) will unpack your belongings, place them in the room you want, set up your furniture again and leave the boxes where you want, just like your belongings. After all these procedures, the packing list-inventory list is checked again to see if there are any missing or broken items.",
+                    "text": "On a scheduled day, we deliver your items to the location formerly agreed upon which could be your new address, a port, an airport or a custom clearance center.  Our movers unload your goods from the container, truck or case and place them in the room of your choice. They also unpack all paper, padding and cupboard packing materials, reassemble your furniture and place the boxes in appropriate rooms where necessary. When it is finished, they check every item from the inventory list to account each package and item. You may also double-check item by item to assure accuracy.",
                     "img_url": "assets/images/gumrukislerTeslimat/resim2.jpg"
                 }
             ]
         },
         "ge": {
-            "title": "ZOLL UND LIEFERUNG",
+            "title": "ZOLLABFERTIGUNG UND LIEFERUNG",
             "data": [
                 {
-                    "title": "Zollkontrollangelegenheiten:",
-                    "text": "Zollverfahren werden sowohl in dem Land durchgeführt, in dem sich Ihr altes Zuhause befindet, als auch in dem Land, in dem sich Ihr neues Zuhause befindet. Welche Unterlagen erstellt werden müssen, erfahren Sie bereits in der Planungs- und Vorbereitungsphase. Um Verzögerungen oder Probleme beim Zoll zu vermeiden, verfolgen unsere Transportkoordinatoren sorgfältig den gesamten rechtlichen Prozess und reichen die relevanten Dokumente gemäß den genauen und aktuellen Rechtsvorschriften ein. Wir informieren Sie auch über die Gegenstände, deren Mitnahme in das Zielland verboten ist, sowie über die steuerpflichtigen Waren und Produkte. Wir werden Sie während des gesamten Prozesses auf dem Laufenden halten und den Prozess genau verfolgen, um einen reibungslosen Ablauf zu gewährleisten.",
+                    "title": "Zollabfertigung:",
+                    "text": "Für die meisten internationalen Umzüge ist eine Zollabfertigung sowohl für das Herkunftsland als auch für das Zielland erforderlich. Während der Vorbereitungsphase informieren wir Sie über die notwendigen Unterlagen, die bei der Zollabfertigung erforderlich sind. Damit es bei der Zollabfertigung nicht zu Problemen oder Verzögerungen kommt, stellen wir sicher, dass wir die korrekte Dokumentation und rechtliche Anordnung der Waren vorbereiten, vervollständigen und einreichen. Wir warnen Sie vor verbotenen Artikeln und informieren Sie über steuerpflichtige Artikel. Während des gesamten Prozesses halten wir Sie auf dem Laufenden und verfolgen den Prozess genau, um einen reibungslosen Umzugsplan zu gewährleisten.",
                     "img_url": "assets/images/gumrukislerTeslimat/resim1.jpg"
                 },
                 {
                     "title": "Lieferung:",
-                    "text": "Ihre Sachen werden zum vorher geplanten und festgelegten Termin an die angegebene Adresse geliefert. Es gibt mehr als eine Versandart. Bei der Home-to-Home-Lieferung erfolgt die Lieferung in Ihr neues Zuhause. Es gibt auch Liefermethoden bis zum Hafen (Flughafen oder Seehafen) und zum Zoll. Wenn Sie sich für die Haus-zu-Haus-Option entscheiden, packen unsere Umzugsunternehmen (für Luft- oder Seetransporte wird ein Umzugsunternehmen aus dem jeweiligen Land beauftragt und die Umzugsunternehmen führen diese Arbeiten durch) Ihr Hab und Gut aus, stellen es in dem von Ihnen gewünschten Raum ab, Stellen Sie Ihre Möbel wieder auf und lassen Sie die Kartons dort, wo Sie möchten, genau wie Ihre Habseligkeiten. Nach all diesen Vorgängen wird die Packliste-Inventarliste noch einmal überprüft, um festzustellen, ob Artikel fehlen oder defekt sind.",
+                    "text": "An einem festgelegten Tag liefern wir Ihre Artikel an den zuvor vereinbarten Ort. Dies kann Ihre neue Adresse, ein Hafen, ein Flughafen oder ein Zollabfertigungszentrum sein. Unsere Umzugshelfer entladen Ihre Ware aus dem Container, LKW oder Koffer und stellen sie in den Raum Ihrer Wahl. Sie packen außerdem sämtliche Papier-, Polster- und Schrankverpackungsmaterialien aus, bauen Ihre Möbel wieder zusammen und stellen die Kartons bei Bedarf in die entsprechenden Räume. Wenn es fertig ist, überprüfen sie jeden Artikel aus der Inventarliste, um jedes Paket und jeden Artikel zu erfassen. Sie können auch Artikel für Artikel noch einmal überprüfen, um die Richtigkeit sicherzustellen.",
                     "img_url": "assets/images/gumrukislerTeslimat/resim2.jpg"
                 }
             ]

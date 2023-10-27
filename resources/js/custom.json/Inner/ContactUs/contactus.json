@@ -3,9 +3,9 @@
         "hero": "assets/images/contactus-inner/hero.jpg",
         "tr": {
             "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.",
-            "form_title": "İletişim Formu",
-            "title": "Bize Ulaşın",
-            "btn_text": "Mesaj Gönder",
+            "form_title": "İletişim",
+            "offer_form_title": "Teklif Al",
+            "btn_text": "Gönder",
             "place_holder": {
                 "name": "Ad",
                 "last_name": "Soyad",
@@ -13,19 +13,19 @@
                 "email": "E-Mail Adresi",
                 "message": "Mesaj"
             },
-            "get_offer_place_hold":{
+            "get_offer_place_hold": {
                 "name": "Ad",
                 "last_name": "Soyad",
                 "phone": "Telefon",
-                "email": "E-Mail Adresi",
+                "images": "Resimler",
                 "upload_address": "Yükleme Yeri",
                 "destination_address": "Gideceği Yer"
             }
         },
         "en": {
-            "contact_text": "To get information about our services, you can reach us at any time of the week on our support line at 444 1980.",
+            "contact_text": "You can contact us at any time of the week from our Call Center 444 1980 to get information about our services.",
             "form_title": "Contact Form",
-            "title": "Contact Us",
+            "offer_form_title": "Get Offer",
             "btn_text": "Send Message",
             "place_holder": {
                 "name": "Name",
@@ -33,12 +33,20 @@
                 "phone": "Phone",
                 "email": "E-Mail Address",
                 "message": "Message"
+            },
+            "get_offer_place_hold": {
+                "name": "First Name",
+                "last_name": "Last Name",
+                "phone": "Phone",
+                "images": "Images",
+                "upload_address": "Upload Location",
+                "destination_address": "Destination"
             }
         },
         "ge": {
-            "contact_text": "Um Informationen zu unseren Dienstleistungen zu erhalten, erreichen Sie uns zu jeder Zeit der Woche unter unserer Support-Hotline unter 444 1980.",
+            "contact_text": "Über unser Call Center 444 1980 können Sie uns zu jeder Zeit der Woche kontaktieren, um Informationen zu unseren Dienstleistungen zu erhalten.",
             "form_title": "Kontakt Formular",
-            "title": "Kontaktiere uns",
+            "offer_form_title": "Angebot bekommen",
             "btn_text": "Nachricht senden",
             "place_holder": {
                 "name": "Vorname",
@@ -46,6 +54,14 @@
                 "phone": "Telefon",
                 "email": "E-Mail Adresse",
                 "message": "Nachricht"
+            },
+            "get_offer_place_hold": {
+                "name": "Vorname",
+                "last_name": "Nachname",
+                "phone": "Telefon",
+                "images": "Bilder",
+                "upload_address": "Upload-Ort",
+                "destination_address": "Zielort"
             }
         }
     }

@@ -1,77 +1,150 @@
 <template>
-    <nav :class="{ 'header-area-scrolled': isScrolled }"
-        class="navbar navbar-expand-lg navbar-light header-area header-sticky">
-        <div :class="{ 'container-scrolled': isScrolled }" class="container container-fluid main-nav">
+    <nav
+        style="z-index: 1000"
+        :class="{ 'header-area-scrolled': isScrolled }"
+        class="navbar navbar-expand-lg navbar-light header-area header-sticky"
+    >
+        <div
+            :class="{ 'container-scrolled': isScrolled }"
+            class="container-fluid main-nav"
+        >
             <a href="/" class="logo mt-1">
                 <img :src="logo" alt="Dogancay Logo" height="36" />
             </a>
-            <button @click="toggleMobileMenu" class="navbar-toggler mobile-button menu-trigger" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button
+                @click="toggleMobileMenu"
+                class="navbar-toggler mobile-button menu-trigger"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
                 <span class="navbar-toggler-icon mt-1"></span>
             </button>
-            <div class="collapse navbar-collapse custom-navbar" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll align-items-center"
-                    style="--bs-scroll-height: 100px">
-                    <li class="nav-item" v-for="(item, index) in headerData" :key="index">
+            <div
+                class="collapse navbar-collapse custom-navbar"
+                id="navbarScroll"
+            >
+                <ul
+                    class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll align-items-center"
+                    style="--bs-scroll-height: 100px"
+                >
+                    <li
+                        class="nav-item"
+                        v-for="(item, index) in headerData"
+                        :key="index"
+                    >
                         <div v-if="item.subItems && item.subItems.length > 0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ item.title }}
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link active dropdown-toggle"
+                                    href="#"
+                                    id="navbarScrollingDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    <span>{{ item.title }}</span>
+                                    <i class="bx bx-chevron-down"></i>
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarScrollingDropdown"
+                                >
+                                    <li
+                                        v-for="(
+                                            subItem, subKey
+                                        ) in item.subItems"
+                                        :key="subKey"
+                                    >
+                                        <a
+                                            class="dropdown-item c-dropdown-item"
+                                            :href="route(subItem.url)"
+                                            ><i class="bx bx-chevron-right"></i
+                                            ><span>{{ subItem.title }}</span></a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div v-else>
+                            <li class="nav-item" v-if="item.url == 'home'">
+                                <Link
+                                    class="nav-link active"
+                                    :href="route(item.url)"
+                                    ><span>{{ item.title }}</span></Link
+                                >
+                            </li>
+                            <!-- Normal başlık -->
+                            <li class="nav-item" v-else>
+                                <Link
+                                    class="nav-link active"
+                                    :href="route(item?.url)"
+                                    ><span>{{ item.title }}</span></Link
+                                >
+                            </li>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a
+                            :href="
+                                'https://api.whatsapp.com/send?phone=' +
+                                whatsapp_phone
+                            "
+                            target="_blank"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li v-for="(subItem, subKey) in item.subItems" :key="subKey">
-                                <a class="dropdown-item" :href="route(subItem.url)">{{
-                                    subItem.title
-                                }}</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link active dropdown-toggle"
+                            href="#"
+                            id="navbarScrollingDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="
+                                display: flex !important;
+                                align-items: center !important;
+                                justify-content: center;
+                            "
+                        >
+                            <img
+                                style="max-height: 32px"
+                                class=""
+                                :src="
+                                    $page.props.site_url +
+                                    currentLanguage?.img_url
+                                "
+                            />
+                        </a>
+                        <ul
+                            class="dropdown-menu c-dropdown-menu-flag"
+                            aria-labelledby="navbarScrollingDropdown"
+                            style=""
+                        >
+                            <li v-for="(item, index) in languages" :key="index">
+                                <a
+                                    style="text-align: center; cursor: pointer"
+                                    class="dropdown-item c-l-dropdown-item"
+                                    @click.prevent="changeLanguage(item.key)"
+                                >
+                                    <img
+                                        style="max-height: 32px"
+                                        class="mr-2"
+                                        :src="
+                                            $page.props.site_url + item?.img_url
+                                        "
+                                    />
+                                </a>
                             </li>
                         </ul>
                     </li>
-            </div>
-            <div v-else>
-                <li class="nav-item" v-if="item.url == 'home'">
-                    <Link class="nav-link active" :href="route(item.url)">{{
-                        item.title
-                    }}</Link>
-                </li>
-                <!-- Normal başlık -->
-                <li class="nav-item" v-else>
-                    <Link class="nav-link active" :href="route(item?.url)">{{
-                        item.title
-                    }}</Link>
-                </li>
-            </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false" style="
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center;
-              ">
-                    <img class="" :src="$page.props.site_url + currentLanguage?.img_url" />
-                    <!-- <p class="lang-dropdown-text">
-                {{ currentLanguage?.name }}
-              </p> -->
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <li v-for="(item, index) in languages" :key="index">
-                        <a style="text-align: left" class="dropdown-item" @click.prevent="changeLanguage(item.key)">
-                            <img class="mr-2" :src="$page.props.site_url + item?.img_url" />
-                            {{ item.name }}
-                        </a>
-                    </li>
                 </ul>
-            </li>
-
-            <li class="nav-item ml-2">
-                <a class="whatsapp" :href="'https://api.whatsapp.com/send?phone=' + whatsapp_phone" target="_blank">
-                    <img class="img-fluid custom-wp" src="assets/images/WhatsApp.png" alt="WhatsApp iletişim hattı" />
-                </a>
-            </li>
-            </ul>
-        </div>
+            </div>
         </div>
     </nav>
 </template>
@@ -93,7 +166,7 @@ export default {
         currentLanguage() {
             const lang = this.$page.props.lang;
             if (this.languages != null || this.languages != []) {
-                console.log(lang)
+                console.log(lang);
 
                 return this.languages.find((language) => language.key === lang);
             }
@@ -102,8 +175,7 @@ export default {
     mounted() {
         this.getData();
         this.initializeWindowResizeHandler();
-        window.addEventListener('scroll', this.handleScroll);
-
+        window.addEventListener("scroll", this.handleScroll);
     },
     methods: {
         handleScroll() {
@@ -136,7 +208,9 @@ export default {
         toggleMobileMenu() {
             // Mobile menüyü açma/kapatma işlevini Vue ile yönetin
             this.isMobileMenuOpen = !this.isMobileMenuOpen;
-            const headerNav = document.querySelector(".header-area .menu-trigger");
+            const headerNav = document.querySelector(
+                ".header-area .menu-trigger"
+            );
             if (headerNav) {
                 headerNav.classList.toggle("active");
             }
@@ -178,6 +252,89 @@ export default {
 </script>
 
 <style scoped>
+.c-dropdown-menu-flag {
+    min-width: 0;
+    border: unset;
+    transform: translate(-17px, -5px);
+}
+.c-l-dropdown-item {
+    background-color: unset;
+}
+.bxl-whatsapp {
+    font-size: 32px;
+}
+.bxl-whatsapp:hover {
+    color: #25d366;
+}
+
+.header-area .main-nav li a {
+    display: block !important;
+    font-size: 15px !important;
+    color: #f5f5f5 !important;
+    -webkit-transition: all 0.3s ease 0s !important;
+    -moz-transition: all 0.3s ease 0s !important;
+    -o-transition: all 0.3s ease 0s !important;
+    transition: all 0.3s ease 0s !important;
+    border: transparent !important;
+    letter-spacing: 1px !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.9px);
+    -webkit-backdrop-filter: blur(19.9px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border: unset;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu:hover {
+    background: transparent;
+}
+
+.dropdown-toggle:hover span,
+.dropdown-toggle:hover i {
+    color: #2186c2;
+}
+
+.dropdown-toggle:hover span {
+    font-weight: bold;
+}
+
+.c-dropdown-item:hover {
+    background: transparent;
+}
+
+.c-dropdown-item:hover span,
+.c-dropdown-item:hover i {
+    color: #2186c2;
+}
+
+.c-dropdown-item span {
+    font-weight: 400;
+}
+.nav-link span:hover {
+    color: #2186c2;
+    font-weight: bold;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+.header-area-scrolled {
+    background-color: #2186c2;
+}
+.container-scrolled .dropdown-toggle:hover span,
+.container-scrolled .dropdown-toggle:hover i {
+    color: #f2f2f2;
+}
+
+.container-scrolled .nav-link span:hover {
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+/*  */
 .container {
     background: #2186c2;
 }
@@ -197,47 +354,8 @@ export default {
     justify-content: end !important;
 }
 
-.header-area .main-nav li a:hover {
-    /* color: #7d0e0e !important; */
-    color: black !important;
-}
-
-.header-area .main-nav li a {
-    display: block !important;
-    /* font-weight: 500 !important; */
-    font-size: 15px !important;
-    color: #f5f5f5 !important;
-    /* color: #1e1e1e !important; */
-    -webkit-transition: all 0.3s ease 0s !important;
-    -moz-transition: all 0.3s ease 0s !important;
-    -o-transition: all 0.3s ease 0s !important;
-    transition: all 0.3s ease 0s !important;
-
-    border: transparent !important;
-    letter-spacing: 1px !important;
-}
-
 .header-area .main-nav ul .dropdown-menu a {
     height: 40px !important;
-    line-height: 40px !important;
-    color: #1e1e1e !important;
-}
-
-.custom-wp {
-    max-height: 2.5rem !important;
-}
-
-.flag-img {
-    max-height: 1.3125rem !important;
-}
-
-.lang-dropdown-text {
-    color: #f5f5f5;
-    margin-left: 0.25rem;
-}
-
-.lang-dropdown-text:hover {
-    color: black !important;
 }
 
 .header-area-scrolled {
@@ -255,6 +373,14 @@ export default {
     padding-right: 14rem;
 }
 
+@media ((min-width: 993px)) {
+    .container-scrolled {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 1rem !important;
+    }
+}
+
 @media (max-width: 992px) {
     .menu-trigger {
         position: relative !important;
@@ -265,14 +391,12 @@ export default {
 
     .logo {
         margin-top: 27px !important;
-
         margin-bottom: 17px !important;
     }
 
     .dropdown-menu {
         margin-left: 2rem !important;
         margin-right: 1rem !important;
-        text-align: center !important;
         border: 1px solid #ccc;
         border-radius: 3px;
     }
@@ -284,7 +408,6 @@ export default {
 
     ::-webkit-scrollbar {
         width: 3px;
-        /* Scrollbar genişliği */
     }
 
     /* Thumb (kaydırma çubuğu) */
@@ -294,14 +417,46 @@ export default {
         border-radius: 4px;
         /* Kaydırma çubuğu köşe yuvarlaması */
     }
-
-
-}
-
-@media (max-width: 1220px) {
     .container-scrolled {
         padding-left: 0px;
         padding-right: 0px;
+        margin-top: 0rem;
+    }
+    #navbarScroll {
+        background: #2186c2;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(19.9px);
+        -webkit-backdrop-filter: blur(19.9px);
+        border: unset;
+    }
+    .custom-navbar {
+        margin-right: unset;
+    }
+
+    .dropdown-toggle:hover span,
+    .dropdown-toggle:hover i {
+        color: #f2f2f2;
+    }
+
+    .c-dropdown-item:hover span,
+    .c-dropdown-item:hover i {
+        color: #f2f2f2;
+    }
+
+    .nav-link span:hover {
+        color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .c-dropdown-item:hover span {
+        color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .c-dropdown-menu-flag {
+        min-width: 0;
+        border: unset;
+        transform: translate(-5px, -5px);
     }
 }
 </style>

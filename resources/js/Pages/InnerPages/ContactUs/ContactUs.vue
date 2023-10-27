@@ -5,12 +5,12 @@
             <img style="max-height: 400px; width: 100%;" :src="hero" class="img-fluid">
         </div>
         <div class="container">
-            <div class="row" style="margin-top: 80px">
+            <div class="row" style="margin-top: 4rem">
                 <div class="col-md-12" style="display: flex; align-items: center; justify-content: center">
                     <div class=" ">
                         <Transition name="slide-title">
-                            <h1 class="header-title" v-if="data.data?.title">
-                                {{ data.data?.title }}
+                            <h1 class="header-title" v-if="data.data?.form_title">
+                                {{ data.data?.form_title }}
                             </h1>
                         </Transition>
                     </div>
@@ -19,12 +19,13 @@
             <div class="custom-carousel-caption d-none d-md-block mt-5"></div>
         </div>
         <div class="container">
-            <div class="col-12" style="padding-top: 180px; padding-bottom: 10px; text-align: center">
-                <div>
+            <div  class="col-12"
+                style="padding-top: 5rem; padding-bottom: 10px; text-align: center">
+                <div data-aos="fade-left" data-aos-duration="3000">
                     <iframe :src="data?.map_url" width="100%" height="450" style="border: 0; border-radius: 10px"
                         allowfullscreen=""></iframe>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="3000">
                     <p class="text-center mt-5">
                         {{ data.data?.contact_text }}
 
@@ -33,77 +34,11 @@
             </div>
             <div class="hr"></div>
             <div class="row mt-5">
-
-                 <!-- ***** Get Offer Form Start ***** -->
-                 <div class="row" style="width: -webkit-fill-available; justify-content: center;">
-                    <h2>{{ data.data?.form_title }}</h2>
-                </div>
-                <div class="row mt-5">
-                    <form class="row g-3" @submit.prevent="createContactForm">
-                            <div class="col-md-6">
-                                <label for="name" class="form-label">{{ data.data?.get_offer_place_hold?.name }}</label>
-                                <input v-model="contactForm.name" class="form-control" id="name">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.name">
-                                    {{ errors.name }}
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="last_name" class="form-label">{{ data.data?.get_offer_place_hold?.last_name }}</label>
-                                <input v-model="contactForm.last_name" class="form-control" id="last_name">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.last_name">
-                                    {{ errors.last_name }}
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <label for="phone" class="form-label">{{ data.data?.get_offer_place_hold?.phone }}</label>
-                                <input v-model="contactForm.phone" class="form-control" id="phone">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.phone">
-                                    {{ errors.phone }}
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
-                                <input v-model="contactForm.email" class="form-control" id="email">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
-                                    {{ errors.email }}
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mt-3">
-                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
-                                <input v-model="contactForm.email" class="form-control" id="email">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
-                                    {{ errors.email }}
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mt-3">
-                                <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
-                                <input v-model="contactForm.email" class="form-control" id="email">
-                                <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
-                                    {{ errors.email }}
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12">
-                                <fieldset class="text-center mt-4">
-                                    <button type="submit" id="form-submit" class="main-button">
-                                        {{ data.data?.btn_text }}
-                                    </button>
-                                </fieldset>
-                            </div>
-                        </form>
-                </div>
-                <!-- ***** Get Offer Form End ***** -->
-
-                <div class="row mt-5" style="width: -webkit-fill-available; justify-content: center;">
-                    <h2>{{ data.data?.form_title }}</h2>
-                </div>
                 <div class="row mt-5">
                     <!-- ***** Contact Text Start ***** -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <!-- <h5 class="margin-bottom-30"></h5> -->
-                        <div class="contact-info mt-3">
+                        <div data-aos="fade-left" data-aos-duration="3000" class="contact-info mt-3">
                             <div>
                                 <h3>{{ data.data?.contact_title }}</h3>
 
@@ -132,7 +67,7 @@
                     <!-- ***** Contact Text End ***** -->
 
                     <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div data-aos="fade-right" data-aos-duration="3000" class="col-lg-8 col-md-6 col-sm-12">
                         <form class="row g-3" @submit.prevent="createContactForm">
                             <div class="col-md-6">
                                 <label for="name" class="form-label">{{ data.data?.place_holder?.name }}</label>
@@ -208,6 +143,27 @@ export default {
         this.getData();
     },
     methods: {
+        handleFileUpload(event) {
+            this.files = event.target.files;
+        },
+        createOfferForm() {
+            this.offerForm.images = this.files;
+            this.offerForm.post(route("contact-us-inner.store"), {
+                onSuccess: () => {
+                    this.clearOfferForm();
+                    this.offerForm.reset();
+                },
+            });
+        },
+        clearOfferForm() {
+            this.offerForm.name = null;
+            this.offerForm.last_name = null;
+            this.offerForm.images = null;
+            this.offerForm.phone = null;
+            this.offerForm.upload_address = null;
+            this.offerForm.destination_address = null;
+            this.files = null;
+        },
         async getData() {
             try {
                 axios
@@ -241,6 +197,14 @@ export default {
     },
 
     setup() {
+        const offerForm = useForm({
+            name: null,
+            last_name: null,
+            phone: null,
+            images: [],
+            upload_address: null,
+            destination_address: null,
+        });
         const contactForm = useForm({
             name: null,
             last_name: null,
@@ -250,6 +214,7 @@ export default {
         });
         return {
             contactForm,
+            offerForm
         };
     },
 };

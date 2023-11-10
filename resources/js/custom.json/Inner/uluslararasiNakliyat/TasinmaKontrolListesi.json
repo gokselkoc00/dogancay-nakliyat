@@ -1,13 +1,13 @@
 [
     {
-        "hero": "assets/images/tasinmaKontrolLis/hero.jpg",
+        "hero": "assets/images/new/tasinmaKontrolLis/ysqHXvr7tLHlhbkPOpgz_1699269347.jpg",
         "tr": {
             "title": "TAŞINMA KONTROL LİSTESİ",
             "check_list_title": "Hazırlık Dönemi",
             "data": [
                 {
                     "text": "Taşınma günü görevlilerimiz geldiğinde evde karşılayacak birisi olduğundan emin olunuz. Taşıma görevlilerimiz ile taşınma önce son kez gezerek beraber kontrol ediniz ve taşınacak eşyaları ve ekstra dikkat edilmesi gereken hususları belirtiniz. Bu kontrolde çatı katını, apartman altındaki mahzende bulunan eşyaları da unutmayınız. Taşıma sonunda geriye taşınmasını istediğiniz hiçbir malzemenin kalmadığından emin olunuz. Eşyalar taşındıktan sonra paketleme envanter listesini kontrol ediniz. En sonunda imzalanması geren belgeleri imzalayınız.",
-                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
+                    "img_url": "assets/images/new/tasinmaKontrolLis/2h1vaTT2Ihh0sx3hIFvy_1699260373.jpg"
                 }
             ],
             "check_list": [
@@ -97,93 +97,87 @@
             "data": [
                 {
                     "text": "Make sure that someone is at home to answer the mover’ questions. Walk through the house with our movers, indicate items to be packed and moved and need to be paid extra attention. Remember to include garage, shed, attic, cellar. Check all rooms, cupboards and walls to make sure nothing is left behind. Before the goods is loaded to removal truck, review the packing list, compare the numbers on the boxes with the numbers on list. Check and sign the packing list.",
-                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
+                    "img_url": "assets/images/new/tasinmaKontrolLis/2h1vaTT2Ihh0sx3hIFvy_1699260373.jpg"
                 }
             ],
             "check_list": [
                 {
-                    "text": "Check validation of passport and visas"
+                    "text": "Check the validity periods of your visa and passport."
                 },
                 {
-                    "text": "Confirm the removal date with Dogancay Nakliyat."
+                    "text": "Confirm the moving day with Dogancay Movers."
                 },
                 {
-                    "text": "Decide what items do you have to take with you? Prepare the goods that you intend to move internationally,"
+                    "text": "Decide which items you will take to your new address with international moving."
                 },
                 {
-                    "text": "Find a solution for rest of them (selling, donation…) and use up things you can’t move, such as frozen foods and cleaning supplies."
+                    "text": "Decide what to do with remaining items. You can sell or give them away. Consume frozen foods, detergents, and cleaning supplies before moving day."
                 },
                 {
-                    "text": "Check the goods with the items in the quote provided by our company"
+                    "text": "Compare and verify the quantity of items in the price quote."
                 },
                 {
-                    "text": "Check requirements for permits (residency, vehicle, fine art, plants..)"
+                    "text": "Review and prepare necessary documents for bringing vehicles, residence permits, permits for valuable items and antiques, and documents for plants in the destination country."
                 },
                 {
-                    "text": "Check requirements of vaccination and get vaccinations to comply with health regulations in new country"
+                    "text": "It's beneficial to check vaccination requirements and health conditions in the country you're moving to."
                 },
                 {
-                    "text": "Check tickets and related documents. Book travel arrangements and overseas accommodation if necessary"
+                    "text": "Have you booked your departure ticket? If the date is fixed, there are many advantages to booking in advance. If you'll stay in a hotel in the first few days, it's good to make a reservation."
                 },
                 {
-                    "text": "Check personal documents (national identification card, birth certificate, driver license…)If necessary, contact schools, doctors, dentists, lawyers and accountants and obtain copies of your personal records."
+                    "text": "Don't forget to check your personal documents (ID card, birth certificate, health records, student ID, driver's license, etc.). If necessary, obtain your personal documents by contacting relevant government offices, schools, doctors, lawyers, and accountants."
                 },
                 {
-                    "text": "Get your vehicle insurance records."
+                    "text": "Request your car insurance documents from your insurance agent."
                 },
                 {
-                    "text": "Obtain or transfer personal accident and medical insurance (yourself and family)"
+                    "text": "Check and, if necessary, consult with insurers for accident, health, and other insurance and coverage for the transfer."
                 },
                 {
-                    "text": "Check driving documentation required in your new location"
+                    "text": "Read the necessary documents for your driver's license in the new country you'll be moving to."
                 },
                 {
-                    "text": "Search nearby schools and (get appointment if necessary) in your future location."
+                    "text": "Research schools near your new address. If necessary, make appointments."
                 },
                 {
-                    "text": "Submit a Change of Address form to the local authorities eg. Department of civil registration and nationality or post office."
+                    "text": "Inform the Population and Citizenship Affairs Directorate and the post office about the change of address by applying to the Provincial/District Population and Citizenship Affairs Directorate."
                 },
                 {
-                    "text": "Get appliances serviced to control and arranged the voltage in accordance with regulation of your destination country"
+                    "text": "Have your appliances checked by a service technician. Also, find out from the service what to do if a voltage change is needed."
                 },
                 {
-                    "text": "Contact utility and related companies. Finalize the accounts for gas, water, electricity and cable based on moving day. Arrange for these services to be disconnected on the moving day."
+                    "text": "Contact relevant departments for electricity, water, and natural gas to inquire about the final payment dates, remaining amounts, and procedures for closing the accounts."
                 },
                 {
-                    "text": "Cancel rental agreements based on moving day."
+                    "text": "Talk to your landlord to terminate your lease agreement."
                 },
                 {
-                    "text": "Notify change of address: post office, credit card companies, banks, professional organizations."
+                    "text": "Notify places like the bank about your change of address."
                 },
                 {
-                    "text": "Obtain all school records, medical and dental records."
+                    "text": "Obtain information about your school, health, and dental records."
                 },
                 {
-                    "text": "Close out bank accounts or transfer your deposits to your new bank (Arrange banking facilities in your new country)"
+                    "text": "Close your bank account. You can transfer your account to a bank you agree with at your new location."
                 },
                 {
-                    "text": "Take pets to the veterinarian for any needed immunizations. Get copies of pets’ veterinary records."
+                    "text": "Take your pets to the vet to ensure their vaccinations are up to date and obtain the necessary documents."
                 },
                 {
-                    "text": "Cancel home deliveries such as newspapers, magazines etc"
+                    "text": "Cancel subscriptions according to the moving day."
                 },
                 {
-                    "text": "Arrange transportation for yourselves to your new home."
+                    "text": "Before moving day, disconnect and clean your white goods. Arrange for a technician if needed to remove chandeliers."
                 },
                 {
-                    "text": "Prepare the documentations that you take with you during your travel."
+                    "text": "Before moving day, talk to your neighbors or the building manager for easy access for our moving vehicles."
                 },
                 {
-                    "text": "Disconnect, clean and dry any electrical appliances that you wish to ship. And arrange electrician to disconnect relevant light fittings etc"
+                    "text": "If you want to pack yourself and have agreed to do so, you can obtain your moving boxes, tapes, moving blankets, moving ropes, utility knife, paper, etc. from our online service at evex.com.tr."
                 },
                 {
-                    "text": "Arrange with the neighbors or building administrator to leave enough parking space for the removal vans."
-                },
-                {
-                    "text": "If you’re packing yourself, purchase moving boxes and moving materials from evex.com.tr"
-                },
-                {
-                    "text": "If you’re moving out of or into a building with elevators, contact the building management to schedule use of the elevators."
+                    "text": "If you live in a high-rise building and there is no external elevator for moving, talk to the building manager about using the internal elevator."
                 }
             ]
         },
@@ -193,7 +187,7 @@
             "data": [
                 {
                     "text": "Stellen Sie sicher, dass jemand zu Hause ist, der die Fragen des Umzugsunternehmens beantworten kann. Gehen Sie mit unseren Umzugshelfern durch das Haus und weisen Sie auf Gegenstände hin, die verpackt und bewegt werden sollen und denen besondere Aufmerksamkeit geschenkt werden muss. Denken Sie daran, Garage, Schuppen, Dachboden und Keller einzubeziehen. Überprüfen Sie alle Räume, Schränke und Wände, um sicherzustellen, dass nichts zurückbleibt. Bevor die Ware auf den Umzugswagen verladen wird, überprüfen Sie die Packliste und vergleichen Sie die Nummern auf den Kartons mit den Nummern auf der Liste. Überprüfen und unterschreiben Sie die Packliste",
-                    "img_url": "assets/images/tasinmaKontrolLis/resim1.jpg"
+                    "img_url": "assets/images/new/tasinmaKontrolLis/2h1vaTT2Ihh0sx3hIFvy_1699260373.jpg"
                 }
             ],
             "check_list": [
@@ -201,85 +195,79 @@
                     "text": "Überprüfen Sie die Gültigkeitsdauer Ihres Visums und Reisepasses."
                 },
                 {
-                    "text": "Bestätigen Sie das Umzugsdatum mit Dogancay Nakliyat."
+                    "text": "Bestätigen Sie den Umzugstag mit Dogancay Movers."
                 },
                 {
-                    "text": "Entscheiden Sie, welche Gegenstände Sie mitnehmen müssen. Bereiten Sie die Waren vor, die Sie international bewegen möchten."
+                    "text": "Entscheiden Sie, welche Gegenstände Sie mit einem internationalen Umzug an Ihre neue Adresse mitnehmen möchten."
                 },
                 {
-                    "text": "Finden Sie eine Lösung für den Rest (Verkauf, Spende...) und verwenden Sie Dinge, die Sie nicht bewegen können, wie Tiefkühlprodukte und Reinigungsmittel."
+                    "text": "Entscheiden Sie, was Sie mit verbleibenden Gegenständen machen möchten. Sie können sie verkaufen oder verschenken. Verbrauchen Sie gefrorene Lebensmittel, Reinigungsmittel und Putzmittel vor dem Umzugstag."
                 },
                 {
-                    "text": "Überprüfen Sie die Waren mit den in unserem Angebot angegebenen Artikel."
+                    "text": "Vergleichen und überprüfen Sie die Menge der Gegenstände im Preisangebot."
                 },
                 {
-                    "text": "Überprüfen Sie die Anforderungen für Genehmigungen (Aufenthalt, Fahrzeug, Kunstwerke, Pflanzen...)."
+                    "text": "Überprüfen und bereiten Sie die erforderlichen Dokumente für die Mitnahme von Fahrzeugen, Aufenthaltsgenehmigungen, Genehmigungen für wertvolle Gegenstände und Antiquitäten sowie Dokumente für Pflanzen im Zielland vor."
                 },
                 {
-                    "text": "Überprüfen Sie die Anforderungen für Impfungen und lassen Sie sich impfen, um den Gesundheitsvorschriften im neuen Land zu entsprechen."
+                    "text": "Es ist ratsam, die Impfanforderungen und Gesundheitsbedingungen im Land, in das Sie umziehen werden, zu überprüfen."
                 },
                 {
-                    "text": "Überprüfen Sie Tickets und zugehörige Dokumente. Buchen Sie bei Bedarf Reisearrangements und Übernachtungen im Ausland."
+                    "text": "Haben Sie Ihr Abflugticket bereits gebucht? Wenn das Datum feststeht, gibt es viele Vorteile, es im Voraus zu buchen. Wenn Sie in den ersten Tagen in einem Hotel übernachten, ist es gut, eine Reservierung vorzunehmen."
                 },
                 {
-                    "text": "Überprüfen Sie persönliche Dokumente (Personalausweis, Geburtsurkunde, Führerschein...). Kontaktieren Sie bei Bedarf Schulen, Ärzte, Zahnärzte, Anwälte und Steuerberater und erhalten Sie Kopien Ihrer persönlichen Unterlagen."
+                    "text": "Vergessen Sie nicht, Ihre persönlichen Dokumente (Personalausweis, Geburtsurkunde, Gesundheitsunterlagen, Studentenausweis, Führerschein usw.) zu überprüfen. Beschaffen Sie bei Bedarf Ihre persönlichen Dokumente, indem Sie sich an die entsprechenden Regierungsstellen, Schulen, Ärzte, Anwälte und Steuerberater wenden."
                 },
                 {
-                    "text": "Besorgen Sie sich Ihre Fahrzeugversicherungsunterlagen."
+                    "text": "Fordern Sie Ihre Auto-Versicherungsdokumente von Ihrem Versicherungsvertreter an."
                 },
                 {
-                    "text": "Besorgen oder übertragen Sie die Unfall- und Krankenversicherung (für sich und Ihre Familie)."
+                    "text": "Überprüfen Sie Ihre Unfall-, Kranken- und andere Versicherungs- und Kaskodokumente und konsultieren Sie sie bei Bedarf für den Transfer."
                 },
                 {
-                    "text": "Überprüfen Sie die für Ihren neuen Standort erforderlichen Fahrunterlagen."
+                    "text": "Lesen Sie die erforderlichen Dokumente für Ihren Führerschein im neuen Land, in das Sie umziehen werden."
                 },
                 {
-                    "text": "Suchen Sie in Ihrem zukünftigen Standort nach Schulen und (vereinbaren Sie bei Bedarf einen Termin)."
+                    "text": "Recherchieren Sie Schulen in der Nähe Ihrer neuen Adresse. Vereinbaren Sie bei Bedarf Termine."
                 },
                 {
-                    "text": "Reichen Sie ein Adressänderungsformular bei den örtlichen Behörden ein, z. B. beim Amt für Zivilregistrierung und Staatsangehörigkeit oder bei der Post."
+                    "text": "Informieren Sie das Amt für Bevölkerung und Staatsbürgerschaft sowie die Post über die Adressänderung durch Antragstellung beim Amt für Bevölkerung und Staatsbürgerschaft auf Landes- oder Kreisebene."
                 },
                 {
-                    "text": "Lassen Sie Haushaltsgeräte warten, um die Spannung gemäß den Vorschriften Ihres Ziellandes zu kontrollieren und zu arrangieren."
+                    "text": "Lassen Sie Ihre Geräte von einem Servicetechniker überprüfen. Erfahren Sie außerdem vom Service, was zu tun ist, wenn eine Spannungsänderung erforderlich ist."
                 },
                 {
-                    "text": "Kontaktieren Sie Versorgungs- und damit verbundene Unternehmen. Schließen Sie die Konten für Gas, Wasser, Strom und Kabel am Umzugstag ab. Vereinbaren Sie, dass diese Dienste am Umzugstag getrennt werden."
+                    "text": "Wenden Sie sich an die zuständigen Abteilungen für Strom, Wasser und Erdgas, um die letzten Zahlungstermine, Restbeträge und Verfahren zur Kontoschließung zu erfragen."
                 },
                 {
-                    "text": "Kündigen Sie Mietverträge zum Umzugstag."
+                    "text": "Sprechen Sie mit Ihrem Vermieter, um Ihren Mietvertrag zu kündigen."
                 },
                 {
-                    "text": "Benachrichtigen Sie über die Adressänderung: Postamt, Kreditkartenunternehmen, Banken, Berufsorganisationen."
+                    "text": "Informieren Sie Orte wie die Bank über Ihre Adressänderung."
                 },
                 {
-                    "text": "Besorgen Sie alle Schulunterlagen, medizinischen und zahnmedizinischen Unterlagen."
+                    "text": "Besorgen Sie sich Informationen zu Ihren Schul-, Gesundheits- und Zahnakten."
                 },
                 {
-                    "text": "Schließen Sie Bankkonten ab oder übertragen Sie Ihre Einlagen auf Ihr neues Konto (Vereinbaren Sie Bankdienstleistungen in Ihrem neuen Land)."
+                    "text": "Schließen Sie Ihr Bankkonto. Sie können Ihr Konto zu einer Bank an Ihrem neuen Standort übertragen, mit der Sie vereinbart haben."
                 },
                 {
-                    "text": "Bringen Sie Haustiere zum Tierarzt für eventuell benötigte Impfungen. Holen Sie sich Kopien der tierärztlichen Unterlagen Ihrer Haustiere."
+                    "text": "Bringen Sie Ihre Haustiere zum Tierarzt, um sicherzustellen, dass ihre Impfungen auf dem neuesten Stand sind, und besorgen Sie sich die erforderlichen Dokumente."
                 },
                 {
-                    "text": "Stornieren Sie Hauslieferungen wie Zeitungen, Zeitschriften usw."
+                    "text": "Kündigen Sie Abonnements entsprechend dem Umzugstag."
                 },
                 {
-                    "text": "Vereinbaren Sie den Transport für sich selbst zu Ihrem neuen Zuhause."
+                    "text": "Vor dem Umzugstag schließen Sie Ihre weißen Geräte an, reinigen sie und entfernen Sie sie von der Stromversorgung. Vereinbaren Sie bei Bedarf einen Techniker, um Kronleuchter zu entfernen."
                 },
                 {
-                    "text": "Bereiten Sie die Unterlagen vor, die Sie während Ihrer Reise mitnehmen."
+                    "text": "Sprechen Sie vor dem Umzugstag mit Ihren Nachbarn oder dem Hausmeister, damit unsere Umzugswagen leicht zugänglich sind."
                 },
                 {
-                    "text": "Trennen, reinigen und trocknen Sie elektrische Geräte, die Sie versenden möchten. Und vereinbaren Sie mit einem Elektriker, relevante Lichtarmaturen usw. zu trennen."
+                    "text": "Wenn Sie selbst verpacken möchten und dies vereinbart haben, können Sie Ihre Umzugskartons, Klebebänder, Umzugsdecken, Umzugsseile, Cuttermesser, Papier usw. über unseren Online-Service unter evex.com.tr erhalten."
                 },
                 {
-                    "text": "Vereinbaren Sie mit den Nachbarn oder dem Gebäudeverwalter genügend Parkplatz für die Umzugswagen zu lassen."
-                },
-                {
-                    "text": "Wenn Sie selbst packen, kaufen Sie Umzugskartons und Umzugsmaterial von evex.com.tr."
-                },
-                {
-                    "text": "Wenn Sie aus oder in ein Gebäude mit Aufzügen ziehen, kontaktieren Sie die Gebäudeverwaltung, um die Nutzung der Aufzüge zu planen."
+                    "text": "Wenn Sie in einem Hochhaus wohnen und es keine externen Aufzugsmöglichkeiten gibt, sprechen Sie mit dem Hausmeister über die Verwendung des internen Aufzugs."
                 }
             ]
         }

@@ -68,7 +68,7 @@ export default {
         async getData() {
             try {
                 axios
-                    .get(route("blog.data"))
+                    .get(route("services.data"))
                     .then((response) => {
                         this.data = response.data;
                     })

@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CounterController;
 use App\Http\Controllers\DenizYoluTasimaciligiController;
@@ -22,6 +21,7 @@ use App\Http\Controllers\KaraYoluTasimaciligiController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PlanlamaHazirlikController;
 use App\Http\Controllers\ReferencesController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\TasimaHizmetlerimizController;
 use App\Http\Controllers\TasinmaKontrolListesiController;
 use App\Http\Controllers\UluslararasiNakliyatController;
@@ -65,7 +65,7 @@ Route::get('/features-card-data', [FeaturesCardController::class, 'getData'])->n
 Route::get('/features-data', [FeaturesController::class, 'getData'])->name('features.data');
 Route::get('/aboutus-data', [AboutUsController::class, 'getData'])->name('aboutus.data');
 Route::get('/counter-data', [CounterController::class, 'getData'])->name('counter.data');
-Route::get('/blog-data', [BlogController::class, 'getData'])->name('blog.data');
+Route::get('/services-data', [ServicesController::class, 'getData'])->name('services.data');
 Route::get('/contact-data', [ContactController::class, 'getData'])->name('contact.data');
 Route::post('/contact-store', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/galeri-data', [GaleriController::class, 'getData'])->name('gallery.data');

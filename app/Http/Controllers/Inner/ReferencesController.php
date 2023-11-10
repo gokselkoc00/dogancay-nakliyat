@@ -9,7 +9,8 @@ use Inertia\Inertia;
 
 class ReferencesController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return Inertia::render('InnerPages/References/References');
     }
 
@@ -21,13 +22,11 @@ class ReferencesController extends Controller
         $images = $data["images"];
         $heroImage = $data["hero_img_inner"];
 
-        if ($lang === 'tr') {
-            $title = $data["tr"]["inner"];
-        } elseif ($lang == 'en') {
-            $title = $data["en"]["inner"];
-        } elseif ($lang == 'ge') {
-            $title = $data["ge"]["inner"];
-        }
+        $title = $data[$lang]["inner"];
+
+        usort($images, function ($a, $b) {
+            return $a['order'] - $b['order'];
+        });
 
         return response()->json([
             'images' => $images,

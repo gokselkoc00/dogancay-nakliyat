@@ -1,8 +1,7 @@
 [
     {
         "tr": {
-            "title": "Doğançay Nakliyat Çağrı Merkezi",
-            "contact_title": "BİZE ULAŞIN",
+            "contact_title": "İletişim",
             "btn_text": "Mesaj Gönder",
             "place_holder": {
                 "name": "Ad",
@@ -13,9 +12,8 @@
             }
         },
         "en": {
-            "title": "Doğançay Nakliyat Call Center",
             "btn_text": "Send Message",
-            "contact_title": "CONTACT US",
+            "contact_title": "Contact Us",
             "place_holder": {
                 "name": "Name",
                 "last_name": "Surname",
@@ -25,8 +23,7 @@
             }
         },
         "ge": {
-            "title": "Callcenter für Doğançay Nakliyat",
-            "contact_title": "KONTAKTIERE UNS",
+            "contact_title": "Kontaktiere uns",
             "btn_text": "Nachricht senden",
             "place_holder": {
                 "name": "Vorname",

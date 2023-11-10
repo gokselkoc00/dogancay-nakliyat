@@ -12,7 +12,7 @@
                 >
                     <div class="center-heading">
                         <h2 class="c-h2-title mt-5">
-                            {{ data.data?.form_title }}
+                            {{ data.data?.contact_title }}
                         </h2>
                     </div>
                 </div>

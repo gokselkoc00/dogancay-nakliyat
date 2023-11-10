@@ -2,31 +2,17 @@
     <div>
         <section class="c-section c-home">
             <div class="c-image-container">
-                <img
-                    class="c-img-slider"
-                    :src="$page.props.site_url + item.img_url"
-                    alt="image"
-                    :key="index"
-                    v-for="(item, index) in data"
-                    :class="{ active: index === currentSlide }"
-                />
+                <img class="c-img-slider" :src="$page.props.site_url + item.img_url" alt="image" :key="index"
+                    v-for="(item, index) in data" :class="{ active: index === currentSlide }" />
             </div>
-            <div
-                class="c-content"
-                v-for="(item, index) in data"
-                :class="{ active: index === currentSlide }"
-                :key="index"
-            >
+            <div class="c-content" v-for="(item, index) in data" :class="{ active: index === currentSlide }" :key="index">
                 <transition name="slide-title">
                     <h1 :key="currentSlide">
-                        {{ item.title }}
+                        {{ item?.title }}
                     </h1>
                 </transition>
                 <transition name="slide-title">
-                    <p
-                        :key="currentSlide"
-                        v-html="addLineBreaks(item.text)"
-                    ></p>
+                    <p :key="currentSlide" v-html="addLineBreaks(item?.text)"></p>
                 </transition>
             </div>
 
@@ -34,13 +20,8 @@
                 <a href="#"><i class="bx bxl-instagram"></i></a>
             </div> -->
             <div class="c-slider-navigation">
-                <div
-                    v-for="(item, index) in data"
-                    :key="index"
-                    class="c-nav-btn"
-                    @click="changeSlide(index)"
-                    :class="{ active: index === currentSlide }"
-                ></div>
+                <div v-for="(item, index) in data" :key="index" class="c-nav-btn" @click="changeSlide(index)"
+                    :class="{ active: index === currentSlide }"></div>
             </div>
         </section>
     </div>
@@ -91,12 +72,12 @@ export default {
             this.currentSlide = (this.currentSlide + 1) % this.data.length;
         },
     },
-    beforeMount() {
-        this.startAutoplay(); // Otomatik oynatmayı başlat
-    },
-    beforeUnmount() {
-        this.stopAutoplay(); // Bileşen öldüğünde otomatik oynatmayı durdur
-    },
+    // beforeMount() {
+    //     this.startAutoplay(); // Otomatik oynatmayı başlat
+    // },
+    // beforeUnmount() {
+    //     this.stopAutoplay(); // Bileşen öldüğünde otomatik oynatmayı durdur
+    // },
 };
 </script>
 
@@ -104,6 +85,7 @@ export default {
 .c-section {
     padding: 100px 100px;
 }
+
 .c-home {
     position: relative;
     width: 100%;
@@ -111,7 +93,7 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #2696e9;
+    background: #0f4c7a;
 }
 
 .c-home .c-content {
@@ -139,14 +121,17 @@ export default {
     margin-bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .c-home .c-content h1 span {
     font-weight: 400px;
     font-size: 1.2em;
 }
+
 .c-home .c-content p {
     margin-bottom: 60px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
+
 .c-home .c-content a {
     background: #fff;
     padding: 15px 36px;
@@ -179,6 +164,7 @@ export default {
 .c-home .c-media-icons a:hover {
     transform: scale(1.3);
 }
+
 .c-home .c-img-slider {
     z-index: 0;
     position: absolute;
@@ -188,6 +174,7 @@ export default {
     height: 100%;
     object-fit: cover;
 }
+
 .c-home::before {
     z-index: 777;
     content: "";
@@ -197,6 +184,7 @@ export default {
     top: 0;
     left: 0;
 }
+
 .c-home .c-slider-navigation {
     z-index: 888;
     position: relative;
@@ -207,10 +195,11 @@ export default {
 }
 
 .c-slider-navigation .c-nav-btn {
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    background: #fff;
+    background: #0f4c7a;
+    border: 2px solid #ffff;
     transform: 0.3s ease;
     box-shadow: 0 0 2px rgb(255, 255, 255, 0.5);
 }
@@ -240,6 +229,7 @@ export default {
         font-size: 2.5em;
         margin-bottom: 5px;
     }
+
     .c-home .c-content p {
         margin-bottom: 5px;
     }
@@ -251,6 +241,7 @@ export default {
         margin-bottom: 5px;
         line-height: 40px;
     }
+
     .c-home .c-content p {
         margin-bottom: 5px;
         font-size: 1em;
@@ -262,6 +253,7 @@ export default {
 }
 
 @media (max-width: 400px) {
+
     .c-home .c-content h1,
     .c-home .c-content p {
         display: none;

@@ -14,14 +14,12 @@ class ReferencesController extends Controller
         $data = json_decode($data->data, true);
         $images = $data["images"];
 
-        if ($lang === 'tr') {
-            $title = $data["tr"]["home"];
-        } elseif ($lang == 'en') {
-            $title = $data["en"]["home"];
-        } elseif ($lang == 'ge') {
-            $title = $data["ge"]["home"];
-        }
+        $title = $data[$lang]["home"];
 
+        usort($images, function ($a, $b) {
+            return $a['order'] - $b['order'];
+        });
+        
         return response()->json([
             'images' => $images,
             'title' => $title

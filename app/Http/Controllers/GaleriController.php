@@ -14,13 +14,11 @@ class GaleriController extends Controller
         $data = json_decode($data->data, true);
         $images = $data["images"];
 
-        if ($lang === 'tr') {
-            $title = $data["tr"];
-        } elseif ($lang == 'en') {
-            $title = $data["en"];
-        } elseif ($lang == 'ge') {
-            $title = $data["ge"];
-        }
+        // 'order' değerine göre sıralama
+        usort($images, function ($a, $b) {
+            return $a['order'] - $b['order'];
+        });
+        $title = $data[$lang];
 
         return response()->json([
             'images' => $images,

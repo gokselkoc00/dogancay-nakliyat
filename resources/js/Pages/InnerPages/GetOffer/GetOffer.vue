@@ -43,6 +43,10 @@
                             <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.upload_address
                             }}</label>
                             <input v-model="offerForm.upload_address" class="form-control" id="email">
+                            <div class="address-info-msg">
+                                <i class="fa-solid fa-star-of-life" style="font-size: 10px;"></i>
+                                <span style="font-size: 14px; margin-left: 0.25rem;">{{ data.data?.offer_info_msg }}</span>
+                            </div>
                             <div class="alert alert-danger mt-2" role="alert" v-if="errors?.upload_address">
                                 {{ errors.upload_address }}
                             </div>
@@ -52,6 +56,10 @@
                             <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.destination_address
                             }}</label>
                             <input v-model="offerForm.destination_address" class="form-control" id="email">
+                            <div class="address-info-msg">
+                                <i class="fa-solid fa-star-of-life" style="font-size: 10px;"></i>
+                                <span style="font-size: 14px; margin-left: 0.25rem;">{{ data.data?.offer_info_msg }}</span>
+                            </div>
                             <div class="alert alert-danger mt-2" role="alert" v-if="errors?.destination_address">
                                 {{ errors.destination_address }}
                             </div>
@@ -223,5 +231,13 @@ export default {
     .contact-form-container {
         margin-top: 3rem;
     }
+}
+
+.address-info-msg {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.25rem;
 }
 </style>

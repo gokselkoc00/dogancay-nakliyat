@@ -1,68 +1,71 @@
 [
     {
-        "hero": "assets/images/contactus-inner/hero.jpg",
-        "tr": {
-            "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.",
-            "form_title": "İletişim",
-            "offer_form_title": "Teklif Al",
-            "btn_text": "Gönder",
-            "place_holder": {
-                "name": "Ad",
-                "last_name": "Soyad",
-                "phone": "Telefon",
-                "email": "E-Mail Adresi",
-                "message": "Mesaj"
-            },
-            "get_offer_place_hold": {
-                "name": "Ad",
-                "last_name": "Soyad",
-                "phone": "Telefon",
-                "images": "Resimler",
-                "upload_address": "Yükleme Yeri",
-                "destination_address": "Gideceği Yer"
-            }
-        },
         "en": {
-            "contact_text": "You can contact us at any time of the week from our Call Center 444 1980 to get information about our services.",
-            "form_title": "Contact Form",
-            "offer_form_title": "Get Offer",
             "btn_text": "Send Message",
+            "form_title": "Contact Form",
+            "contact_text": "You can contact us at any time of the week from our Call Center 444 1980 to get information about our services.",
             "place_holder": {
                 "name": "Name",
-                "last_name": "Surname",
-                "phone": "Phone",
                 "email": "E-Mail Address",
-                "message": "Message"
+                "phone": "Phone",
+                "message": "Message",
+                "last_name": "Surname"
             },
+            "offer_form_title": "Get Offer",
+            "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.",
             "get_offer_place_hold": {
                 "name": "First Name",
-                "last_name": "Last Name",
                 "phone": "Phone",
                 "images": "Images",
+                "last_name": "Last Name",
                 "upload_address": "Upload Location",
                 "destination_address": "Destination"
             }
         },
         "ge": {
-            "contact_text": "Über unser Call Center 444 1980 können Sie uns zu jeder Zeit der Woche kontaktieren, um Informationen zu unseren Dienstleistungen zu erhalten.",
-            "form_title": "Kontakt Formular",
-            "offer_form_title": "Angebot bekommen",
             "btn_text": "Nachricht senden",
+            "form_title": "Kontakt Formular",
+            "contact_text": "Über unser Call Center 444 1980 können Sie uns zu jeder Zeit der Woche kontaktieren, um Informationen zu unseren Dienstleistungen zu erhalten.",
             "place_holder": {
                 "name": "Vorname",
-                "last_name": "Familienname",
-                "phone": "Telefon",
                 "email": "E-Mail Adresse",
-                "message": "Nachricht"
+                "phone": "Telefon",
+                "message": "Nachricht",
+                "last_name": "Familienname"
             },
+            "offer_form_title": "Angebot bekommen",
+            "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.",
             "get_offer_place_hold": {
                 "name": "Vorname",
-                "last_name": "Nachname",
                 "phone": "Telefon",
                 "images": "Bilder",
+                "last_name": "Nachname",
                 "upload_address": "Upload-Ort",
                 "destination_address": "Zielort"
             }
-        }
+        },
+        "tr": {
+            "btn_text": "Gönder",
+            "form_title": "İletişim",
+            "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.",
+            "place_holder": {
+                "name": "Ad",
+                "email": "E-Mail Adresi",
+                "phone": "Telefon",
+                "message": "Mesaj",
+                "last_name": "Soyad"
+            },
+            "offer_form_title": "Teklif Al",
+            "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.",
+            "get_offer_place_hold": {
+                "name": "Ad",
+                "phone": "Telefon",
+                "images": "Resimler",
+                "last_name": "Soyad",
+                "upload_address": "Yükleme Yeri",
+                "destination_address": "Gideceği Yer"
+            }
+        },
+        "hero": "assets/images/new/contactus-inner/FNtslpOyyYy8s19DFmC8_1698925295.jpg"
     }
 ]

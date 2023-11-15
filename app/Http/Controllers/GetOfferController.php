@@ -39,7 +39,6 @@ class GetOfferController extends Controller
 
     public function store(OfferFormRequest $request)
     {
-
         $destinationPath = 'uploads';
 
         $isValidated =  $request->validated();
@@ -73,7 +72,7 @@ class GetOfferController extends Controller
                 'phone' => $request->phone,
                 'upload_address' => $request->upload_address,
                 'destination_address' => $request->destination_address,
-                'gidecegi_adres' => $request->gidecegi_adres,
+                'esya_miktar_bilgi' => $request->esya_miktar_bilgi,
                 'images' => $imageList,
             ]);
             if ($isCreated) {

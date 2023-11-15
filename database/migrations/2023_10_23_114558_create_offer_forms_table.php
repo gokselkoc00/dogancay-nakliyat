@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->text('upload_address')->nullable();
             $table->text('destination_address')->nullable();
+            $table->text('esya_miktar_bilgi')->nullable();
             $table->text('images')->nullable();
             $table->timestamps();
         });

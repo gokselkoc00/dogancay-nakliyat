@@ -48,48 +48,4 @@ class ContactUsController extends Controller
         ]);
     }
 
-    public function store(OfferFormRequest $request)
-    {
-     
-        $destinationPath = 'uploads';
-
-        $isValidated =  $request->validated();
-        if ($isValidated) {
-
-            if ($request->hasFile('images')) {
-                $files = $request->file('images');
-
-                $imageList = '';
-
-                $fileCount = count($files);
-
-                for ($i = 0; $i < $fileCount; $i++) {
-                    $file = $files[$i];
-                    $extension = $file->getClientOriginalExtension();
-                    $imageName = Str::random(20) . '_' . time() . '.' . $extension;
-                    $file->move(public_path($destinationPath), $imageName);
-
-                    // Son resimse, ayracı eklememe koşulu
-                    if ($i === $fileCount - 1) {
-                        $imageList .= $destinationPath . '/' . $imageName;
-                    } else {
-                        $imageList .= $destinationPath . '/' . $imageName . '!*;!';
-                    }
-                }
-            }
-
-            $isCreated = OfferForm::create([
-                'name' => $request->name,
-                'last_name' => $request->last_name,
-                'phone' => $request->phone,
-                'upload_address' => $request->upload_address,
-                'destination_address' => $request->destination_address,
-                'gidecegi_adres' => $request->gidecegi_adres,
-                'images' => $imageList,
-            ]);
-            if ($isCreated) {
-                redirect()->route('contact-us-inner.index');
-            }
-        }
-    }
 }

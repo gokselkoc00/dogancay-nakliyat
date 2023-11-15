@@ -84,7 +84,6 @@ Route::get('/references-inner-data', [InnerReferencesController::class, 'getData
 // Contact Us İnner Start
 Route::get('/iletisim-data', [ContactUsController::class, 'getData'])->name('contact-us-inner.data');
 Route::get('/iletisim', [ContactUsController::class, 'index'])->name('contact-us-inner.index');
-Route::post('/iletisim-offer-store', [ContactUsController::class, 'store'])->name('contact-us-inner.store');
 // Contact Us İnner End
 
 // Get Offer  Start

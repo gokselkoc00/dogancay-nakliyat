@@ -16,6 +16,7 @@ class OfferForm extends Model
         'upload_address',
         'destination_address',
         'images',
+        'esya_miktar_bilgi',
     ];
 
 }

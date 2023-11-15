@@ -269,7 +269,7 @@ export default {
 
 .header-area .main-nav li a {
     display: block !important;
-    font-size: 15px !important;
+    font-size: 16px !important;
     color: #f5f5f5 !important;
     -webkit-transition: all 0.3s ease 0s !important;
     -moz-transition: all 0.3s ease 0s !important;
@@ -294,7 +294,7 @@ export default {
 
 .dropdown-toggle:hover span,
 .dropdown-toggle:hover i {
-    color: #2186c2;
+    color: #0f4c7a;
 }
 
 .dropdown-toggle:hover span {
@@ -307,14 +307,18 @@ export default {
 
 .c-dropdown-item:hover span,
 .c-dropdown-item:hover i {
-    color: #2186c2;
+    color:#2186c2;
 }
 
 .c-dropdown-item span {
     font-weight: 400;
+    color: #0f4c7a;
+}
+.c-dropdown-item  i {
+    color: #0f4c7a;
 }
 .nav-link span:hover {
-    color: #2186c2;
+    color: #0f4c7a;
     font-weight: bold;
 }
 .dropdown-toggle::after {
@@ -326,11 +330,11 @@ export default {
 }
 .container-scrolled .dropdown-toggle:hover span,
 .container-scrolled .dropdown-toggle:hover i {
-    color: #f2f2f2;
+    color: #0f4c7a;
 }
 
 .container-scrolled .nav-link span:hover {
-    color: #f2f2f2;
+    color: #0f4c7a;
     font-weight: bold;
 }
 
@@ -352,6 +356,9 @@ export default {
 .custom-navbar {
     margin-right: 1rem;
     justify-content: end !important;
+}
+.header-area .main-nav {
+  background: #2186c2ad;
 }
 
 .header-area .main-nav ul .dropdown-menu a {

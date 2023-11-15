@@ -29,6 +29,7 @@ class OfferFormRequest extends FormRequest
             'phone' => ['required', 'max:255', 'string'],
             'upload_address' => ['required', 'string'],
             'destination_address' => ['required', 'string'],
+            'esya_miktar_bilgi' => ['required', 'string'],
             'images' => ['required'],
             'images.*' => ['required', 'image', 'mimes:jpeg,png,jpg,gif', 'max:200'],
         ];
@@ -50,6 +51,8 @@ class OfferFormRequest extends FormRequest
             'upload_address.string' => 'Yüklenecek adres yazı şeklinde olmalıdır.',
             'destination_address.required' => 'Gideceği adres boş bırakılamaz.',
             'destination_address.string' => 'Gideceği adres yazı şeklinde olmalıdır.',
+            'esya_miktar_bilgi.required' => 'Eşya miktar bilgisi boş bırakılamaz.',
+            'esya_miktar_bilgi.string' => 'Eşya miktar bilgisi yazı şeklinde olmalıdır.',
             'images.required' => 'Resimler boş bırakılamaz.',
             'images.image' => 'Sadece resim yüklenmelidir.',
             'images.mimes' => 'Yüklenen dosya türleri : jpeg, png, jpg, gif olmalıdır',

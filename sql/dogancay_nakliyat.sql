@@ -16,8 +16,8 @@
 
 
 -- dogancay_nakliyat için veritabanı yapısı dökülüyor
-CREATE DATABASE IF NOT EXISTS `dogancay_test` /*!40100 DEFAULT CHARACTER SET utf16 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `dogancay_test`;
+CREATE DATABASE IF NOT EXISTS `dogancay_nakliyat` /*!40100 DEFAULT CHARACTER SET utf16 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `dogancay_nakliyat`;
 
 -- tablo yapısı dökülüyor dogancay_nakliyat.about_us
 CREATE TABLE IF NOT EXISTS `about_us` (
@@ -98,13 +98,15 @@ CREATE TABLE IF NOT EXISTS `contact_forms` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- dogancay_nakliyat.contact_forms: ~3 rows (yaklaşık) tablosu için veriler indiriliyor
 INSERT INTO `contact_forms` (`id`, `name`, `last_name`, `phone`, `email`, `message`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, 'ad', 'soyad', '219382131', 'mail@mail.com', 'mesja', NULL, '2023-10-12 04:59:09', '2023-10-12 04:59:09'),
 	(2, 'Göksel', 'bilgi', NULL, NULL, NULL, NULL, '2023-10-23 08:44:06', '2023-10-23 08:44:06'),
-	(3, 'Göksel', 'Koç', '32432432432432', 'goksel.koc@invekor.com', 'sadsadsa', NULL, '2023-10-23 10:57:31', '2023-10-23 10:57:31');
+	(3, 'Göksel', 'Koç', '32432432432432', 'goksel.koc@invekor.com', 'sadsadsa', NULL, '2023-10-23 10:57:31', '2023-10-23 10:57:31'),
+	(4, 'asdsadaasdasdsa', 'sdsad', 'asdasd', 'goksel.koc@invekor.com', 'sadsadsadsadsadsadsa', NULL, '2023-11-15 10:24:51', '2023-11-15 10:24:51'),
+	(5, 'bbbbbbbbbbbb', 'bbbbbbbbbbbbbbbbb', 'bbbbbbbb', 'goksel.koc@invekor.com', 'bbbbbbbbbbbbbbbbbbbbbbbbbbb', NULL, '2023-11-15 10:26:24', '2023-11-15 10:26:24');
 
 -- tablo yapısı dökülüyor dogancay_nakliyat.contact_us_inners
 CREATE TABLE IF NOT EXISTS `contact_us_inners` (
@@ -118,7 +120,7 @@ CREATE TABLE IF NOT EXISTS `contact_us_inners` (
 
 -- dogancay_nakliyat.contact_us_inners: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
 INSERT INTO `contact_us_inners` (`id`, `data`, `deleted_at`, `created_at`, `updated_at`) VALUES
-	(1, '{"en": {"btn_text": "Send Message", "form_title": "Contact Form", "contact_text": "You can contact us at any time of the week from our Call Center 444 1980 to get information about our services.", "place_holder": {"name": "Name", "email": "E-Mail Address", "phone": "Phone", "message": "Message", "last_name": "Surname"}, "offer_info_msg": "Please enter a complete address in the address section.", "offer_form_title": "Get Offer", "get_offer_place_hold": {"name": "First Name", "phone": "Phone", "images": "Images", "last_name": "Last Name", "upload_address": "Upload Location", "destination_address": "Destination"}}, "ge": {"btn_text": "Nachricht senden", "form_title": "Kontakt Formular", "contact_text": "Über unser Call Center 444 1980 können Sie uns zu jeder Zeit der Woche kontaktieren, um Informationen zu unseren Dienstleistungen zu erhalten.", "place_holder": {"name": "Vorname", "email": "E-Mail Adresse", "phone": "Telefon", "message": "Nachricht", "last_name": "Familienname"}, "offer_info_msg": "Bitte geben Sie eine vollständige Adresse im Adressabschnitt ein.", "offer_form_title": "Angebot bekommen", "get_offer_place_hold": {"name": "Vorname", "phone": "Telefon", "images": "Bilder", "last_name": "Nachname", "upload_address": "Upload-Ort", "destination_address": "Zielort"}}, "tr": {"btn_text": "Gönder", "form_title": "İletişim", "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.", "place_holder": {"name": "Ad", "email": "E-Mail Adresi", "phone": "Telefon", "message": "Mesaj", "last_name": "Soyad"}, "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.", "offer_form_title": "Teklif Al", "get_offer_place_hold": {"name": "Ad", "phone": "Telefon", "images": "Resimler", "last_name": "Soyad", "upload_address": "Yükleme Yeri", "destination_address": "Gideceği Yer"}}, "hero": "assets/images/new/contactus-inner/FNtslpOyyYy8s19DFmC8_1698925295.jpg"}', NULL, NULL, '2023-11-13 11:01:39');
+	(1, '{"en": {"btn_text": "Send Message", "form_title": "Contact Form", "contact_text": "You can contact us at any time of the week from our Call Center 444 1980 to get information about our services.", "place_holder": {"name": "Name", "email": "E-Mail Address", "phone": "Phone", "message": "Message", "last_name": "Surname"}, "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.", "offer_form_title": "Get Offer", "get_offer_place_hold": {"name": "First Name", "phone": "Phone", "images": "Images", "last_name": "Last Name", "upload_address": "Upload Location", "esya_miktar_bilgi": "Quantity Information", "destination_address": "Destination"}}, "ge": {"btn_text": "Nachricht senden", "form_title": "Kontakt Formular", "contact_text": "Über unser Call Center 444 1980 können Sie uns zu jeder Zeit der Woche kontaktieren, um Informationen zu unseren Dienstleistungen zu erhalten.", "place_holder": {"name": "Vorname", "email": "E-Mail Adresse", "phone": "Telefon", "message": "Nachricht", "last_name": "Familienname"}, "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.", "offer_form_title": "Angebot bekommen", "get_offer_place_hold": {"name": "Vorname", "phone": "Telefon", "images": "Bilder", "last_name": "Nachname", "upload_address": "Upload-Ort", "esya_miktar_bilgi": "Mengenangabe", "destination_address": "Zielort"}}, "tr": {"btn_text": "Gönder", "form_title": "İletişim", "contact_text": "Hizmetlerimiz hakkında bilgi almak için bize 444 1980 nolu destek hattımızdan haftanın her saati ulaşabilirsiniz.", "place_holder": {"name": "Ad", "email": "E-Mail Adresi", "phone": "Telefon", "message": "Mesaj", "last_name": "Soyad"}, "offer_info_msg": "Lütfen adres bölümüne açık adres giriniz.", "offer_form_title": "Teklif Al", "get_offer_place_hold": {"name": "Ad", "phone": "Telefon", "images": "Resimler", "last_name": "Soyad", "upload_address": "Yükleme Yeri", "esya_miktar_bilgi": "Eşya Miktarı Bilgisi", "destination_address": "Gideceği Yer"}}, "hero": "assets/images/new/contactus-inner/FNtslpOyyYy8s19DFmC8_1698925295.jpg"}', NULL, NULL, '2023-11-13 11:01:39');
 
 -- tablo yapısı dökülüyor dogancay_nakliyat.counters
 CREATE TABLE IF NOT EXISTS `counters` (
@@ -289,24 +291,6 @@ CREATE TABLE IF NOT EXISTS `headers` (
 INSERT INTO `headers` (`id`, `data`, `deleted_at`, `created_at`, `updated_at`) VALUES
 	(1, '{"en": [{"url": "home", "title": "Home", "subItems": null}, {"url": null, "title": "Institutional", "subItems": [{"url": "aboutus-inner.index", "title": "About Us"}, {"url": "references-inner.index", "title": "References"}]}, {"url": null, "title": "Services", "subItems": [{"url": "planlama-hazirlik.index", "title": "Planning And Preparation"}, {"url": "tasinma-kontrol-lis.index", "title": "Moving Check List"}, {"url": "tasima-hizmetlerimiz.index", "title": "Our Moving Services"}, {"url": "karayolu-tasimaciligi.index", "title": "Moving by Land"}, {"url": "havayolu-tasimaciligi.index", "title": "Moving By Air"}, {"url": "denizyolu-tasimaciligi.index", "title": "Moving by Sea"}, {"url": "depolama.index", "title": "Storage"}, {"url": "gumruk-isleri-tes.index", "title": "Customs Clearance and Delivery"}]}, {"url": "contact-us-inner.index", "title": "Contact", "subItems": null}, {"url": "getoffer.index", "title": "Get Offer", "subItems": null}], "ge": [{"url": "home", "title": "Startseite", "subItems": null}, {"url": null, "title": "Institutionell", "subItems": [{"url": "aboutus-inner.index", "title": "über uns"}, {"url": "references-inner.index", "title": "Unsere Referenzen"}]}, {"url": null, "title": "Unsere Dienstleistungen", "subItems": [{"url": "planlama-hazirlik.index", "title": "Planung und Vorbereitung"}, {"url": "tasinma-kontrol-lis.index", "title": "Checkliste für den Umzug"}, {"url": "tasima-hizmetlerimiz.index", "title": "Unsere Transportdienstleistungen"}, {"url": "karayolu-tasimaciligi.index", "title": "Straßentransporte"}, {"url": "havayolu-tasimaciligi.index", "title": "Fluglinien transportieren"}, {"url": "denizyolu-tasimaciligi.index", "title": "Seetransport"}, {"url": "depolama.index", "title": "Lagerung"}, {"url": "gumruk-isleri-tes.index", "title": "Zollangelegenheiten und Lieferung"}]}, {"url": "contact-us-inner.index", "title": "Kommunikation", "subItems": null}, {"url": "getoffer.index", "title": "Angebot anfordern", "subItems": null}], "tr": [{"url": "home", "title": "Anasayfa", "subItems": null}, {"url": null, "title": "Kurumsal", "subItems": [{"url": "aboutus-inner.index", "title": "Hakkımızda"}, {"url": "references-inner.index", "title": "Referanslarımız"}]}, {"url": null, "title": "Hizmetlerimiz", "subItems": [{"url": "planlama-hazirlik.index", "title": "Planlama Ve Hazırlık"}, {"url": "tasinma-kontrol-lis.index", "title": "Taşınma Kontrol Listesi"}, {"url": "tasima-hizmetlerimiz.index", "title": "Taşıma Hizmetlerimiz"}, {"url": "karayolu-tasimaciligi.index", "title": "Karayolu Taşımacılığı"}, {"url": "havayolu-tasimaciligi.index", "title": "Havayolu Taşımacılığı"}, {"url": "denizyolu-tasimaciligi.index", "title": "Denizyolu Taşımacılığı"}, {"url": "depolama.index", "title": "Depolama"}, {"url": "gumruk-isleri-tes.index", "title": "Gümrük İşleri Ve Teslimat"}]}, {"url": "contact-us-inner.index", "title": "İletişim", "subItems": null}, {"url": "getoffer.index", "title": "Teklif Al", "subItems": null}], "languages": {"en": [{"key": "tr", "name": "Turkish", "img_url": "assets/images/flags/tr_flag_icon.png"}, {"key": "en", "name": "English", "img_url": "assets/images/flags/uk_flag_icon.png"}, {"key": "ge", "name": "Germany", "img_url": "assets/images/flags/ge_flag_icon.png"}], "ge": [{"key": "tr", "name": "Türkisch", "img_url": "assets/images/flags/tr_flag_icon.png"}, {"key": "en", "name": "Englisch", "img_url": "assets/images/flags/uk_flag_icon.png"}, {"key": "ge", "name": "Deutsch", "img_url": "assets/images/flags/ge_flag_icon.png"}], "tr": [{"key": "tr", "name": "Türkçe", "img_url": "assets/images/flags/tr_flag_icon.png"}, {"key": "en", "name": "İngilizce", "img_url": "assets/images/flags/uk_flag_icon.png"}, {"key": "ge", "name": "Almanca", "img_url": "assets/images/flags/ge_flag_icon.png"}]}}', NULL, NULL, NULL);
 
--- tablo yapısı dökülüyor dogancay_nakliyat.iletisim_form
-CREATE TABLE IF NOT EXISTS `iletisim_form` (
-  `iletisim_id` int NOT NULL AUTO_INCREMENT,
-  `iletisim_name` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `iletisim_lastName` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `iletisim_company` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `iletisim_tel` varchar(15) CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `iletisim_mail` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `iletisim_mesaj` text CHARACTER SET utf8mb3 COLLATE utf8mb3_turkish_ci NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`iletisim_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_turkish_ci;
-
--- dogancay_nakliyat.iletisim_form: ~2 rows (yaklaşık) tablosu için veriler indiriliyor
-INSERT INTO `iletisim_form` (`iletisim_id`, `iletisim_name`, `iletisim_lastName`, `iletisim_company`, `iletisim_tel`, `iletisim_mail`, `iletisim_mesaj`, `created_at`) VALUES
-	(1, 'Nihat', 'Tunc', 'Macgal Group', '05498248334', 'nihattunc@macgalgroup.com', 'Merhaba,\r\n\r\nSistem odası kurulumu, kablolama ve düzenlenmesi hakkında destek almak istiyoruz.\r\nBu hususlarda sizlerden geri dönüş rica ediyorum.\r\n\r\nTeşekkürler', '2021-10-04 12:39:06'),
-	(2, 'ersin', 'bulut', '', '05532036332', 'ersinbulut@outlook.com', 'watchguard firebox t20 için yerinde destek hizmetiniz var mı', '2022-02-22 14:32:23');
-
 -- tablo yapısı dökülüyor dogancay_nakliyat.kara_yolu_tasimaciligis
 CREATE TABLE IF NOT EXISTS `kara_yolu_tasimaciligis` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
@@ -381,15 +365,18 @@ CREATE TABLE IF NOT EXISTS `offer_forms` (
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `upload_address` text COLLATE utf8mb4_unicode_ci,
   `destination_address` text COLLATE utf8mb4_unicode_ci,
+  `esya_miktar_bilgi` text COLLATE utf8mb4_unicode_ci,
   `images` text COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- dogancay_nakliyat.offer_forms: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
-INSERT INTO `offer_forms` (`id`, `name`, `last_name`, `phone`, `upload_address`, `destination_address`, `images`, `created_at`, `updated_at`) VALUES
-	(1, 'Göksel', 'Koç', '32432432432432', 'yy', 'gg', 'uploads/8nz9rozw0zqFacaMdqgy_1698069478.jpg!*;!uploads/9MSelQZtDzDlXktbLcDo_1698069478.jpg!*;!uploads/BRRc0X5pkWvrbLe8OhYH_1698069478.jpg', '2023-10-23 10:57:58', '2023-10-23 10:57:58');
+INSERT INTO `offer_forms` (`id`, `name`, `last_name`, `phone`, `upload_address`, `destination_address`, `esya_miktar_bilgi`, `images`, `created_at`, `updated_at`) VALUES
+	(1, 'Göksel', 'Koç', '32432432432432', 'yy', 'gg', NULL, 'uploads/8nz9rozw0zqFacaMdqgy_1698069478.jpg!*;!uploads/9MSelQZtDzDlXktbLcDo_1698069478.jpg!*;!uploads/BRRc0X5pkWvrbLe8OhYH_1698069478.jpg', '2023-10-23 10:57:58', '2023-10-23 10:57:58'),
+	(2, 'das', 'as', 'asdasda', 'dasda', 'asdsa', 'asdasdsada', 'uploads/hJLO4J4I0ViavLyXZpdA_1700054535.jpeg', '2023-11-15 10:22:15', '2023-11-15 10:22:15'),
+	(3, 'nnnnnnn', 'nnnnnnnnnnnnnnnnnnnnnn', 'nnnnnnn', 'nnnnnnnnnnnnnnn', 'nnnnnnnnnnnnnnnnnnnnnnn', 'nnnnnnnnnnnnnnnnnnn', 'uploads/0v5YMQBgbuJoqzNO1pbl_1700054956.jpg', '2023-11-15 10:29:16', '2023-11-15 10:29:16');
 
 -- tablo yapısı dökülüyor dogancay_nakliyat.password_resets
 CREATE TABLE IF NOT EXISTS `password_resets` (

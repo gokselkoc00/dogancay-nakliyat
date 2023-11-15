@@ -82,6 +82,14 @@
                             </div>
                         </div>
 
+                        <div class="col-md-12 mt-3">
+                            <label for="message" class="form-label">{{ data.data?.get_offer_place_hold?.esya_miktar_bilgi }}</label>
+                            <textarea v-model="offerForm.esya_miktar_bilgi" class="form-control" id="message" rows="4"></textarea>
+                            <div class="alert alert-danger mt-2" role="alert" v-if="errors?.esya_miktar_bilgi">
+                                {{ errors.esya_miktar_bilgi }}
+                            </div>
+                        </div>
+
                         <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-12">
                             <fieldset class="text-center mt-4">
                                 <button type="submit" id="form-submit" class="main-button">
@@ -123,7 +131,7 @@ export default {
         },
         createOfferForm() {
             this.offerForm.images = this.files;
-            this.offerForm.post(route("contact-us-inner.store"), {
+            this.offerForm.post(route("getoffer.store"), {
                 onSuccess: () => {
                     this.clearOfferForm();
                     this.offerForm.reset();
@@ -137,12 +145,13 @@ export default {
             this.offerForm.phone = null;
             this.offerForm.upload_address = null;
             this.offerForm.destination_address = null;
+            this.offerForm.esya_miktar_bilgi = null;
             this.files = null;
         },
         async getData() {
             try {
                 axios
-                    .get(route("contact-us-inner.data"))
+                    .get(route("getoffer.data"))
                     .then((response) => {
                         this.data = response.data;
                         this.hero = response.data.hero;
@@ -164,6 +173,7 @@ export default {
             images: [],
             upload_address: null,
             destination_address: null,
+            esya_miktar_bilgi: null,
         });
         return {
             offerForm

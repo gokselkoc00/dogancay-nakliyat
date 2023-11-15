@@ -19,7 +19,8 @@
                 "images": "Images",
                 "last_name": "Last Name",
                 "upload_address": "Upload Location",
-                "destination_address": "Destination"
+                "destination_address": "Destination",
+                "esya_miktar_bilgi": "Quantity Information"
             }
         },
         "ge": {
@@ -41,7 +42,8 @@
                 "images": "Bilder",
                 "last_name": "Nachname",
                 "upload_address": "Upload-Ort",
-                "destination_address": "Zielort"
+                "destination_address": "Zielort",
+                "esya_miktar_bilgi": "Mengenangabe"
             }
         },
         "tr": {
@@ -63,7 +65,8 @@
                 "images": "Resimler",
                 "last_name": "Soyad",
                 "upload_address": "Yükleme Yeri",
-                "destination_address": "Gideceği Yer"
+                "destination_address": "Gideceği Yer",
+                "esya_miktar_bilgi": "Eşya Miktarı Bilgisi"
             }
         },
         "hero": "assets/images/new/contactus-inner/FNtslpOyyYy8s19DFmC8_1698925295.jpg"

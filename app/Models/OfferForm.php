@@ -13,6 +13,7 @@ class OfferForm extends Model
         'name',
         'last_name',
         'phone',
+        'email',
         'upload_address',
         'destination_address',
         'images',

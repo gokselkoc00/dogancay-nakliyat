@@ -16,6 +16,7 @@
             "get_offer_place_hold": {
                 "name": "First Name",
                 "phone": "Phone",
+                "email": "E-Mail Address",
                 "images": "Images",
                 "last_name": "Last Name",
                 "upload_address": "Upload Location",
@@ -39,6 +40,7 @@
             "get_offer_place_hold": {
                 "name": "Vorname",
                 "phone": "Telefon",
+                "email": "E-Mail Adresse",
                 "images": "Bilder",
                 "last_name": "Nachname",
                 "upload_address": "Upload-Ort",
@@ -62,6 +64,7 @@
             "get_offer_place_hold": {
                 "name": "Ad",
                 "phone": "Telefon",
+                "email": "E-Mail Adresi",
                 "images": "Resimler",
                 "last_name": "Soyad",
                 "upload_address": "Yükleme Yeri",

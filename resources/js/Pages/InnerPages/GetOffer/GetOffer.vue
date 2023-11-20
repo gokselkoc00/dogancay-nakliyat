@@ -74,6 +74,14 @@
                         </div>
 
                         <div class="col-md-6 mt-3">
+                            <label for="email" class="form-label">{{ data.data?.get_offer_place_hold?.email }}</label>
+                            <input v-model="offerForm.email" class="form-control" id="email">
+                            <div class="alert alert-danger mt-2" role="alert" v-if="errors?.email">
+                                {{ errors.email }}
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mt-3">
                             <label for="phone" class="form-label">{{ data.data?.get_offer_place_hold?.images }}</label>
                             <input type="file" class="form-control" multiple @change="handleFileUpload" id="phone"
                                 style="height: unset;">
@@ -83,8 +91,10 @@
                         </div>
 
                         <div class="col-md-12 mt-3">
-                            <label for="message" class="form-label">{{ data.data?.get_offer_place_hold?.esya_miktar_bilgi }}</label>
-                            <textarea v-model="offerForm.esya_miktar_bilgi" class="form-control" id="message" rows="4"></textarea>
+                            <label for="message" class="form-label">{{ data.data?.get_offer_place_hold?.esya_miktar_bilgi
+                            }}</label>
+                            <textarea v-model="offerForm.esya_miktar_bilgi" class="form-control" id="message"
+                                rows="4"></textarea>
                             <div class="alert alert-danger mt-2" role="alert" v-if="errors?.esya_miktar_bilgi">
                                 {{ errors.esya_miktar_bilgi }}
                             </div>
@@ -170,6 +180,7 @@ export default {
             name: null,
             last_name: null,
             phone: null,
+            email: null,
             images: [],
             upload_address: null,
             destination_address: null,

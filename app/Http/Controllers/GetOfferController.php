@@ -70,6 +70,7 @@ class GetOfferController extends Controller
                 'name' => $request->name,
                 'last_name' => $request->last_name,
                 'phone' => $request->phone,
+                'email' => $request->email,
                 'upload_address' => $request->upload_address,
                 'destination_address' => $request->destination_address,
                 'esya_miktar_bilgi' => $request->esya_miktar_bilgi,

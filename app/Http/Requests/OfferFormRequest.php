@@ -27,11 +27,12 @@ class OfferFormRequest extends FormRequest
             'name' => ['required', 'max:255', 'string'],
             'last_name' => ['required', 'max:255', 'string'],
             'phone' => ['required', 'max:255', 'string'],
+            'email' => ['required', 'max:255', 'string','email'],
             'upload_address' => ['required', 'string'],
             'destination_address' => ['required', 'string'],
             'esya_miktar_bilgi' => ['required', 'string'],
             'images' => ['required'],
-            'images.*' => ['required', 'image', 'mimes:jpeg,png,jpg,gif', 'max:200'],
+            'images.*' => ['required', 'image', 'mimes:jpeg,png,jpg,gif', 'max:512'],
         ];
     }
 
@@ -41,22 +42,33 @@ class OfferFormRequest extends FormRequest
             'name.required' => 'İsim boş bırakılamaz.',
             'name.max' => 'İsim 255 karakterden uzun olamaz.',
             'name.string' => 'İsim karakterlerden oluşmalıdır.',
+
             'last_name.required' => 'Soyisim boş bırakılamaz.',
             'last_name.max' => 'Soyisim 255 karakterden uzun olamaz.',
             'last_name.string' => 'Soyisim karakterlerden oluşmalıdır.',
+
             'phone.required' => 'Telefon numarası boş bırakılamaz.',
             'phone.max' => 'Telefon numarası 255 karakterden uzun olamaz.',
             'phone.string' => 'Telefon numarası karakterlerden oluşmalıdır.',
+
             'upload_address.required' => 'Yüklenecek adres boş bırakılamaz.',
             'upload_address.string' => 'Yüklenecek adres yazı şeklinde olmalıdır.',
+
             'destination_address.required' => 'Gideceği adres boş bırakılamaz.',
             'destination_address.string' => 'Gideceği adres yazı şeklinde olmalıdır.',
+
             'esya_miktar_bilgi.required' => 'Eşya miktar bilgisi boş bırakılamaz.',
             'esya_miktar_bilgi.string' => 'Eşya miktar bilgisi yazı şeklinde olmalıdır.',
+
             'images.required' => 'Resimler boş bırakılamaz.',
             'images.image' => 'Sadece resim yüklenmelidir.',
             'images.mimes' => 'Yüklenen dosya türleri : jpeg, png, jpg, gif olmalıdır',
             'images.max' => 'Resimlerin boyutu toplam 2 mb dan fazla olamaz.',
+
+            'email.required' => 'Mail boş bırakılamaz.',
+            'email.max' => 'Mail 255 karakterden uzun olamaz.',
+            'email.string' => 'Mail karakterlerden oluşmalıdır.',
+            'email.email' => 'Lütfen geçerli bir mail adresi giriniz.',
         ];
     }
 }

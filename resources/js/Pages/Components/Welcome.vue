@@ -15,14 +15,26 @@
                     <p :key="currentSlide" v-html="addLineBreaks(item?.text)"></p>
                 </transition>
             </div>
-
+            <div class="c-slider-navigation-left">
+                <i class="fa-solid fa-chevron-left" @click="prevSlide" style="font-size: 40px;">
+                </i>
+                <div @click="prevSlide"></div>
+            </div>
+            <div class="c-slider-navigation-right">
+                <div>
+                    <i class="fa-solid fa-chevron-right" @click="nextSlide" style="font-size: 40px; ">
+                    </i>
+                </div>
+            </div>
+            <!-- <div style=" z-index: 999; position: fixed; transform: translateY(200px); justify-content: space-between; display: flex;">
+            </div> -->
             <!-- <div class="c-media-icons">
                 <a href="#"><i class="bx bxl-instagram"></i></a>
             </div> -->
-            <div class="c-slider-navigation">
+            <!-- <div class="c-slider-navigation">
                 <div v-for="(item, index) in data" :key="index" class="c-nav-btn" @click="changeSlide(index)"
                     :class="{ active: index === currentSlide }"></div>
-            </div>
+            </div> -->
         </section>
     </div>
 </template>
@@ -68,7 +80,15 @@ export default {
         stopAutoplay() {
             clearInterval(this.intervalId);
         },
+        // nextSlide() {
+        //     this.currentSlide = (this.currentSlide + 1) % this.data.length;
+        // },
+        prevSlide() {
+            console.log("prev")
+            this.currentSlide = (this.currentSlide - 1 + this.data.length) % this.data.length;
+        },
         nextSlide() {
+            console.log("next")
             this.currentSlide = (this.currentSlide + 1) % this.data.length;
         },
     },
@@ -102,14 +122,14 @@ export default {
     width: 70%;
     margin-top: 50px;
     display: none;
-    clip-path: circle(0% at 0% 50%);
+    /* clip-path: circle(0% at 0% 50%); */
 }
 
 .c-home .c-content.active {
     display: block;
-    clip-path: circle(150% at 0% 50%);
+    /* clip-path: circle(150% at 0% 50%);
     transition: 2s ease;
-    transition-property: clip-path;
+    transition-property: clip-path; */
 }
 
 .c-home .c-content h1 {
@@ -183,6 +203,35 @@ export default {
     height: 100%;
     top: 0;
     left: 0;
+}
+
+.c-slider-navigation-left,
+.c-slider-navigation-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+}
+
+.c-slider-navigation-left {
+    left: 45px;
+    /* order: -1; */
+    /* To make it appear on the left */
+}
+
+.c-slider-navigation-right {
+    right: 45px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+    z-index: 888;
+    color: white;
+    cursor: pointer;
+    color: #ffff;
 }
 
 .c-home .c-slider-navigation {

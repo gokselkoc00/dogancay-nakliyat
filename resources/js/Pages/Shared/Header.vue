@@ -289,7 +289,7 @@ export default {
     border: unset;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu:hover {
-    background: transparent;
+    /* background: transparent; */
 }
 
 .dropdown-toggle:hover span,
@@ -307,11 +307,11 @@ export default {
 
 .c-dropdown-item:hover span,
 .c-dropdown-item:hover i {
-    color:#2186c2;
+    color:#0f4c7a;
 }
 
 .c-dropdown-item span {
-    font-weight: 400;
+    font-weight: 600;
     color: #0f4c7a;
 }
 .c-dropdown-item  i {
@@ -358,7 +358,7 @@ export default {
     justify-content: end !important;
 }
 .header-area .main-nav {
-  background: #2186c2ad;
+  background: #2186c2;
 }
 
 .header-area .main-nav ul .dropdown-menu a {

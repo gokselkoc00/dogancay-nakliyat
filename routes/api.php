@@ -838,5 +838,45 @@ Route::post('/upload-file', function (Request $request) {
                 File::delete($path);
             }
         }
+
+        // KVKK
+        if ($request->process === 'kvkk-hero-update') {
+
+            if (!$request->hasFile('image')) {
+                return response()->json(['upload_file_not_found'], 400);
+            }
+            $file = $request->file('image');
+            if (!$file->isValid()) {
+                return response()->json(['invalid_file_upload'], 400);
+            }
+
+            $oldImageName = $request->oldImageName;
+            if ($oldImageName && File::exists(public_path($oldImageName))) {
+                File::delete(public_path($oldImageName));
+            }
+
+            $path = public_path() . '/assets/images/new/kvkk/';
+            $file->move($path, $file->getClientOriginalName());
+        }
+
+        // Çerez Politikası
+        if ($request->process === 'cerez-pol-hero-update') {
+
+            if (!$request->hasFile('image')) {
+                return response()->json(['upload_file_not_found'], 400);
+            }
+            $file = $request->file('image');
+            if (!$file->isValid()) {
+                return response()->json(['invalid_file_upload'], 400);
+            }
+
+            $oldImageName = $request->oldImageName;
+            if ($oldImageName && File::exists(public_path($oldImageName))) {
+                File::delete(public_path($oldImageName));
+            }
+
+            $path = public_path() . '/assets/images/new/cerezPolitikasi/';
+            $file->move($path, $file->getClientOriginalName());
+        }
     }
 });

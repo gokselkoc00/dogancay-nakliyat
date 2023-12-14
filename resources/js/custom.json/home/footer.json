@@ -1,82 +1,93 @@
 [
-
     {
+        "data": [
+            {
+                "link": "https://www.instagram.com/dogancayinternational/?hl=tr",
+                "icon_class": "fa-brands fa-instagram"
+            }
+        ],
+        "company_info": {
+            "tr": "Dogancay International Movers  şirketi Doğançay Ev ve Ofis Taşımacılığının alt şirketidir.",
+            "en": "Dogancay International Movers is the transfer company of Dogancay Home and Office Transportation.",
+            "ge": "Die Firma Dogancay International Movers ist das Transferunternehmen von Dogancay Home and Office Transport."
+        },
+        "policy": {
+            "kvkk": "KVKK",
+            "cerez_politikasi": {
+                "tr": "Çerez Politikası",
+                "en": "Cookie Policy",
+                "ge": "Cookie-Richtlinie"
+            }
+        },
+        "companies": {
+            "5": {
+                "img_url": "assets/images/new/footer-img/K9J3Z0s1CnJ4qKVK02Q2_1699536207.png"
+            },
+            "6": {
+                "img_url": "assets/images/new/footer-img/Q9Yb4k9lQg7KCG5qv4PE_1699536223.png"
+            },
+            "7": {
+                "img_url": "assets/images/new/footer-img/21I9R8hOMQUS9R5bQZIM_1699536230.png"
+            },
+            "8": {
+                "img_url": "assets/images/new/footer-img/NqJw5ZCHJe6cOQlKV9fy_1699536237.png"
+            },
+            "9": {
+                "img_url": "assets/images/new/footer-img/CAknbtAHMgBCiWJvW4iA_1699536242.png"
+            }
+        },
         "languages": {
-            "tr": [
-                {
-                    "name": "Türkçe",
-                    "key": "tr",
-                    "img_url": "assets/images/flags/tr_flag_icon.png"
-                },
-                {
-                    "name": "İngilizce",
-                    "key": "en",
-                    "img_url": "assets/images/flags/uk_flag_icon.png"
-                },
-                {
-                    "name": "Almanca",
-                    "key": "ge",
-                    "img_url": "assets/images/flags/ge_flag_icon.png"
-                }
-            ],
             "en": [
                 {
-                    "name": "Turkish",
                     "key": "tr",
+                    "name": "Turkish",
                     "img_url": "assets/images/flags/tr_flag_icon.png"
                 },
                 {
-                    "name": "English",
                     "key": "en",
+                    "name": "English",
                     "img_url": "assets/images/flags/uk_flag_icon.png"
                 },
                 {
-                    "name": "Germany",
                     "key": "ge",
+                    "name": "Germany",
                     "img_url": "assets/images/flags/ge_flag_icon.png"
                 }
             ],
             "ge": [
                 {
-                    "name": "Türkisch",
                     "key": "tr",
+                    "name": "Türkisch",
                     "img_url": "assets/images/flags/tr_flag_icon.png"
                 },
                 {
-                    "name": "Englisch",
                     "key": "en",
+                    "name": "Englisch",
                     "img_url": "assets/images/flags/uk_flag_icon.png"
                 },
                 {
-                    "name": "Deutsch",
                     "key": "ge",
+                    "name": "Deutsch",
+                    "img_url": "assets/images/flags/ge_flag_icon.png"
+                }
+            ],
+            "tr": [
+                {
+                    "key": "tr",
+                    "name": "Türkçe",
+                    "img_url": "assets/images/flags/tr_flag_icon.png"
+                },
+                {
+                    "key": "en",
+                    "name": "İngilizce",
+                    "img_url": "assets/images/flags/uk_flag_icon.png"
+                },
+                {
+                    "key": "ge",
+                    "name": "Almanca",
                     "img_url": "assets/images/flags/ge_flag_icon.png"
                 }
             ]
-        },
-        "companies":[
-            {
-                "img_url":"assets/images/footer-img/resim1.png"
-            },
-            {
-                "img_url":"assets/images/footer-img/resim2.png"
-            },
-            {
-                "img_url":"assets/images/footer-img/resim3.png"
-            },
-            {
-                "img_url":"assets/images/footer-img/resim4.png"
-            },
-            {
-                "img_url":"assets/images/footer-img/resim5.png"
-            }
-        ],
-        "data":[
-
-            {
-                "link":"https://www.instagram.com/dogancayinternational/?hl=tr",
-                "icon_class":"fa-brands fa-instagram"
-            }
-        ]
+        }
     }
 ]

@@ -14,19 +14,19 @@ class FooterController extends Controller
         $data = json_decode($data->data, true);
         $footer = $data["data"];
         $companies = $data["companies"];
+        $kvkk = $data["policy"]["kvkk"];
+        $cerez_politikasi = $data["policy"]["cerez_politikasi"][$lang];
 
-        if ($lang === 'tr') {
-            $languages = $data["languages"]["tr"];
-        } elseif ($lang == 'en') {
-            $languages = $data["languages"]["en"];
-        } elseif ($lang == 'ge') {
-            $languages = $data["languages"]["ge"];
-        }
+        $languages = $data["languages"][$lang];
+        $company_info = $data["company_info"][$lang];
 
         return response()->json([
             'footer' => $footer,
             'languages' => $languages,
-            'companies' => $companies
+            'companies' => $companies,
+            'company_info' => $company_info,
+            'kvkk' => $kvkk,
+            'cerez_politikasi' => $cerez_politikasi,
         ]);
     }
 }

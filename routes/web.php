@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\CerezPolitikalariController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CounterController;
 use App\Http\Controllers\DenizYoluTasimaciligiController;
@@ -18,6 +19,7 @@ use App\Http\Controllers\Inner\AboutUsController as InnerAboutUsController;
 use App\Http\Controllers\Inner\ContactUsController;
 use App\Http\Controllers\Inner\ReferencesController as InnerReferencesController;
 use App\Http\Controllers\KaraYoluTasimaciligiController;
+use App\Http\Controllers\KvkkController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\PlanlamaHazirlikController;
 use App\Http\Controllers\ReferencesController;
@@ -110,3 +112,13 @@ Route::get('/depolama', [DepolamaController::class, 'index'])->name('depolama.in
 Route::get('/gumruk-isleri-teslimat-data', [GumrukIsleriTeslimatController::class, 'getData'])->name('gumruk-isleri-tes.data');
 Route::get('/gumruk-isleri-teslimat', [GumrukIsleriTeslimatController::class, 'index'])->name('gumruk-isleri-tes.index');
 // Hizmetlerimiz End
+
+//KVKK Start
+Route::get('/kvkk', [KvkkController::class, 'index'])->name('kvkk.index');
+Route::get('/kvkk-data', [KvkkController::class, 'getData'])->name('kvkk.data');
+//KVKK End
+
+//Çerez Politikaları Start
+Route::get('/cerez-politikalari', [CerezPolitikalariController::class, 'index'])->name('cerez-politikalari.index');
+Route::get('/cerez-politikalari-data', [CerezPolitikalariController::class, 'getData'])->name('cerez-politikalari.data');
+//Çerez Politikaları End

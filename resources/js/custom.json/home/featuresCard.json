@@ -1,54 +1,54 @@
 [
     {
-        "tr": [
-            {
-                "title": "Eşya Depolama",
-                "img_url": "fa-solid fa-warehouse",
-                "text": "Evinizde bulunan atmaya kıyamadığınız veya fazla malzemelerinizi Ankara ve İstanbul’da bulunan Eşya depolama merkezlerimizde saklayabilirsiniz."
-            },
-            {
-                "title": "Evden Eve Nakliyat",
-                "img_url": "fa-solid fa-boxes-packing",
-                "text":"Eşyalarınızın Belirlediğiniz adresler arası kapalı kasa kamyonlar içerisinde taşıma hizmetini sağlamaktayız. Kurumsal evden eve nakliyat hizmeti için 444 1980 numaralı çağrı merkezinden ekzpersiz randevusu oluşturun."
-            },
-            {
-                "title": "Parça Eşya Taşıma",
-                "img_url": "fa-solid fa-truck-arrow-right",
-                "text": "Parça eşya taşıma hizmeti için İster Ankara içi isterseniz de diğer illere Doğançay Evden Eve Nakliyat güvencesi ile eşyalarınızı taşıtın."
-            }
-        ],
         "en": [
             {
+                "text": "We can store your additional goods that you do not want to throw away in our warehouses both in Ankara and Istanbul.",
                 "title": "Storage",
-                "img_url": "fa-solid fa-warehouse",
-                "text": "We can store your additional goods that you do not want to throw away in our warehouses both in Ankara and Istanbul."
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
             },
             {
+                "text": "We offer moving of your belongings in closed box removal vans between the addresses you specify. Make an appointment from our Call Center by calling 444 1980 for free survey of your goods subject to move.",
                 "title": "Residential Door to Door Moving",
-                "img_url": "fa-solid fa-boxes-packing",
-                "text":"We offer moving of your belongings in closed box removal vans between the addresses you specify. Make an appointment from our Call Center by calling 444 1980 for free survey of your goods subject to move."
+                "img_url": "assets/images/featuresCard/resim2.jpeg"
             },
             {
+                "text": "We can transport your parcel items not only in Ankara but also in everywhere in Turkey.",
                 "title": "Partial Goods Transportation",
-                "img_url": "fa-solid fa-truck-arrow-right",
-                "text": "We can transport your parcel items not only in Ankara but also in everywhere in Turkey."
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
             }
         ],
         "ge": [
             {
-                "title": "Artikellagerung",
-                "img_url": "fa-solid fa-warehouse",
-                "text": "Sie können Ihre überschüssigen Artikel oder Artikel zu Hause in unseren Lagerzentren in Ankara und Istanbul lagern."
+                "text": "Sie können Ihre überschüssigen Materialien bei sich zu Hause lagern, die Sie nicht wegwerfen können, oder Sie können Ihre überschüssigen Materialien in unseren Warenlagerzentren in Ankara und Istanbul lagern.",
+                "title": "Lagerung von Waren",
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
             },
             {
+                "text": "Wir übernehmen den Transport Ihrer Waren zwischen den von Ihnen angegebenen Adressen in geschlossenen Kastenwagen. Für den Transport von Unternehmen von Haus zu Haus vereinbaren Sie bitte einen Termin mit unserem Callcenter unter der Nummer 444 1980.",
                 "title": "Transport von Haus zu Haus",
-                "img_url": "fa-solid fa-boxes-packing",
-                "text":"Wir bieten den Transport Ihrer Sachen in geschlossenen Kofferfahrzeugen zwischen den von Ihnen angegebenen Adressen an. Vereinbaren Sie für den Firmentransport von Haus zu Haus einen Termin mit einem Experten im Callcenter unter 444 1980."
+                "img_url": "assets/images/featuresCard/resim2.jpeg"
             },
             {
-                "title": "Teilweiser Gütertransport",
-                "img_url": "fa-solid fa-truck-arrow-right",
-                "text": "Für den Teiltransport von Gütern transportieren Sie Ihre Sachen innerhalb von Ankara oder in andere Provinzen mit der Zusicherung von Doğançay Home to Home Transportation."
+                "text": "Für Stückguttransporte, ob in Ankara oder in anderen Provinzen, transportieren Sie Ihre Waren mit der Sicherheit von Doğançay Evden Eve Nakliyat.",
+                "title": "Stückgut-Transport",
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
+            }
+        ],
+        "tr": [
+            {
+                "text": "Evinizde bulunan atmaya kıyamadığınız veya fazla malzemelerinizi Ankara ve İstanbul’da bulunan Eşya depolama merkezlerimizde saklayabilirsiniz.",
+                "title": "Eşya Depolama",
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
+            },
+            {
+                "text": "Eşyalarınızın Belirlediğiniz adresler arası kapalı kasa kamyonlar içerisinde taşıma hizmetini sağlamaktayız. Kurumsal evden eve nakliyat hizmeti için 444 1980 numaralı çağrı merkezinden ekspertiz randevusu oluşturun.",
+                "title": "Evden Eve Nakliyat",
+                "img_url": "assets/images/featuresCard/resim2.jpeg"
+            },
+            {
+                "text": "Parça eşya taşıma hizmeti için İster Ankara içi isterseniz de diğer illere Doğançay Evden Eve Nakliyat güvencesi ile eşyalarınızı taşıtın.",
+                "title": "Parça Eşya Taşıma",
+                "img_url": "assets/images/featuresCard/resim1.jpeg"
             }
         ]
     }

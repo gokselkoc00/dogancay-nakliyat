@@ -48,6 +48,9 @@ export default {
 
 <style scoped>
 .cerez-cont {
+  /* border-radius: 20px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
     display: flex;
     justify-content: center;
     background: #2186c2;
@@ -67,7 +70,7 @@ export default {
 
 .cerez-link {
     color: white;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .cerez-link:hover {
@@ -75,8 +78,10 @@ export default {
 }
 
 .cerez-btn {
-    background-color: #0f4c7a;
+    background-color: #0f4c7a50;
     margin-left: 1rem;
+    border-radius: 0px;
+    border: 0px;
 }
 
 @media(max-width: 1040px) {

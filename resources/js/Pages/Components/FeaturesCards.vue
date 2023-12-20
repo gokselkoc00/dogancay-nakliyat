@@ -5,21 +5,21 @@
                 <div class="col-lg-12">
                     <div class="row">
                         <!-- ***** Features Small Item Start ***** -->
-                        <div
-                            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0"
-                            data-aos="flip-left"
-                            data-aos-duration="3000"
-                            v-for="item in data"
-                            :key="item.id"
-                        >
+                        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="flip-left"
+                            data-aos-duration="3000" v-for="item in data" :key="item.id">
                             <div class="icon-box">
-                                <div class="icon">
-                                    <i :class="item?.img_url"></i>
+                                <div class="">
+                                    <img class="img-fluid custom-img" :src="item?.img_url" alt="img" />
                                 </div>
-                                <h4 class="title">
+                                <h4 class="title text-center mt-4">
                                     <a target="_blank">{{ item?.title }}</a>
                                 </h4>
                                 <p class="description">{{ item?.text }}</p>
+                                <!-- <div class="text-center mt-3">
+                                    <Link :href="item.url" class="main-button">{{
+                                        data.btn_text
+                                    }}</Link>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -61,6 +61,13 @@ export default {
 </script>
 
 <style scoped>
+.custom-img {
+    max-height: 180px;
+    min-height: 180px;
+    width: 100%;
+    border-radius: 4px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -128,6 +135,9 @@ export default {
 
 .services .title a {
     color: #111 !important;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .services .description {

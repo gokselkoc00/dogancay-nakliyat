@@ -878,5 +878,25 @@ Route::post('/upload-file', function (Request $request) {
             $path = public_path() . '/assets/images/new/cerezPolitikasi/';
             $file->move($path, $file->getClientOriginalName());
         }
+
+        // Features Card
+        if ($request->process === 'featuresC-img-update') {
+
+            if (!$request->hasFile('image')) {
+                return response()->json(['upload_file_not_found'], 400);
+            }
+            $file = $request->file('image');
+            if (!$file->isValid()) {
+                return response()->json(['invalid_file_upload'], 400);
+            }
+
+            $oldImageName = $request->oldImageName;
+            if ($oldImageName && File::exists(public_path($oldImageName))) {
+                File::delete(public_path($oldImageName));
+            }
+
+            $path = public_path() . '/assets/images/new/featuresCard/';
+            $file->move($path, $file->getClientOriginalName());
+        }
     }
 });
